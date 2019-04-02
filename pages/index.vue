@@ -1,68 +1,55 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        com.curiousweb
-      </h1>
-      <h2 class="subtitle">
-        Curious website using Nuxt
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+  <div id="app">
+    <section id="top">
+      <PageHeader></PageHeader>
+      <div class="intro pageWidth">
+        <h2>
+        We’re a group of experienced consultants &amp; coaches helping business leaders overcome <nuxt-link to="services/brand">brand</nuxt-link>, <nuxt-link to="services/marketing">marketing</nuxt-link>, and <nuxt-link to="services/product">product</nuxt-link> challenges.
+        </h2>
+        <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
       </div>
-    </div>
-  </section>
+      <div class="cta pageWidth">
+        <a href="#">Growing your business starts with a chat</a>
+      </div>
+    </section>
+    <section id="main">
+      <div class="pageWidth">
+        <h3>Discover your best opportunities for growth.</h3>
+        <div class="col3">
+          <div class="col">
+            <h4><span>Curious Helps</span> Define Brands</h4>
+            <p>Does your brand represent your unique value to your customers?</p>
+            <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Brand Review</strong> could teach you.</a></p>
+          </div>
+          <div class="col">
+            <h4><span>Curious Helps</span> Build Marketing</h4>
+            <p>Are you reaching the right audience, at the right time, with the right goals?</p>
+            <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Marketing Audit</strong> could teach you.</a></p>
+          </div>
+          <div class="col">
+            <h4><span>Curious Helps</span> Create Products</h4>
+            <p>Do your products/services meet expectations and create delight?</p>
+            <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Design Sprint</strong> could teach you.</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <team></team>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Team from '@/components/people.vue';
+import PageHeader from '@/components/PageHeader.vue';
 
 export default {
   components: {
-    Logo
-  }
+    Team, PageHeader,
+  },
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

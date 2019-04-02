@@ -1,10 +1,10 @@
 <template>
     <header class="pageWidth">
-        <h1>Curious</h1>
+        <nuxt-link to="/" exact><h1>Curious</h1></nuxt-link>
         <nav>
-          <router-link to="/">Services</router-link>
-          <a href="#">People</a>
-          <a href="#">Contact Us</a>
+          <nuxt-link to="/services">Services</nuxt-link>
+          <nuxt-link to="team">Team</nuxt-link>
+          <a href="#contact">Contact Us</a>
         </nav>
       </header>
 </template>
