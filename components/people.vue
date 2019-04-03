@@ -4,7 +4,7 @@
         <div class="pageWidth">
             <div class="leftSide">
                 <h3>Innovation &amp; growth aren’t solitary activities.</h3>
-                <p>We’re a small team with big experience across many diciplines and technologies.</p>
+                <p>Curious team members are partners not vendors.</p>
             </div>
             <div class="rightSide">
                 <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/sherwin.png`)})`}" @click="setActiveTab(0)" v-bind:class="{ active: activeTab === 0 }"></div>

@@ -6,8 +6,8 @@
         <h2>
         We’re a group of experienced consultants &amp; coaches helping business leaders overcome <nuxt-link to="services/brand">brand</nuxt-link>, <nuxt-link to="services/marketing">marketing</nuxt-link>, and <nuxt-link to="services/product">product</nuxt-link> challenges.
         </h2>
-        <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
       </div>
+      <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
       <div class="cta pageWidth">
         <a href="#">Growing your business starts with a chat</a>
       </div>

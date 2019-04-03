@@ -120,10 +120,11 @@ button:focus {
     padding: 0 2rem;
 }
 
+$top-height: 90vh;
 #top {
     border-top: 0.5rem solid $color-gold1;
     background-color: $color-gray5;
-    min-height: 90vh;
+    min-height: $top-height;
     color: $color-white;
     display: flex;
     flex-direction: column;
@@ -134,9 +135,10 @@ button:focus {
     h2 {
         font-size: 6rem;
         font-weight: 300;
-        padding: 0 6rem;
+        padding: 0;
         line-height: 1.3;
         letter-spacing: -0.03em;
+        max-width: 80%;
     }
     .cta {
         min-height: 10vh;
@@ -148,11 +150,13 @@ button:focus {
     .sidebar {
         position: absolute;
         bottom: 0;
-        left: 0;
-        font-size: 1.5rem;
+        left: 4rem;
+        font-size: 1.2rem;
         transform: rotate(-90deg);
         transform-origin: left top;
         opacity: 0.5;
+        width: $top-height;
+        text-align: center;
     }
 }
 
@@ -195,7 +199,7 @@ header {
 
 h3 {
     font-size: 4rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 6rem;
     padding-bottom: 2rem;
     max-width: 55%;
@@ -332,7 +336,7 @@ p {
         margin: 0 0 0 5rem;
         li {
             list-style-type: none;
-            border-top: 2px solid $color-gold2;
+            border-top: 1px solid $color-gold2;
             padding: 1rem 0;
             font-size: 2rem;
             font-weight: 300;
@@ -371,11 +375,21 @@ p {
         border-left: 2px solid $color-gold1;
         font-size: 1.6rem;
     }
-    a:before {
-        @extend %fa-icon;
-        @extend .fas;
-        content: fa-content($fa-var-map-marker-alt);
-        display: block;
+    .address {
+        margin-top: 4rem;
+        a {
+            display: block;
+            padding-left: 3rem;
+            &:before {
+                @extend %fa-icon;
+                @extend .fas;
+                content: fa-content($fa-var-map-marker-alt);
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 2.4rem;
+            }
+        }
     }
 }
 
