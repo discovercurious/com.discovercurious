@@ -7,6 +7,9 @@
             <input type="text" name="" id="" placeholder="I represent (organization)">
             <select name="" id=""></select>
             <textarea name="" id="" cols="30" rows="10" placeholder="My message is"></textarea>
+            <div class="buttonWrap">
+              <button>Send Message</button>
+            </div>
         </div>
         <div class="col">
           <h3>Advisor, partner, coach, or cheerleader,<br />Curious can help.</h3>

@@ -1,5 +1,8 @@
 <template>
   <div>
+    <section id="pageTop">
+      <PageHeader></PageHeader>
+    </section>
     <nuxt />
     <Contact />
   </div>
@@ -7,10 +10,11 @@
 
 <script>
 import Contact from '~/components/contact.vue';
+import PageHeader from '~/components/PageHeader.vue';
 
 export default {
   components: {
-    Contact,
+    Contact, PageHeader
   },
 }
 </script>
