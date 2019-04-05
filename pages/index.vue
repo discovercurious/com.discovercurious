@@ -3,7 +3,7 @@
     <section id="top">
       <div class="intro pageWidth">
         <h2>
-        We’re a group of experienced consultants &amp; coaches helping business leaders overcome <nuxt-link to="branding">brand</nuxt-link>, <nuxt-link to="marketing">marketing</nuxt-link>, and <nuxt-link to="product">product</nuxt-link> challenges.
+        We’re a group of experienced consultants helping business leaders overcome <nuxt-link to="branding">brand</nuxt-link>, <nuxt-link to="marketing">marketing</nuxt-link>, and <nuxt-link to="product">product</nuxt-link> challenges.
         </h2>
         <div class="cta">
           Growing your business <a href="#">starts with a chat</a>
