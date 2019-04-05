@@ -11,7 +11,7 @@
                 <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/maya.png`)})`}" @click="setActiveTab(1)" v-bind:class="{ active: activeTab === 1 }"></div>
                 <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/bryce.png`)})`}" @click="setActiveTab(2)" v-bind:class="{ active: activeTab === 2 }"></div>
                 <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/paul.png`)})`}" @click="setActiveTab(3)" v-bind:class="{ active: activeTab === 3 }"></div>
-                <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/sherwin.png`)})`}" @click="setActiveTab(4)" v-bind:class="{ active: activeTab === 4 }"></div>
+                <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/eric.png`)})`}" @click="setActiveTab(4)" v-bind:class="{ active: activeTab === 4 }"></div>
                 <div class="pic" :style="{backgroundImage: `url(${require(`~/assets/images/jason.png`)})`}" @click="setActiveTab(5)" v-bind:class="{ active: activeTab === 5 }"></div>
             </div>
         </div>

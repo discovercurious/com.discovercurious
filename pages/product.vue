@@ -11,25 +11,27 @@
     </section>
     <section id="main">
       <div class="pageWidth serviceIntro">
-        <div class="col2">
+        <div class="serviceLeft">
           <h3>Curious product consultants provide direction using proven techniques to answer questions like these:</h3>
-          <div class="col">
-            <h5>Help getting started</h5>
-            <ul class="questions">
-              <li>Who is my audience and what do they need?</li>
-              <li>What revenue generation models exist and what’s best for us?</li>
-              <li>What is our product story and does it resonate with the right people?</li>
-              <li>What can we test and how does that process work?</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h5>Help leveling up</h5>
-            <ul class="questions">
-              <li>What can we prototype with minimal investment?</li>
-              <li>How do we quantify a “good” product experience?</li>
-              <li>How might available technology improve our offering and customer experience?</li>
-              <li>Who can build this idea and what will it cost?</li>
-            </ul>
+          <div class="col2">
+            <div class="col">
+              <h5>Help getting started</h5>
+              <ul class="questions">
+                <li>Who is my audience and what do they need?</li>
+                <li>What revenue generation models exist and what’s best for us?</li>
+                <li>What is our product story and does it resonate with the right people?</li>
+                <li>What can we test and how does that process work?</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5>Help leveling up</h5>
+              <ul class="questions">
+                <li>What can we prototype with minimal investment?</li>
+                <li>How do we quantify a “good” product experience?</li>
+                <li>How might available technology improve our offering and customer experience?</li>
+                <li>Who can build this idea and what will it cost?</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="feature" :style="{backgroundImage: `url(${require(`~/assets/images/featured/designsprints.png`)})`}">
@@ -43,7 +45,30 @@
     </section>
     <section id="caseStudies">
       <div class="pageWidth">
-        Case Studies
+        <h3>Past examples of product advisement</h3>
+        <div class="col3">
+          <div class="caseStudy col">
+            <div class="pic">
+              Pic
+            </div>
+            <h4>Case Study Title</h4>
+            <button>View Case Study</button>
+          </div>
+          <div class="caseStudy col">
+            <div class="pic">
+              Pic
+            </div>
+            <h4>Case Study Title</h4>
+            <button>View Case Study</button>
+          </div>
+          <div class="caseStudy col">
+            <div class="pic">
+              Pic
+            </div>
+            <h4>Case Study Title</h4>
+            <button>View Case Study</button>
+          </div>
+        </div>
       </div>
     </section>
   </div>

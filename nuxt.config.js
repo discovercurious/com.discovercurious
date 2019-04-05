@@ -3,7 +3,7 @@ import pkg from './package'
 export default {
     mode: 'universal',
     router: {
-        base: '/curiousnuxt/',
+        base: process.env.NODE_ENV !== 'development' ? '/curiousnuxt/' : '/'
     },
 
     /*

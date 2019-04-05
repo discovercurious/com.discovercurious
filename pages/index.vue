@@ -15,21 +15,21 @@
       <div class="pageWidth">
         <h3>Discover your best opportunities for growth.</h3>
         <div class="col3">
-          <div class="col">
-            <h4><span>Curious Helps</span> Define Brands</h4>
-            <h5>Does your brand represent your unique value to your customers?</h5>
-            <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Brand Review</strong> could teach you.</a></p>
-          </div>
-          <div class="col">
+            <nuxt-link tag="div" class="col" to="branding">
+              <h4><span>Curious Helps</span> Define Brands</h4>
+              <h5>Does your brand represent your unique value to your customers?</h5>
+              <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Brand Review</strong> could teach you.</a></p>
+            </nuxt-link>
+          <nuxt-link tag="div" class="col" to="marketing">
             <h4><span>Curious Helps</span> Build Marketing</h4>
             <h5>Are you reaching the right audience, at the right time, with the right goals?</h5>
             <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Marketing Audit</strong> could teach you.</a></p>
-          </div>
-          <div class="col">
+          </nuxt-link>
+          <nuxt-link tag="div" class="col" to="product">
             <h4><span>Curious Helps</span> Create Products</h4>
             <h5>Do your products/services meet expectations and create delight?</h5>
             <p><a href="#">See how we’ve answered these questions for other’s, and what a <strong>Design Sprint</strong> could teach you.</a></p>
-          </div>
+          </nuxt-link>
         </div>
       </div>
     </section>
