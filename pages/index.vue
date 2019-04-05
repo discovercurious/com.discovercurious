@@ -4,6 +4,7 @@
       <div class="intro pageWidth">
         <h2>
         We’re a group of experienced consultants helping business leaders overcome <nuxt-link to="branding">brand</nuxt-link>, <nuxt-link to="marketing">marketing</nuxt-link>, and <nuxt-link to="product">product</nuxt-link> challenges.
+        <img class="aboutProcess" src="~assets/images/process.svg" alt="">
         </h2>
         <div class="cta">
           Growing your business <a href="#">starts with a chat</a>
@@ -13,7 +14,7 @@
     </section>
     <section id="main">
       <div class="pageWidth">
-        <h3>Discover your best opportunities for growth.</h3>
+        <h3>Discover your best opportunities for growth, informed by all aspects of business.</h3>
         <div class="col3">
             <nuxt-link tag="div" class="col" to="branding">
               <h4><span>Curious Helps</span> Define Brands</h4>

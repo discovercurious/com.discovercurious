@@ -127,6 +127,9 @@ button:focus {
 #pageTop {
     border-top: 0.5rem solid $color-gold1;
     background-color: $color-gray5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 $top-height: 70vh;
@@ -250,6 +253,7 @@ button,
     text-align: center;
     padding: 1rem;
     border: 0 none transparent;
+    border-radius: 0.3rem;
     transition: all 0.25s ease;
     cursor: pointer;
     &:hover {
@@ -301,6 +305,12 @@ button,
         right: 0;
         clip-path: polygon(0 0, 0% 100%, 100% 100%);
     }
+}
+
+.aboutProcess {
+    display: block;
+    margin: 4rem 0 0 0;
+    width: 30%;
 }
 
 #servicesHeader {
@@ -496,6 +506,9 @@ button,
         border: 0 none transparent;
         border-left: 2px solid $color-gold1;
         font-size: 1.6rem;
+    }
+    button {
+        float: right;
     }
     .address {
         margin-top: 4rem;

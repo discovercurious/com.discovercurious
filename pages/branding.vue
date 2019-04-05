@@ -53,21 +53,21 @@
             <div class="pic">
               Pic
             </div>
-            <h4>Case Study Title</h4>
+            <h4><span>Alomere Health</span> What we did</h4>
             <button>View Case Study</button>
           </div>
           <div class="caseStudy col">
             <div class="pic">
               Pic
             </div>
-            <h4>Case Study Title</h4>
+            <h4><span>Ostra</span> What we did</h4>
             <button>View Case Study</button>
           </div>
           <div class="caseStudy col">
             <div class="pic">
               Pic
             </div>
-            <h4>Case Study Title</h4>
+            <h4><span>The Foundry</span> What we did</h4>
             <button>View Case Study</button>
           </div>
         </div>
