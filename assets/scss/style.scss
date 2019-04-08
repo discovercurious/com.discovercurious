@@ -538,6 +538,89 @@ button,
     }
 }
 
+// -------------- Case Study Modules -------------------//
+.studySection {
+    padding: 4rem 0;
+}
+
+.bg-ltGray {
+    background-color: $color-gray1;
+    color: $color-gray6;
+}
+
+.bg-darkGray {
+    background-color: $color-gray5;
+    color: $color-white;
+}
+
+.bg-gold {
+    background-color: $color-gold1;
+    color: $color-white;
+}
+
+.bg-white {
+    background-color: $color-white;
+    color: $color-gray4;
+}
+
+.responsiveImage {
+    position: relative;
+    padding-bottom: 49.09%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    margin-bottom: 2rem;
+}
+
+.s-Intro {
+    h3 {
+        max-width: 90%;
+    }
+    .columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col:first-child {
+        flex-basis: 70%;
+        margin-right: 2rem;
+    }
+    ul {
+        padding-left: 2rem;
+    }
+}
+
+.s-ImageGroup {
+    .col {
+        margin: 0 0 0 1rem;
+    }
+    .col2 {
+        .responsiveImage {
+            padding-bottom: 60%;
+        }
+        .col {
+            flex-basis: calc(50% - 1rem);
+        }
+        .col:first-child {
+            margin-left: 0;
+        }
+    }
+    .col3 {
+        .responsiveImage {
+            padding-bottom: 75%;
+        }
+        .col {
+            flex-basis: calc(33.33% - 1.5rem);
+        }
+        .col:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
 //-----------------------------------------------
 // Font awesome example
 // h1 {

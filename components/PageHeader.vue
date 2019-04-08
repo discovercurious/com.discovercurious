@@ -2,10 +2,10 @@
       <header class="pageWidth">
           <nuxt-link to="/" exact><h1>Curious</h1></nuxt-link>
           <nav>
-            <nuxt-link to="branding">For Branding</nuxt-link>
-            <nuxt-link to="marketing">For Marketing</nuxt-link>
-            <nuxt-link to="product">For Products</nuxt-link>
-            <nuxt-link to="team">Team</nuxt-link>
+            <nuxt-link to="/branding">For Branding</nuxt-link>
+            <nuxt-link to="/marketing">For Marketing</nuxt-link>
+            <nuxt-link to="/product">For Products</nuxt-link>
+            <nuxt-link to="/team">Team</nuxt-link>
             <a href="#contact">Contact Us</a>
           </nav>
       </header>
