@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <section class="studySection s-Intro bg-white">
+    <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
           <h3>The title of this case study</h3>
           <div class="columns">
@@ -23,7 +23,7 @@
           </div>
       </div>
     </section>
-    <section class="studySection s-ImageLarge bg-ltGray">
+    <section class="studySection s-ImageLarge bg-white">
       <div class="pageWidth">
           <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80');"></div>
       </div>
