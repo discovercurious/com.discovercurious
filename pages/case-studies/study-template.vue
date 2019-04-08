@@ -82,6 +82,13 @@
           </div>
       </div>
     </section>
+    <section id="cta">
+      <div class="pageWidth">
+        <div class="ctaText">
+          <span>Call to action</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -92,6 +99,7 @@ export default {
   components: {
     Team,
   },
+  layout: 'CaseStudy'
 }
 </script>
 

@@ -6,7 +6,7 @@
             <nuxt-link to="/marketing">For Marketing</nuxt-link>
             <nuxt-link to="/product">For Products</nuxt-link>
             <nuxt-link to="/team">Team</nuxt-link>
-            <a href="#contact">Contact Us</a>
+            <a href="/#contact" exact>Contact Us</a>
           </nav>
       </header>
 </template>

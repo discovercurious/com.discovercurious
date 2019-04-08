@@ -257,6 +257,7 @@ button,
     transition: all 0.25s ease;
     cursor: pointer;
     &:hover {
+        color: $color-white;
         background-color: $color-gray6;
     }
 }
@@ -574,6 +575,7 @@ button,
     background-repeat: no-repeat;
     border: 1px solid #ddd;
     margin-bottom: 2rem;
+    border-radius: 0.3rem;
 }
 
 .s-Intro {
@@ -618,6 +620,36 @@ button,
         .col:first-child {
             margin-left: 0;
         }
+    }
+}
+
+#cta {
+    background-color: $color-gray1;
+    .pageWidth {
+        padding: 8rem 0;
+    }
+    .ctaText {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        span {
+            font-size: 1.6rem;
+            font-weight: 600;
+            padding: 1rem;
+        }
+    }
+    button {
+        display: inline-block;
+    }
+    &:before {
+        content: '';
+        background-color: $color-gray1;
+        position: absolute;
+        height: 3rem;
+        bottom: 99.9%;
+        left: 0;
+        right: 0;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     }
 }
 
