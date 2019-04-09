@@ -497,6 +497,14 @@ button,
     h3 {
         max-width: 100%;
     }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0;
+        background-color: $color-white;
+        color: $color-gray6;
+    }
     input,
     select,
     textarea {
@@ -507,6 +515,17 @@ button,
         border: 0 none transparent;
         border-left: 2px solid $color-gold1;
         font-size: 1.6rem;
+    }
+    .selectList:after {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-sort);
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        transform: translateY(-50%);
+        font-size: 1.8rem;
+        color: $color-gold1;
     }
     button {
         float: right;
@@ -576,6 +595,11 @@ button,
     border: 1px solid #ddd;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0;
+    &[lazy=loaded] {
+        opacity: 1;
+    }
 }
 
 .s-Intro {

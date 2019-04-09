@@ -5,7 +5,16 @@
             <input type="text" name="" id="" placeholder="My name is">
             <input type="email" name="" id="" placeholder="My email address is">
             <input type="text" name="" id="" placeholder="I represent (organization)">
-            <select name="" id=""></select>
+            <div class="selectList">
+              <select name="" id="">
+                <option value="" disabled selected>What's this about? (choose one)</option>
+                <option value="branding">Branding help</option>
+                <option value="marketing">Marketing help</option>
+                <option value="product">Product help</option>
+                <option value="sprint">Schedule a Design Sprint</option>
+                <option value="general">Just saying hello</option>
+              </select>
+            </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="My message is"></textarea>
             <div class="buttonWrap">
               <button>Send Message</button>
