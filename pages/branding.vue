@@ -51,21 +51,21 @@
         <div class="col3">
           <div class="caseStudy col">
             <div class="pic">
-              Pic
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
             <h4><span>Alomere Health</span> What we did</h4>
             <button>View Case Study</button>
           </div>
           <div class="caseStudy col">
             <div class="pic">
-              Pic
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
             <h4><span>Ostra</span> What we did</h4>
             <button>View Case Study</button>
           </div>
           <div class="caseStudy col">
             <div class="pic">
-              Pic
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
             <h4><span>The Foundry</span> What we did</h4>
             <button>View Case Study</button>
@@ -83,6 +83,14 @@ export default {
   components: {
     Team,
   },
+  head () {
+    return {
+      title: 'Curious: Building better brands',
+    meta: [
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
+  }
 }
 </script>
 

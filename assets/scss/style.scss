@@ -130,6 +130,7 @@ button:focus {
     position: sticky;
     top: 0;
     z-index: 100;
+    padding: 2rem 0;
 }
 
 $top-height: 70vh;
@@ -167,26 +168,43 @@ $top-height: 70vh;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem !important;
-    margin-bottom: 2rem;
+    max-width: $max-content;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 8rem;
+    transition: all 0.25s ease;
     h1 {
+        position: absolute;
+        height: 70%;
         width: 20rem;
-        height: 6rem;
+        top: 50%;
+        left: 1rem;
+        z-index: 10;
         text-indent: -9999px;
         background: transparent url('~assets/images/curious_logo.svg') top left no-repeat;
         background-size: contain;
+        transform: translateY(-50%);
+        transition: all 0.25s ease;
     }
     nav {
-        padding-top: 2rem;
+        position: absolute;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.25s ease;
+        a {
+            display: inline-block;
+            margin-left: 2rem;
+            &.nuxt-link-active {
+                color: $color-white;
+                text-decoration: none;
+            }
+        }
     }
-    a {
-        display: inline-block;
-        margin-left: 2rem;
-        &.nuxt-link-active {
-            color: $color-white;
-            text-decoration: none;
+    &.smallHeader {
+        min-height: 3rem;
+        h1 {
+            height: 90%;
         }
     }
 }
@@ -259,6 +277,21 @@ button,
     &:hover {
         color: $color-white;
         background-color: $color-gray6;
+    }
+}
+
+.responsiveImage {
+    position: relative;
+    padding-bottom: 49.09%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0;
+    &[lazy=loaded] {
+        opacity: 1;
     }
 }
 
@@ -371,12 +404,10 @@ button,
 #caseStudies {
     padding: 4rem 0 8rem 0;
     background-color: $color-gray5;
-    h3 {
-        color: $color-white;
-    }
+    color: $color-white;
     .pic {
-        height: 10rem;
         background-color: $color-white;
+        padding: 1rem;
         margin-bottom: 2rem;
     }
 }
@@ -491,9 +522,7 @@ button,
 
 #contact {
     background-color: $color-gray1;
-    .pageWidth {
-        padding: 8rem 0;
-    }
+    padding: 8rem 0;
     h3 {
         max-width: 100%;
     }
@@ -561,6 +590,12 @@ button,
 // -------------- Case Study Modules -------------------//
 .studySection {
     padding: 4rem 0;
+    .responsiveImage {
+        background-repeat: no-repeat;
+        border: 1px solid #ddd;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+    }
 }
 
 .bg-ltGray {
@@ -581,25 +616,6 @@ button,
 .bg-white {
     background-color: $color-white;
     color: $color-gray4;
-}
-
-.responsiveImage {
-    position: relative;
-    padding-bottom: 49.09%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 1px solid #ddd;
-    margin-bottom: 2rem;
-    border-radius: 0.3rem;
-    transition: opacity 0.25s ease-in-out;
-    opacity: 0;
-    &[lazy=loaded] {
-        opacity: 1;
-    }
 }
 
 .s-Intro {

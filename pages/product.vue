@@ -4,7 +4,7 @@
       <div class="intro pageWidth">
         <h2>Good products are useful, usable &amp; beautiful.  Great ones solve customer pain in revolutionary ways.</h2>
         <div class="cta">
-          <a href="#">Growing your business starts with a chat</a>
+          Growing your business <a href="#">starts with a chat</a>
         </div>
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
@@ -49,23 +49,23 @@
         <div class="col3">
           <div class="caseStudy col">
             <div class="pic">
-              Pic
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
-            <h4><span>Alomere Health</span> What we did</h4>
+            <h4><span>Itsawego</span>Product Story + Prototyping</h4>
             <button>View Case Study</button>
           </div>
           <div class="caseStudy col">
             <div class="pic">
-              Pic
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
-            <h4><span>Ostra</span> What we did</h4>
+            <h4><span>Reve Academy</span>Google Design Sprint</h4>
             <button>View Case Study</button>
           </div>
           <div class="caseStudy col">
             <div class="pic">
-              Pic
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
-            <h4><span>The Foundry</span> What we did</h4>
+            <h4><span>University of Minnesota</span>Platform Ideation, Prototyping &amp; Development Support</h4>
             <button>View Case Study</button>
           </div>
         </div>
@@ -81,6 +81,14 @@ export default {
   components: {
     Team,
   },
+  head () {
+    return {
+      title: 'Curious: Making Products Useful, Usable & Beautiful',
+    meta: [
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
+  }
 }
 </script>
 
