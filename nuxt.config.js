@@ -67,7 +67,9 @@ export default {
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: [],
+    plugins: [
+        { src: '~/plugins/vue-lazy-background', ssr: false }
+    ],
 
     /*
      ** Nuxt.js modules

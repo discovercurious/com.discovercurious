@@ -25,7 +25,8 @@
     </section>
     <section class="studySection s-ImageLarge bg-white">
       <div class="pageWidth">
-          <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80');"></div>
+          <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
+          
       </div>
     </section>
     <section class="studySection s-2ColText bg-darkGray">
@@ -46,24 +47,24 @@
     <section class="studySection s-ImageGroup bg-gold">
       <div class="pageWidth">
           <h4>section header (optional)</h4>
-          <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80');"></div>
+          <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1554496272-b77154d74dc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80');"></div>
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554496272-b77154d74dc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80'"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80');"></div>
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
             </div>
           </div>
           <div class="col3">
             <div class="col">
-              <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1554398063-26678c252e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');"></div>
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554398063-26678c252e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1554369205-8b1de386d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');"></div>
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554369205-8b1de386d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');"></div>
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
           </div>
       </div>
@@ -77,7 +78,7 @@
               <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" style="background-image: url('https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80');"></div>
+              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
             </div>
           </div>
       </div>
