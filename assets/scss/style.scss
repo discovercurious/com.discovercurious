@@ -186,7 +186,8 @@ header {
         transform: translateY(-50%);
         transition: all 0.25s ease;
     }
-    .menuToggle {
+    .menuToggle,
+    .location {
         display: none;
     }
     nav {
@@ -774,6 +775,7 @@ button,
                 border-top: 1px solid $color-gray6;
             }
             .location {
+                display: block;
                 position: absolute;
                 left: 0;
                 right: 0;
