@@ -36,7 +36,7 @@
             </div>
           </div>
         </div>
-        <div class="feature" :style="{backgroundImage: `url(${require(`~/assets/images/featured/designsprints.png`)})`}">
+        <div class="feature" :style="{backgroundImage: `url('/images/featured/designsprints.png')`}">
           <div class="featureContent">
             <h5>Featured thing</h5>
             <p>why does anyone care?</p>
