@@ -1,6 +1,6 @@
 <template>
       <header id="pageHeader" v-bind:class="menuVisible ? 'showMenu': ''">
-          <nuxt-link tag="h1" to="/" exact>Curious</nuxt-link>
+          <nuxt-link tag="h1" to="/" exact @click.native="showMenu()">Curious</nuxt-link>
           <div class="menuToggle" @click="showMenu()">Menu</div>
           <nav>
             <nuxt-link to="/branding" @click.native="showMenu()">For Branding</nuxt-link>
