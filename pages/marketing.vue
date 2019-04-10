@@ -25,7 +25,7 @@
             </ul>
           </div>
         </div>
-        <div class="feature" :style="{backgroundImage: `url('/images/featured/designsprints.png')`}">
+        <div class="feature" v-lazy:background-image="require('~/static/images/featured/designsprints.png')">
           <div class="featureContent">
             <h5>Not sure where to get started with your marketing?</h5>
             <p>Our team partners with many large and small organizations to help implement marketing strategies. Some businesses, however, can’t necessarily afford to outsource their marketing, so we created a workshop to identify what can work for you, providing the foundation to get started. This 3-hour strategic marketing workshop is customized for your business.</p>
