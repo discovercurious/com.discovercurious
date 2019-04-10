@@ -186,11 +186,15 @@ header {
         transform: translateY(-50%);
         transition: all 0.25s ease;
     }
+    .menuToggle {
+        display: none;
+    }
     nav {
         position: absolute;
         right: 2rem;
         top: 50%;
         transform: translateY(-50%);
+        max-width: 80%;
         transition: all 0.25s ease;
         a {
             display: inline-block;
@@ -410,6 +414,13 @@ button,
         padding: 1rem;
         margin-bottom: 2rem;
     }
+    .responsiveImage {
+        filter: grayscale(1);
+        transition: all 0.25s ease;
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
 }
 
 #people {
@@ -523,6 +534,9 @@ button,
 #contact {
     background-color: $color-gray1;
     padding: 8rem 0;
+    .col2 {
+        flex-direction: row-reverse;
+    }
     h3 {
         max-width: 100%;
     }
@@ -703,7 +717,145 @@ button,
 //     }
 // }
 //-----------------------------------------------
-@media only screen and (min-width: 500px) {}
+@media only screen and (max-width: 500px) {
+    h3 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+    h4 {
+        font-size: 2rem;
+        span {
+            font-size: 75%;
+        }
+    }
+    h5 {
+        font-size: 1.8rem;
+    }
+    header {
+        min-height: 3rem;
+        max-height: 3rem;
+        h1 {
+            height: 90%;
+            z-index: 60;
+            left: 2rem;
+            // background-position: center center;
+        }
+        .menuToggle {
+            position: absolute;
+            display: block;
+            top: 50%;
+            right: 2rem;
+            transform: translateY(-50%);
+            color: $color-gold1;
+            font-size: 1.6rem;
+            font-weight: 600;
+            z-index: 60;
+            cursor: pointer;
+        }
+        nav {
+            position: fixed;
+            top: 0.5rem;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            max-width: 100%;
+            background-color: $color-gray5;
+            z-index: 50;
+            transform: translate(100%, 0);
+            padding-top: 14rem;
+            a {
+                display: block;
+                width: 80%;
+                text-align: center;
+                padding: 1rem;
+                margin: 0 auto;
+                font-size: 1.8rem;
+                border-top: 1px solid $color-gray6;
+            }
+            .location {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 2rem;
+                border-top: 0 none transparent;
+            }
+        }
+        &.showMenu nav {
+            transform: translate(0, 0);
+        }
+    }
+    #top {
+        display: block;
+        padding: 4rem 0;
+        h2 {
+            font-size: 3rem;
+            max-width: 100%;
+            text-align: center;
+        }
+        .sidebar {
+            display: none;
+        }
+        .cta {
+            margin: 2rem auto;
+            width: 80%;
+            text-align: center;
+        }
+    }
+    .serviceIntro {
+        display: block;
+        h3 {}
+    }
+    .aboutProcess {
+        margin: 2rem auto;
+        width: 60%;
+    }
+    #main {
+        padding: 2rem 0;
+        .col {
+            flex-basis: 100%;
+            border-top: 1px solid darken($color-gray1, 5%);
+            padding-top: 2rem;
+        }
+        .col:first-child {
+            border-top: 0 none transparent;
+        }
+    }
+    #caseStudies {
+        .col {
+            flex-basis: 100%;
+            margin-bottom: 2rem;
+        }
+    }
+    #people {
+        .teamTop {
+            .rightSide {
+                height: 20rem;
+                margin: 0 -2rem;
+                flex-basis: calc(100% + 4rem);
+            }
+        }
+        .pageWidth {
+            flex-wrap: wrap;
+        }
+        .leftSide,
+        .rightSide {
+            flex-basis: 100%;
+        }
+        .questionList li {
+            font-size: 1.6rem;
+            padding: 0.5rem 0;
+        }
+        .teamBottom .leftSide {
+            margin-bottom: 2rem;
+        }
+    }
+    #contact {
+        .col {
+            flex-basis: 100%;
+        }
+    }
+}
 
 @media (pointer: coarse) and (hover: none) {
     body {
@@ -835,5 +987,5 @@ button,
 }
 
 a:link {
-    -webkit-tap-highlight-color: #70dd2e;
+    -webkit-tap-highlight-color: transparent;
 }

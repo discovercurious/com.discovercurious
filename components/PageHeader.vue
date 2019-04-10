@@ -1,12 +1,14 @@
 <template>
-      <header id="pageHeader">
+      <header id="pageHeader" v-bind:class="menuVisible ? 'showMenu': ''">
           <nuxt-link tag="h1" to="/" exact>Curious</nuxt-link>
+          <div class="menuToggle" @click="showMenu()">Menu</div>
           <nav>
-            <nuxt-link to="/branding">For Branding</nuxt-link>
-            <nuxt-link to="/marketing">For Marketing</nuxt-link>
-            <nuxt-link to="/product">For Products</nuxt-link>
-            <nuxt-link to="/team">Team</nuxt-link>
-            <a href="/#contact" exact>Contact Us</a>
+            <nuxt-link to="/branding" @click.native="showMenu()">For Branding</nuxt-link>
+            <nuxt-link to="/marketing" @click.native="showMenu()">For Marketing</nuxt-link>
+            <nuxt-link to="/product" @click.native="showMenu()">For Products</nuxt-link>
+            <nuxt-link to="/team" @click.native="showMenu()">Team</nuxt-link>
+            <a href="/#contact" exact @click.native="showMenu()">Contact Us</a>
+            <a class="location" href="https://www.google.com/maps/place/Curious/@44.9989033,-93.2525572,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32db8b34daef9:0xe12fd7d2771f2dc2!8m2!3d44.9988995!4d-93.2503632">807 Broadway Street NE, Suite 140<br />Minneapolis, MN 55413</a>
           </nav>
       </header>
 </template>
@@ -21,7 +23,8 @@ export default Vue.extend({
 
   data () {
     return {
-      activeTab: 0
+      activeTab: 0,
+      menuVisible: false,
     }
   },
   created () {
@@ -49,6 +52,13 @@ export default Vue.extend({
   methods: {
     setActiveTab: function(tab) {
       this.activeTab = tab
+    },
+    showMenu: function(){
+      if(this.menuVisible){
+        this.menuVisible = false;
+      } else {
+        this.menuVisible = true;
+      }
     }
   },
   computed: {
