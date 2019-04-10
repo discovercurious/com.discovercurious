@@ -55,25 +55,25 @@
         <div class="col3">
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/itsawego/1.jpg')"></div>
             </div>
             <h4><span>Itsawego</span>Product Story + Prototyping</h4>
             <button>View Case Study</button>
           </nuxt-link>
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/reve/1.jpg')"></div>
             </div>
-            <h4><span>Reve Academy</span>Google Design Sprint Workshop</h4>
+            <h4><span>R&ecirc;ve Academy</span>Google Design Sprint Workshop</h4>
             <button>View Case Study</button>
           </nuxt-link>
-          <nuxt-link to="/" tag="div" class="caseStudy col">
+          <!-- <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/4.jpg')"></div>
             </div>
             <h4><span>University of Minnesota</span>Platform Ideation &amp; Development Support</h4>
             <button>View Case Study</button>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
     </section>

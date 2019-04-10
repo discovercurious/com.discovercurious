@@ -131,6 +131,16 @@ button:focus {
     top: 0;
     z-index: 100;
     padding: 2rem 0;
+    &:after {
+        content: '';
+        position: absolute;
+        height: 2rem;
+        clip-path: polygon(0 0, 0% 100%, 100% 0);
+        background-color: $color-gray5;
+        left: 0;
+        right: 0;
+        top: 100%;
+    }
 }
 
 $top-height: 70vh;
