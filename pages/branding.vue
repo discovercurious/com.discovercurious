@@ -12,10 +12,9 @@
     <section id="main">
       <div class="pageWidth serviceIntro">
         <div class="serviceLeft">
-          <h3>Answer Brand Questions Like These</h3>
+          <h3>We help businesses answer brand questions like these.</h3>
           <div class="col2">
             <div class="col">
-              <h5>Question type</h5>
               <ul class="questions">
                 <li>Are there other competitors that offer the same product or service? Why do your customers choose you?</li>
                 <li>Can you capture your unique value proposition in one sentence?</li>
@@ -25,7 +24,6 @@
               </ul>
             </div>
             <div class="col">
-              <h5>&amp;</h5>
               <ul class="questions">
                 <li>Marketing produces short term results. Branding is a long term strategy. Are you doing both well?</li>
                 <li>At every point of contact (online, in-store, advertising, customer service), do customers get the same experience?</li>
@@ -47,27 +45,27 @@
     </section>
     <section id="caseStudies">
       <div class="pageWidth">
-        <h3>Past examples of brand development</h3>
+        <h3>Past examples of brand strategy application</h3>
         <div class="col3">
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/2.jpg')"></div>
             </div>
-            <h4><span>Alomere Health</span> What we did</h4>
+            <h4><span>Alomere Health</span> Guiding Rename &amp; Rebrand Strategy</h4>
             <button>View Case Study</button>
           </nuxt-link>
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/2.jpg')"></div>
             </div>
-            <h4><span>Ostra</span> What we did</h4>
+            <h4><span>Ostra</span> Collaborative Brand Story Development</h4>
             <button>View Case Study</button>
           </nuxt-link>
           <nuxt-link to="/case-studies/heimies" tag="div" class="caseStudy col">
             <div class="pic">
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/4.jpg')"></div>
             </div>
-            <h4><span>Heimies Made</span> Identity + Storytelling</h4>
+            <h4><span>Heimies Made</span> Define Unique Brand Position</h4>
             <button>View Case Study</button>
           </nuxt-link>
         </div>

@@ -4,7 +4,7 @@
         <div class="pageWidth">
             <div class="leftSide">
                 <h3>Innovation &amp; growth aren’t solitary activities.</h3>
-                <p>Curious team members are work to be trusted guides who help solve hard business challenges.</p>
+                <p>Curious team members are trusted guides who help solve hard business challenges.</p>
             </div>
             <div class="rightSide">
                 <div class="pic" v-lazy:background-image="require('~/static/images/people/sherwin.png')" @click="setActiveTab(0)" v-bind:class="{ active: activeTab === 0 }"></div>
@@ -37,7 +37,7 @@
         <div class="pageWidth" v-if="activeTab === 1" transition="slideFade">
             <div class="leftSide">
                 <h4><span>Marketing Consultant</span> Maya Khaira</h4>
-                <p>Maya leads the development and execution of all strategic digital marketing campaigns at Curious. She has a unique and valuable capacity to tap both sides of her brain with creative content development as well as managing the minute details of production and client services.</p>
+                <p>Maya is a hands-on creator with a background in marketing and product design. She partners with companies to identify their audience, develop relevant content, and execute strategic digital marketing campaigns. Also, she’s a <a href="https://vimeo.com/mayakhaira" target="_blank" rel="noopener noreferrer">filmmaker</a>!</p>
             </div>
             <div class="rightSide">
                 <div class="questions">Questions Maya might ask:</div>

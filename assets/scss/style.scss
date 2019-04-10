@@ -369,7 +369,7 @@ button,
         flex-basis: 30%;
     }
     h3 {
-        max-width: 80%;
+        max-width: 95%;
     }
     .feature {
         background: $color-gold1;
@@ -400,9 +400,19 @@ button,
         margin: 0;
         list-style-type: none;
         li {
-            margin-bottom: 1.5rem;
-            padding-top: 1.5rem;
+            padding: 1.5rem 0 1.5rem 3rem;
             border-top: 1px solid darken($color-gray1, 5%);
+            &:before {
+                content: '';
+                width: 0.8rem;
+                height: 0.8rem;
+                background: $color-gold2;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
         }
     }
 }
@@ -420,10 +430,20 @@ button,
         filter: grayscale(1);
         transition: all 0.25s ease;
     }
-    .col:hover {
-        cursor: pointer;
-        .responsiveImage {
-            filter: grayscale(0);
+    .col3 {
+        justify-content: flex-start;
+    }
+    .col {
+        flex-basis: calc(33.33% - 2rem);
+        margin-left: 2rem;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:hover {
+            cursor: pointer;
+            .responsiveImage {
+                filter: grayscale(0);
+            }
         }
     }
 }

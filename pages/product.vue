@@ -12,24 +12,30 @@
     <section id="main">
       <div class="pageWidth serviceIntro">
         <div class="serviceLeft">
-          <h3>Curious product consultants provide direction using proven techniques to answer questions like these:</h3>
+          <h3>We use business context &amp; proven techniques to help you answer questions like these:</h3>
           <div class="col2">
             <div class="col">
-              <h5>Help getting started</h5>
+              <h5>Product Development</h5>
               <ul class="questions">
                 <li>Who is my audience and what do they need?</li>
                 <li>What revenue generation models exist and what’s best for us?</li>
                 <li>What is our product story and does it resonate with the right people?</li>
                 <li>What can we test and how does that process work?</li>
-              </ul>
-            </div>
-            <div class="col">
-              <h5>Help leveling up</h5>
-              <ul class="questions">
                 <li>What can we prototype with minimal investment?</li>
                 <li>How do we quantify a “good” product experience?</li>
                 <li>How might available technology improve our offering and customer experience?</li>
                 <li>Who can build this idea and what will it cost?</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5>Technology &amp; Platform</h5>
+              <ul class="questions">
+                <li>How might we improve security or reliability with existing technologies?</li>
+                <li>What are the implications of adding this (desired) feature?</li>
+                <li>Is the investment to improve SEO going to have an equal impact on your business?</li>
+                <li>Am I gaining all the insights available from analytics tools?</li>
+                <li>Can I make my technology platforms do more for my business?</li>
+                <li>Does your product infastructure &amp; documentation pass the "bus test"?</li>
               </ul>
             </div>
           </div>
@@ -58,14 +64,14 @@
             <div class="pic">
               <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
-            <h4><span>Reve Academy</span>Google Design Sprint</h4>
+            <h4><span>Reve Academy</span>Google Design Sprint Workshop</h4>
             <button>View Case Study</button>
           </nuxt-link>
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
               <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
-            <h4><span>University of Minnesota</span>Platform Ideation, Prototyping &amp; Development Support</h4>
+            <h4><span>University of Minnesota</span>Platform Ideation &amp; Development Support</h4>
             <button>View Case Study</button>
           </nuxt-link>
         </div>

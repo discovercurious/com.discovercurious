@@ -4,7 +4,7 @@
       <div class="intro pageWidth">
         <h2>
         We’re a group of experienced consultants helping business leaders overcome <nuxt-link to="branding">brand</nuxt-link>, <nuxt-link to="marketing">marketing</nuxt-link>, and <nuxt-link to="product">product</nuxt-link> challenges.
-        <img class="aboutProcess" src="~assets/images/process.svg" alt="">
+        <!-- <img class="aboutProcess" src="~assets/images/process.svg" alt=""> -->
         </h2>
         <div class="cta">
           Growing your business <a href="#">starts with a chat</a>

@@ -15,31 +15,35 @@
           <h3>Answer Marketing Questions Like These</h3>
           <div class="col2">
             <ul class="col questions">
-              <li>What are the goals of your marketing?</li>
-              <li>How do you market to the right customers?</li>
-              <li>How should you measure your marketing?</li>
+              <li>In a perfect scenario, what would marketing achieve for your business?</li>
+              <li>Are your sales and marketing teams learning from each other? Are they talking to each other?</li>
+              <li>Is your marketing relevant to your potential customers? Does it provide value?</li>
+              <li>Do your potential customers know about your company? How do you stay in front of them?</li>
+              <li>How targeted are your campaigns? Are the right people engaging?</li>
             </ul>
             <ul class="col questions">
+              <li>How often are you changing your messaging and creative?</li>
+              <li>Are you leveraging A/B tests? Are you aware what drove the results and why?</li>
               <li>What marketing tools and platforms should you use to reach your customers?</li>
-              <li>How do you create a system of communication and learning between your marketing and sales teams?</li>
+              <li>How are you measuring your marketing? Do you know if you’re wasting money?</li>
+              <li>Do competitors do a better job of explaining your products or services?</li>
             </ul>
           </div>
         </div>
         <div class="feature" v-lazy:background-image="require('~/static/images/featured/designsprints.png')">
           <div class="featureContent">
-            <h5>Not sure where to get started with your marketing?</h5>
-            <p>Our team partners with many large and small organizations to help implement marketing strategies. Some businesses, however, can’t necessarily afford to outsource their marketing, so we created a workshop to identify what can work for you, providing the foundation to get started. This 3-hour strategic marketing workshop is customized for your business.</p>
+            <h5>Workshop: What’s your next best opportunity for marketing?</h5>
+            <p>While our team partners with several organizations to develop and implement marketing strategies, some of our clients wanted direction on next steps. These customized workshops are designed to cover multiple topics and provide a foundation to discover your next best opportunities.</p>
             <p>
-              In this workshop you will:
+              After a 30 minute consult to make sure this is a good fit, we create a customized 3-hour strategic workshop to explore:
               <ul>
-                <li>Learn best practices</li>
-                <li>Learn how to target your audience</li>
-                <li>Discover customized marketing tactics specific to your business</li>
-                <li>Build a marketing plan you can execute internally</li>
+                <li>Best practices in digital marketing and how to target your audience.</li>
+                <li>Game plans for how your team can execute internally. Marketing tactics, specific to your business, with both a quick win and long term strategy.</li>
+                <li>Breaking down barriers between marketing and sales teams.</li>
               </ul>
             </p>
           </div>
-          <div class="button">Schedule a workshop</div>
+          <div class="button">Schedule a consultation</div>
         </div>
       </div>
     </section>
@@ -49,23 +53,16 @@
         <div class="col3">
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/1.jpg')"></div>
             </div>
             <h4><span>White Crane</span> Lead Generation + Sales Integration Strategy</h4>
             <button>View Case Study</button>
           </nuxt-link>
           <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereMarketing/1.jpg')"></div>
             </div>
-            <h4>Case Study Title</h4>
-            <button>View Case Study</button>
-          </nuxt-link>
-          <nuxt-link to="/" tag="div" class="caseStudy col">
-            <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
-            </div>
-            <h4>Case Study Title</h4>
+            <h4><span>Alomere Health</span>Digital Marketing Strategy</h4>
             <button>View Case Study</button>
           </nuxt-link>
         </div>
