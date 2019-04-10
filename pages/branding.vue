@@ -63,11 +63,11 @@
             <h4><span>Ostra</span> What we did</h4>
             <button>View Case Study</button>
           </nuxt-link>
-          <nuxt-link to="/" tag="div" class="caseStudy col">
+          <nuxt-link to="/case-studies/heimies" tag="div" class="caseStudy col">
             <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/4.jpg')"></div>
             </div>
-            <h4><span>The Foundry</span> What we did</h4>
+            <h4><span>Heimies Made</span> Identity + Storytelling</h4>
             <button>View Case Study</button>
           </nuxt-link>
         </div>
