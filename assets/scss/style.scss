@@ -185,6 +185,7 @@ header {
         background-size: contain;
         transform: translateY(-50%);
         transition: all 0.25s ease;
+        cursor: pointer;
     }
     .menuToggle,
     .location {
@@ -418,7 +419,10 @@ button,
     .responsiveImage {
         filter: grayscale(1);
         transition: all 0.25s ease;
-        &:hover {
+    }
+    .col:hover {
+        cursor: pointer;
+        .responsiveImage {
             filter: grayscale(0);
         }
     }
@@ -427,6 +431,13 @@ button,
 #people {
     h3 {
         max-width: 100%;
+    }
+    a {
+        color: $color-white;
+        font-weight: 600;
+        &:hover {
+            color: $color-gray6;
+        }
     }
     .teamTop,
     .teamBottom {

@@ -45,29 +45,29 @@
     </section>
     <section id="caseStudies">
       <div class="pageWidth">
-        <h3>Past examples of product advisement</h3>
+        <h3>We've made things useful, useable &amp; beautiful. Here are some examples.</h3>
         <div class="col3">
-          <div class="caseStudy col">
+          <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
               <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
             <h4><span>Itsawego</span>Product Story + Prototyping</h4>
             <button>View Case Study</button>
-          </div>
-          <div class="caseStudy col">
+          </nuxt-link>
+          <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
               <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
             <h4><span>Reve Academy</span>Google Design Sprint</h4>
             <button>View Case Study</button>
-          </div>
-          <div class="caseStudy col">
+          </nuxt-link>
+          <nuxt-link to="/" tag="div" class="caseStudy col">
             <div class="pic">
               <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
             </div>
             <h4><span>University of Minnesota</span>Platform Ideation, Prototyping &amp; Development Support</h4>
             <button>View Case Study</button>
-          </div>
+          </nuxt-link>
         </div>
       </div>
     </section>

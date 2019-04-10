@@ -4,7 +4,7 @@
         <div class="pageWidth">
             <div class="leftSide">
                 <h3>Innovation &amp; growth aren’t solitary activities.</h3>
-                <p>Curious team members are partners not vendors.</p>
+                <p>Curious team members are work to be trusted guides who help solve hard business challenges.</p>
             </div>
             <div class="rightSide">
                 <div class="pic" v-lazy:background-image="require('~/static/images/people/sherwin.png')" @click="setActiveTab(0)" v-bind:class="{ active: activeTab === 0 }"></div>
@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="teamBottom">
-        <div class="pageWidth" v-if="activeTab === 0">
+        <div class="pageWidth" v-if="activeTab === 0" transition="slideFade">
             <div class="leftSide">
                 <h4><span>Brand Consultant</span> Sherwin Schwartzrock</h4>
                 <p>Sherwin understands how brand strategy and imagery become powerful tools in a visually-engaged marketplace. His 20+ career in advertising and design has afforded him the opportunity to touch dozens of Fortune 100 companies as well as small to medium brands that needed to support business objectives.</p>
@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <div class="pageWidth" v-if="activeTab === 1">
+        <div class="pageWidth" v-if="activeTab === 1" transition="slideFade">
             <div class="leftSide">
                 <h4><span>Marketing Consultant</span> Maya Khaira</h4>
                 <p>Maya leads the development and execution of all strategic digital marketing campaigns at Curious. She has a unique and valuable capacity to tap both sides of her brain with creative content development as well as managing the minute details of production and client services.</p>
@@ -54,27 +54,27 @@
             </div>
         </div>
 
-        <div class="pageWidth" v-if="activeTab === 2">
+        <div class="pageWidth" v-if="activeTab === 2" transition="slideFade">
             <div class="leftSide">
                 <h4><span>Product Consultant</span> Bryce Howitson</h4>
-                <p>Bryce has over 15 years of experience creating products that people want to use. He helps organizations of all sizes prototype, and test their ideas. And being a Google certified Design Sprint Master helps ensure real problems are both identified and solved efficiently. </p>
+                <p>Bryce has almost 20 years of experience creating products that people want to use. He helps organizations of all sizes prototype, and test their ideas. As a <a href="https://developers.google.com/programs/experts/" target="_blank" rel="noopener noreferrer">Google Developer Expert</a>, Bryce writes and speaks about cutting edge technology. And being a Google certified <a href="https://www.gv.com/sprint/" target="_blank" rel="noopener noreferrer">Design Sprint Master</a> allows him to guide teams through identifying and solving problems.</p>
             </div>
             <div class="rightSide">
                 <div class="questions">Questions Bryce might ask:</div>
                 <ul class="questionList">
-                    <li>Who is your audience and what do they need?</li>
-                    <li>What revenue generation models exist and what’s best for your company?</li>
-                    <li>How might available technology platforms improve your product?</li>
-                    <li>What can we prototype with minimal investment?</li>
-                    <li>How do we quantify a "good" product experience?</li>
-                    <li>What can we test and how does that process work?</li>
-                    <li>Who can build our product idea and what will it cost?</li>
-                    <li>What is our product story and does it resonate with the right people?</li>
+                    <li>How might we fake it BEFORE we make it?</li>
+                    <li>What "job" are your users trying to do?</li>
+                    <li>Why do we expect so much from voice assistants? <br />Answer: <a href="https://www.youtube.com/watch?v=aiZ-SBuTJ4g&list=PL_aEqNu9qjpN7nmPHadEJs8B9_Q0EvXHB&index=4" target="_blank" rel="noopener noreferrer">Blame Sci Fi</a></li>
+                    <li>Do people really read questions like this?</li>
+                    <li>Is your design team structured to provide results?</li>
+                    <li>Why do Virtual Reality interfaces seem so clunky?</li>
+                    <li>Do you know how much it costs to find &amp; hire that unicorn?</li>
+                    <li>Can I connect you with someone in my network?</li>
                 </ul>
             </div>
         </div>
 
-        <div class="pageWidth" v-if="activeTab === 3">
+        <div class="pageWidth" v-if="activeTab === 3" transition="slideFade">
             <div class="leftSide">
                 <h4><span>Brand Consultant</span> Paul Gardner</h4>
                 <p>Paul’s 13-year career has deep experience in retail and brand design for Fortune 100 companies as well as start-ups. He is passionate about capturing the emotion and personality of his clients in every point of contact for the customer. For Paul, every detail is important in developing authentic and valuable brands.</p>
@@ -91,7 +91,7 @@
             </div>
         </div>
 
-        <div class="pageWidth" v-if="activeTab === 4">
+        <div class="pageWidth" v-if="activeTab === 4" transition="slideFade">
            <div class="leftSide">
                 <h4><span>Technololgy Consultant</span> Eric Brusven</h4>
                 <p>With degrees in both design and digital development, Eric is a rare talent that can create and build just about anything digitally. In his nearly decade of work experience, he has a superhero talent for asking the most practical and relevant questions to identify the core purpose and solution to any communications problem. Eric is a robot.</p>
@@ -109,7 +109,7 @@
             </div>
         </div>
 
-        <div class="pageWidth" v-if="activeTab === 5">
+        <div class="pageWidth" v-if="activeTab === 5" transition="slideFade">
             <div class="leftSide">
                 <h4><span>Marketing Consultant</span> Jason Rysavy</h4>
                 <p>A marketing strategist and tactician for more than 20 years, Jason thrives when helping teams leverage targeted marketing best practices to grow their B2B or B2C businesses. He also lives with a hawk. So there’s that.</p>
