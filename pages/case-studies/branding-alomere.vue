@@ -7,9 +7,9 @@
     </section>
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>Alomere Health Rebrand Strategy</h3>
           <div class="columns">
             <div class="col">
+              <h3>Alomere Health Rebrand Strategy</h3>
               <h5>Why was Curious hired?</h5>
               <p>A county-owned health system needed help navigating a name change to better position themselves for growth.</p>
             </div>

@@ -2,9 +2,9 @@
   <div id="app">
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>Curious helps a cybersecurity startup find a unique voice.</h3>
           <div class="columns">
             <div class="col">
+              <h3>Curious helps a cybersecurity startup find a unique voice.</h3>
               <h5>Why was Curious hired?</h5>
               <p>Ostra needed help translating scary technical jargon for business owners who need 360&deg; digital protection.</p>
             </div>

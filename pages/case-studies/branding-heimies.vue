@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+    <section class="studySection s-ImageLarge bg-ltGray">
+      <div class="pageWidth">
+          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/6.jpg')"></div>
+      </div>
+    </section>
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>The title of this case study</h3>
           <div class="columns">
             <div class="col">
+              <h3>Curious helps St. Paul’s Heimie’s Habadashery with a unique product launch.</h3>
               <h5>Why was Curious hired?</h5>
-              <p>probably because we're amazing and other people want in on the amazing!!! But that's not all, they had a problem we could solve.</p>
+              <p>Heimie’s was exploring marketing a hand-made leather and canvas bag brand. Owner Anthony Adler reached out to Curious to help him build a brand that clearly communicated his uniqueness in a crowded bag market.</p>
             </div>
             <div class="col">
               <h5>What Curious provided</h5>
@@ -23,30 +28,8 @@
           </div>
       </div>
     </section>
-    <section class="studySection s-ImageLarge bg-white">
+    <section class="studySection s-ImageGroup bg-white">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/1.jpg')"></div>
-      </div>
-    </section>
-    <section class="studySection s-2ColText bg-darkGray">
-      <div class="pageWidth">
-          <h4>Section header</h4>
-          <div class="col2">
-            <div class="col">
-              <h5>Subhead</h5>
-              <p>stuff</p>
-            </div>
-            <div class="col">
-              <h5>Subhead</h5>
-              <p>stuff</p>
-            </div>
-          </div>
-      </div>
-    </section>
-    <section class="studySection s-ImageGroup bg-gold">
-      <div class="pageWidth">
-          <h4>section header (optional)</h4>
-          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/6.jpg')"></div>
           <div class="col2">
             <div class="col">
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/1.jpg')"></div>
@@ -68,27 +51,29 @@
           </div>
       </div>
     </section>
-        <section class="studySection s-ImageGroup bg-darkGray">
+    <section class="studySection s-2ColText bg-ltGray">
       <div class="pageWidth">
-          <h4>section header (optional)</h4>
           <div class="col2">
             <div class="col">
-              <h5>Look a yellow car</h5>
-              <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>
+              <h5>The Setting</h5>
+              <p>If you’re looking to buy a quality, masculine, leather bag, there are lots of options to choose from. We knew that Anthony’s locally made, handcrafted, old-world values, made a compelling story.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
+              <h5>The Strategy</h5>
+              <p>We started by narrowing our focus and research to an ideal male customer that values a nostalgic aesthetic based on quality. With this narrow demographic clearly in mind, we crafted a finely-detailed, script logo, a stark contrast to fashion brands that are all moving towards a modern aesthetic. Next, we built a website showcasing hunting and fly fishing photos next to modern commuting scenes in St. Paul, MN featuring Heimie’s Made timeless bags. We leveraged the same photography into social media posts, targeted direct mail, and in-store sales materials.</p>
             </div>
           </div>
-          <div class="col3">
+      </div>
+    </section>
+    <section class="studySection s-ImageGroup bg-darkGray">
+      <div class="pageWidth">
+          <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/3.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/7.jpg')"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/4.jpg')"></div>
-            </div>
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/5.jpg')"></div>
+              <h5>The Results</h5>
+              <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>
             </div>
           </div>
       </div>
@@ -96,7 +81,7 @@
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Call to action</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+          <span>Starting something new? We can help you build a brand that reflects a smart positioning strategy.</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>
