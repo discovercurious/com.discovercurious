@@ -25,11 +25,11 @@
             <div class="rightSide">
                 <div class="questions">Questions Sherwin might ask:</div>
                 <ul class="questionList">
-                    <li>Are you uniquely positioned in your marketplace?</li>
-                    <li>Could your company be more unique, memorable and valuable?</li>
-                    <li>Can you capture your unique value proposition in one sentence?</li>
-                    <li>Does what your customers’ say, and what you say about your company align?</li>
-                    <li>Do your employees embody your organizations’s values and personality?</li>
+                    <li>Do you know your unique value proposition?</li>
+                    <li>Can you say what it is in one sentence?</li>
+                    <li>Can your employees?</li>
+                    <li>Look around your office, pick up your marketing materials, check out your website… do these all say the same thing you just defined in one sentence?</li>
+                    <li>If you’ve answered “yes,” you’re a rock star. Now the biggie: do your customers agree?</li>
                 </ul>
             </div>
         </div>
@@ -89,7 +89,7 @@
                     <li>Is your corporate identity future proof?</li>
                     <li>Have you ever noticed your customers being confused when interacting with your services?</li>
                     <li>Look at ALL of your brochures, catalogs, social media, advertising, and website… do they look like they come from the same place?</li>
-                    <li>Does your company “feel” like the company you want it to be?</li>
+                    <li>Does your company “feel” like the vision you have for it?</li>
                 </ul>
             </div>
         </div>
@@ -120,18 +120,12 @@
             <div class="rightSide">
                 <div class="questions">Questions Jason might ask:</div>
                 <ul class="questionList">
-                    <li>What are the goals of your marketing?</li>
                     <li>Are your sales and marketing teams learning from each other? Are they talking to each other?</li>
                     <li>Are you generating the right leads?</li>
-                    <li>How will the market become aware of your business?</li>
-                    <li>How aware of your company are your potential customers?</li>
-                    <li>Are you marketing to the right customers?</li>
+                    <li>Do your potential customers know about your company? How do you stay in front of them?</li>
                     <li>In a perfect scenario, what would marketing achieve for your business?</li>
-                    <li>What does your ideal client look like?</li>
-                    <li>How are you measuring your marketing?</li>
-                    <li>How likely are clients to recommend your company to a friend?</li>
+                    <li>How are you measuring your marketing? Do you know if you’re wasting money?</li>
                     <li>Do competitors do a better job of explaining your products or services?</li>
-                    <li>What would convince your current customers to switch to a competitor?</li>
                     <li>What, if anything, would make your customers stop doing business with you?</li>
                 </ul>
             </div>
