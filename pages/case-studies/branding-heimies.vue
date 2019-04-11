@@ -78,6 +78,12 @@
           </div>
       </div>
     </section>
+    <section class="studySection s-ImageGroup bg-darkGray">
+      <div class="pageWidth">
+          <h5>More Branding</h5>
+          <BrandingStudies />
+      </div>
+    </section>
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
@@ -89,16 +95,14 @@
 </template>
 
 <script>
-import Team from '@/components/people.vue';
+import BrandingStudies from '@/components/BrandingStudies.vue';
 
 export default {
   components: {
-    Team,
+    BrandingStudies,
   },
   layout: 'CaseStudy'
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

@@ -50,22 +50,7 @@
     <section id="caseStudies">
       <div class="pageWidth">
         <h3>Past examples of marketing consulting</h3>
-        <div class="col3">
-          <nuxt-link to="/case-studies/marketing-white-crane" tag="div" class="caseStudy col">
-            <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/1.jpg')"></div>
-            </div>
-            <h4><span>White Crane</span> Lead Generation + Sales Integration Strategy</h4>
-            <button>View Case Study</button>
-          </nuxt-link>
-          <nuxt-link to="/case-studies/marketing-alomere" tag="div" class="caseStudy col">
-            <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereMarketing/1.jpg')"></div>
-            </div>
-            <h4><span>Alomere Health</span>Digital Marketing Strategy</h4>
-            <button>View Case Study</button>
-          </nuxt-link>
-        </div>
+        <MarketingStudies />
       </div>
     </section>
   </div>
@@ -73,10 +58,11 @@
 
 <script>
 import Team from '@/components/people.vue';
+import MarketingStudies from '@/components/MarketingStudies.vue';
 
 export default {
   components: {
-    Team,
+    Team, MarketingStudies,
   },
   head () {
     return {

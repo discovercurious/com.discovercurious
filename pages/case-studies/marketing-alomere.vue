@@ -83,6 +83,12 @@
           </div>
       </div>
     </section>
+    <section class="studySection s-ImageGroup bg-darkGray">
+      <div class="pageWidth">
+          <h5>More Marketing</h5>
+          <MarketingStudies />
+      </div>
+    </section>
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
@@ -94,16 +100,14 @@
 </template>
 
 <script>
-import Team from '@/components/people.vue';
+import MarketingStudies from '@/components/MarketingStudies.vue';
 
 export default {
   components: {
-    Team,
+    MarketingStudies,
   },
   layout: 'CaseStudy'
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

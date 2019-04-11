@@ -440,9 +440,10 @@ button,
         filter: grayscale(1);
         transition: all 0.25s ease;
     }
-    .col3 {
-        justify-content: flex-start;
-    }
+}
+
+.caseStudyList.col3 {
+    justify-content: flex-start;
     .col {
         flex-basis: calc(33.33% - 2rem);
         margin-left: 2rem;

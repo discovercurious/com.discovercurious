@@ -65,7 +65,7 @@
           </div>
       </div>
     </section>
-        <section class="studySection s-ImageGroup bg-white">
+    <section class="studySection s-ImageGroup bg-white">
       <div class="pageWidth">
           <div class="col2">
             <div class="col">
@@ -76,6 +76,12 @@
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/2.jpg')"></div>
             </div>
           </div>
+      </div>
+    </section>
+    <section class="studySection s-ImageGroup bg-darkGray">
+      <div class="pageWidth">
+          <h5>More Branding</h5>
+          <BrandingStudies />
       </div>
     </section>
     <section id="cta">
@@ -89,16 +95,14 @@
 </template>
 
 <script>
-import Team from '@/components/people.vue';
+import BrandingStudies from '@/components/BrandingStudies.vue';
 
 export default {
   components: {
-    Team,
+    BrandingStudies,
   },
   layout: 'CaseStudy'
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
