@@ -251,9 +251,7 @@ input:valid,
 textarea:valid {}
 
 input:invalid,
-textarea:invalid {
-    background-color: #f0dddd;
-}
+textarea:invalid {}
 
 table {
     border-collapse: collapse;

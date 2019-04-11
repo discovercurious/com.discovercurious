@@ -6,15 +6,16 @@
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    -webkit-font-smoothing: antialiased;
 }
 
 @mixin font-OS {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 @mixin font-playfair {
     font-family: "Playfair Display", "Georgia", serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 // ---- Brand colors  ----------
@@ -319,9 +320,22 @@ button,
     flex-wrap: wrap;
 }
 
+.col1 {
+    h3,
+    h4,
+    h5,
+    p {
+        max-width: 80%;
+    }
+}
+
 .col2 {
     >.col {
         flex-basis: 48%;
+    }
+    h3 {
+        flex-basis: 60%;
+        max-width: 100%;
     }
 }
 
@@ -431,32 +445,6 @@ button,
     padding: 4rem 0 8rem 0;
     background-color: $color-gray5;
     color: $color-white;
-    .pic {
-        background-color: $color-white;
-        padding: 1rem;
-        margin-bottom: 2rem;
-    }
-    .responsiveImage {
-        filter: grayscale(1);
-        transition: all 0.25s ease;
-    }
-}
-
-.caseStudyList.col3 {
-    justify-content: flex-start;
-    .col {
-        flex-basis: calc(33.33% - 2rem);
-        margin-left: 2rem;
-        &:first-child {
-            margin-left: 0;
-        }
-        &:hover {
-            cursor: pointer;
-            .responsiveImage {
-                filter: grayscale(0);
-            }
-        }
-    }
 }
 
 #people {
@@ -472,7 +460,8 @@ button,
     }
     .teamTop,
     .teamBottom {
-        .pageWidth {
+        .pageWidth,
+        .personInfo {
             display: flex;
             justify-content: space-between;
         }
@@ -549,6 +538,16 @@ button,
         padding: 8rem 0;
         background-color: $color-gold1;
     }
+    .peopleWrap {
+        min-height: 40rem;
+        overflow: hidden;
+    }
+    .personInfo {
+        position: absolute;
+        top: 0;
+        left: 2rem;
+        right: 2rem;
+    }
     .questionList {
         padding: 0;
         margin: 0 0 0 8rem;
@@ -587,6 +586,24 @@ button,
     .expertLink:nth-of-type(1) {
         margin-top: 4rem;
     }
+}
+
+.slideFade-enter-active {
+    transition: all .4s ease-out;
+}
+
+.slideFade-leave-active {
+    transition: all 0.2s ease;
+    // transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slideFade-enter {
+    transform: translateX(10%);
+    opacity: 0;
+}
+
+.slideFade-leave-to {
+    opacity: 0;
 }
 
 #contact {
@@ -647,6 +664,15 @@ button,
             }
         }
     }
+    .hp {
+        position: absolute;
+        top: 0;
+        left: -10rem;
+        width: 0;
+        padding: 0;
+        margin: 0;
+        opacity: 0;
+    }
     &:before {
         content: '';
         background-color: $color-gray1;
@@ -701,6 +727,12 @@ button,
     .col:first-child {
         flex-basis: 70%;
         margin-right: 2rem;
+        p {
+            @include font-playfair;
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1.8;
+        }
     }
     ul {
         padding-left: 2rem;
@@ -762,6 +794,36 @@ button,
         left: 0;
         right: 0;
         clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    }
+}
+
+.caseStudyList.col3 {
+    justify-content: flex-start;
+    .pic {
+        background-color: $color-white;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    .responsiveImage {
+        filter: grayscale(1);
+        margin-bottom: 0;
+        border-radius: 0;
+        border: 0 none transparent;
+        padding-bottom: 49.09%;
+        transition: all 0.25s ease;
+    }
+    .col {
+        flex-basis: calc(33.33% - 2rem);
+        margin-left: 2rem;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:hover {
+            cursor: pointer;
+            .responsiveImage {
+                filter: grayscale(0);
+            }
+        }
     }
 }
 
@@ -894,7 +956,8 @@ button,
                 flex-basis: calc(100% + 4rem);
             }
         }
-        .pageWidth {
+        .pageWidth,
+        .personInfo {
             flex-wrap: wrap;
         }
         .leftSide,
@@ -907,6 +970,12 @@ button,
         }
         .teamBottom .leftSide {
             margin-bottom: 2rem;
+        }
+        .personInfo {
+            position: relative;
+            left: auto;
+            right: auto;
+            top: auto;
         }
     }
     #contact {

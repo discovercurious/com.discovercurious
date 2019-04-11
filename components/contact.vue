@@ -8,9 +8,10 @@
           <p class="address"><a href="https://www.google.com/maps/place/Curious/@44.9989033,-93.2525572,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32db8b34daef9:0xe12fd7d2771f2dc2!8m2!3d44.9988995!4d-93.2503632">807 Broadway Street NE, Suite 140<br />Minneapolis, MN 55413</a></p>
         </div>
         <div class="col form">
-            <input type="text" name="" id="" placeholder="My name is">
-            <input type="email" name="" id="" placeholder="My email address is">
-            <input type="text" name="" id="" placeholder="I represent (organization)">
+            <input type="text" name="name" id="" placeholder="My name is" required>
+            <input type="email" name="email" id="" placeholder="My email address is" required>
+            <input type="text" name="company" id="" placeholder="I represent (organization)">
+            <input type="text" name="discount" class="hp">
             <div class="selectList">
               <select name="" id="">
                 <option value="" disabled selected>What's this about? (choose one)</option>
@@ -21,7 +22,7 @@
                 <option value="general">Just saying hello</option>
               </select>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="My message is"></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="My message is" required></textarea>
             <div class="buttonWrap">
               <button>Send Message</button>
             </div>
