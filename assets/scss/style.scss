@@ -690,7 +690,7 @@ button,
     padding: 4rem 0;
     .responsiveImage {
         background-repeat: no-repeat;
-        border: 1px solid #ddd;
+        border: 1px solid $color-white;
         margin-bottom: 2rem;
         border-radius: 0.3rem;
     }
@@ -699,21 +699,33 @@ button,
 .bg-ltGray {
     background-color: $color-gray1;
     color: $color-gray6;
+    .responsiveImage {
+        border-color: darken($color-gray1, 5%);
+    }
 }
 
 .bg-darkGray {
     background-color: $color-gray5;
     color: $color-white;
+    .responsiveImage {
+        border-color: darken($color-gray5, 5%);
+    }
 }
 
 .bg-gold {
     background-color: $color-gold1;
     color: $color-white;
+    .responsiveImage {
+        border-color: darken($color-gold1, 5%);
+    }
 }
 
 .bg-white {
     background-color: $color-white;
     color: $color-gray4;
+    .responsiveImage {
+        border-color: darken($color-gray1, 5%);
+    }
 }
 
 .s-Intro {

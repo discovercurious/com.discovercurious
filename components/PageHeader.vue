@@ -36,9 +36,10 @@ export default Vue.extend({
         window.addEventListener("scroll", function(){
           var navbar = document.getElementById("pageHeader")
           var nav_classes = navbar.classList
-          if(document.documentElement.scrollTop >= 150) {
+          console.log(document.documentElement.scrollTop)
+          if(document.documentElement.scrollTop > 150) {
               nav_classes.add("smallHeader");
-          } else {
+          } else if(document.documentElement.scrollTop < 100) {
               nav_classes.remove("smallHeader");
           }
         })
