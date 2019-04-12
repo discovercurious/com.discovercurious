@@ -17,11 +17,11 @@
               <h5>What Curious provided</h5>
               <p>
                 <ul>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
+                  <li>Brand Positioning</li>
+                  <li>Brand Story</li>
+                  <li>Identity design</li>
+                  <li>Website</li>
+                  <li>Marketing assets</li>
                 </ul>
               </p>
             </div>
@@ -73,7 +73,7 @@
             </div>
             <div class="col">
               <h5>The Results</h5>
-              <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>
+              <p>The visuals and messaging supported a brand position that Heimie’s Made bags built with the values of old school quality and attention to detail can function beautifully in a modern lifestyle.</p>
             </div>
           </div>
       </div>

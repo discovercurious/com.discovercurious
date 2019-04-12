@@ -17,11 +17,14 @@
               <h5>What Curious provided</h5>
               <p>
                 <ul>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
+                  <li>Rebrand Viability Assessment</li>
+                  <li>Naming</li>
+                  <li>Identity Design</li>
+                  <li>Brand standards</li>
+                  <li>Internal Engagement Strategy</li>
+                  <li>Rebrand Launch Strategy</li>
+                  <li>Signage</li>
+                  <li>Advertising</li>
                 </ul>
               </p>
             </div>

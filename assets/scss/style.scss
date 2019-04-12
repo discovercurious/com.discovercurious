@@ -779,6 +779,13 @@ button,
     }
 }
 
+.s-noBorder {
+    .responsiveImage {
+        border: 0 none transparent;
+        border-radius: 0;
+    }
+}
+
 #cta {
     background-color: $color-gray1;
     .pageWidth {

@@ -12,11 +12,11 @@
               <h5>What Curious provided</h5>
               <p>
                 <ul>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
+                  <li>Brand voice</li>
+                  <li>Brand standards</li>
+                  <li>Website</li>
+                  <li>Custom Illustrations</li>
+                  <li>Investor deck &amp; Story</li>
                 </ul>
               </p>
             </div>
@@ -30,10 +30,10 @@
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/2.jpg')"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/6.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/6.png')"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/5.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/5.png')"></div>
             </div>
           </div>
       </div>
@@ -63,6 +63,14 @@
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/4.jpg')"></div>
             </div>
           </div>
+          <div class="col2">
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/8.png')"></div>
+            </div>
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/9.png')"></div>
+            </div>
+          </div>
       </div>
     </section>
     <section class="studySection s-ImageGroup bg-white">
@@ -73,7 +81,7 @@
               <p>Putting it all together, the new website and investor pitch deck featured not just data but a story to show why and how simple sophisticated digital protection can be.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/2.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/7.png')"></div>
             </div>
           </div>
       </div>
