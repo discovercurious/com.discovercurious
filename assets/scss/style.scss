@@ -800,6 +800,11 @@ button,
         border: 0 none transparent;
         border-radius: 0;
     }
+    .col2 {
+        .responsiveImage {
+            padding-bottom: 65%;
+        }
+    }
 }
 
 #cta {
@@ -887,7 +892,7 @@ button,
     h5 {
         font-size: 1.8rem;
     }
-    header {
+    #pageTop header {
         min-height: 3rem;
         max-height: 3rem;
         h1 {

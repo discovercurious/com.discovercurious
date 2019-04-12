@@ -48,7 +48,11 @@ export default {
             { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
             { rel: 'stylesheet', href: '//brick.freetls.fastly.net/Source+Sans+Pro:300,400,600,700/Playfair+Display:400' }
             //{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display' }
-        ]
+        ],
+        script: [{
+            src: "https://code.jquery.com/jquery-3.4.0.min.js",
+            type: "text/javascript"
+        }, ]
     },
 
     /*
@@ -77,6 +81,7 @@ export default {
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
+        '@nuxtjs/google-analytics',
     ],
     /*
      ** Axios module configuration
@@ -84,6 +89,11 @@ export default {
     axios: {
         // See https://github.com/nuxt-community/axios-module#options
     },
+
+    googleAnalytics: {
+        id: 'UA-138299135-1',
+        dev: false,
+    }
 
     /*
      ** Build configuration

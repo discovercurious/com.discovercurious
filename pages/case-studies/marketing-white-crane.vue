@@ -2,83 +2,69 @@
   <div id="app">
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>The title of this case study</h3>
+          <h3>Why one of MN’s top remodeling companies works with Curious.</h3>
           <div class="columns">
             <div class="col">
-              <h5>Why was Curious hired?</h5>
-              <p>probably because we're amazing and other people want in on the amazing!!! But that's not all, they had a problem we could solve.</p>
-            </div>
-            <div class="col">
-              <h5>What Curious provided</h5>
-              <p>
-                <ul>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                </ul>
-              </p>
+              <p>White Crane, a residential design-build company in Minneapolis, has been successfully remodeling homes for over 16 years. With growth as a primary goal, Curious was hired to help generate the right leads for the sales team.</p>
             </div>
           </div>
       </div>
     </section>
-    <section class="studySection s-ImageLarge bg-white">
+    <section class="studySection s-ImageLarge bg-white s-noBorder">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
-          
+          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/houseAndSign.png')"></div>
       </div>
     </section>
-    <section class="studySection s-2ColText bg-darkGray">
+    <section class="studySection s-ImageGroup bg-darkGray s-noBorder">
       <div class="pageWidth">
-          <h4>Section header</h4>
+          <h4>The Initial Strategy - Generating Relevant Leads</h4>
           <div class="col2">
             <div class="col">
-              <h5>Subhead</h5>
-              <p>stuff</p>
+              <h5>Generating leads can be easy, but there are hidden costs to unqualified leads.</h5>
+              <p>Dead end leads can deplete your sales team’s time and resources. For White Crane, the low-hanging fruit was identifying where the bad leads were coming from and shutting off the marketing generating those leads. From there, we developed a robust content strategy tapping into homeowners’ curiosity around remodels happening in comparable homes. With this content, we targeted potential clients who are likely to remodel. The leads quickly right-sided themselves and aligned with White Crane’s goals.</p>
             </div>
             <div class="col">
-              <h5>Subhead</h5>
-              <p>stuff</p>
-            </div>
-          </div>
-      </div>
-    </section>
-    <section class="studySection s-ImageGroup bg-gold">
-      <div class="pageWidth">
-          <h4>section header (optional)</h4>
-          <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
-          <div class="col2">
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554496272-b77154d74dc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80'"></div>
-            </div>
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
-            </div>
-          </div>
-          <div class="col3">
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554398063-26678c252e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'"></div>
-            </div>
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554369205-8b1de386d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'"></div>
-            </div>
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/ipadiphone.png')"></div>
             </div>
           </div>
       </div>
     </section>
-        <section class="studySection s-ImageGroup bg-darkGray">
+    <section class="studySection s-ImageGroup bg-ltGray s-noBorder">
       <div class="pageWidth">
-          <h4>section header (optional)</h4>
+          <h4>Strategy Part Two - Align the Marketing &amp; Sales Teams</h4>
           <div class="col2">
             <div class="col">
-              <h5>Look a yellow car</h5>
-              <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/left_sales.png')"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/right_sales.png')"></div>
+            </div>
+          </div>
+          <div class="col1">
+            <h5>With the right leads coming in, we consulted with White Crane’s leadership and sales team to support communication through their CRM. We then developed additional tools and strategies to improve the conversion of leads through a lead-nurturing program based around value-driven content.</h5>
+          </div>
+      </div>
+    </section>
+    <section class="studySection s-ImageGroup bg-gold s-noBorder">
+      <div class="pageWidth">
+          <h4>The Results</h4>
+          <div class="col1">
+            <h5>By refining White Crane’s messaging, generating relevant content, and marketing to a targeted audience, we significantly increased web traffic, and nearly tripled relevant leads.</h5>
+          </div>
+          <div class="col2">
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/resultstopleft.png')"></div>
+            </div>
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/resultstopright.png')"></div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/resultsbottomleft.png')"></div>
+            </div>
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/resultsbottomright.png')"></div>
             </div>
           </div>
       </div>
@@ -92,7 +78,7 @@
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Call to action</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+          <span>Get results like this: </span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>
