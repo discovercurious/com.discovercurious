@@ -132,15 +132,79 @@ button:focus {
     top: 0;
     z-index: 100;
     padding: 2rem 0;
+    &:before,
     &:after {
         content: '';
         position: absolute;
-        height: 2rem;
         clip-path: polygon(0 0, 0% 100%, 100% 0);
         background-color: $color-gray5;
+        height: 2rem;
         left: 0;
         right: 0;
-        top: 100%;
+        top: 99.5%;
+    }
+    &:after {
+        z-index: 5;
+    }
+    &:before {
+        height: 2.3rem;
+        z-index: 1;
+        background-color: #333;
+        opacity: 0;
+        transition: opacity 0.25s ease;
+        filter: blur(1rem);
+    }
+    header {
+        max-width: $max-content;
+        margin: 0 auto;
+        padding: 2rem;
+        min-height: 8rem;
+        transition: all 0.25s ease;
+        h1 {
+            position: absolute;
+            height: 70%;
+            width: 20rem;
+            top: 50%;
+            left: 1rem;
+            z-index: 10;
+            text-indent: -9999px;
+            background: transparent url('~assets/images/curious_logo.svg') top left no-repeat;
+            background-size: contain;
+            transform: translateY(-50%);
+            transition: all 0.25s ease;
+            cursor: pointer;
+        }
+        .menuToggle,
+        .location {
+            display: none;
+        }
+        nav {
+            position: absolute;
+            right: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 80%;
+            transition: all 0.25s ease;
+            a {
+                display: inline-block;
+                margin-left: 2rem;
+                &.nuxt-link-active {
+                    color: $color-white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &.smallHeader {
+        header {
+            min-height: 3rem;
+            h1 {
+                height: 90%;
+            }
+        }
+        &:before {
+            opacity: 0.6;
+        }
     }
 }
 
@@ -175,54 +239,6 @@ $top-height: 70vh;
         opacity: 0.5;
         width: $top-height;
         text-align: center;
-    }
-}
-
-header {
-    max-width: $max-content;
-    margin: 0 auto;
-    padding: 2rem;
-    min-height: 8rem;
-    transition: all 0.25s ease;
-    h1 {
-        position: absolute;
-        height: 70%;
-        width: 20rem;
-        top: 50%;
-        left: 1rem;
-        z-index: 10;
-        text-indent: -9999px;
-        background: transparent url('~assets/images/curious_logo.svg') top left no-repeat;
-        background-size: contain;
-        transform: translateY(-50%);
-        transition: all 0.25s ease;
-        cursor: pointer;
-    }
-    .menuToggle,
-    .location {
-        display: none;
-    }
-    nav {
-        position: absolute;
-        right: 2rem;
-        top: 50%;
-        transform: translateY(-50%);
-        max-width: 80%;
-        transition: all 0.25s ease;
-        a {
-            display: inline-block;
-            margin-left: 2rem;
-            &.nuxt-link-active {
-                color: $color-white;
-                text-decoration: none;
-            }
-        }
-    }
-    &.smallHeader {
-        min-height: 3rem;
-        h1 {
-            height: 90%;
-        }
     }
 }
 
