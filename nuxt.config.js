@@ -81,7 +81,7 @@ export default {
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
-        '@nuxtjs/google-analytics',
+        // '@nuxtjs/google-analytics',
     ],
     /*
      ** Axios module configuration
@@ -90,10 +90,10 @@ export default {
         // See https://github.com/nuxt-community/axios-module#options
     },
 
-    googleAnalytics: {
-        id: 'UA-138299135-1',
-        dev: false,
-    }
+    // googleAnalytics: {
+    //     id: 'UA-138299135-1',
+    //     dev: false,
+    // }
 
     /*
      ** Build configuration
