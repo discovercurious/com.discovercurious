@@ -7,12 +7,12 @@
                 <p>Curious team members are trusted guides who help solve hard business challenges.</p>
             </div>
             <div class="rightSide">
-                <div class="pic" v-lazy:background-image="require('static/images/people/sherwin.png')" @click="setActiveTab(0)" v-bind:class="{ active: activeTab === 0 }"></div>
-                <div class="pic" v-lazy:background-image="require('static/images/people/maya.png')" @click="setActiveTab(1)" v-bind:class="{ active: activeTab === 1 }"></div>
-                <div class="pic" v-lazy:background-image="require('static/images/people/bryce.png')" @click="setActiveTab(2)" v-bind:class="{ active: activeTab === 2 }"></div>
-                <div class="pic" v-lazy:background-image="require('static/images/people/paul.png')" @click="setActiveTab(3)" v-bind:class="{ active: activeTab === 3 }"></div>
-                <div class="pic" v-lazy:background-image="require('static/images/people/eric.png')" @click="setActiveTab(4)" v-bind:class="{ active: activeTab === 4 }"></div>
-                <div class="pic" v-lazy:background-image="require('static/images/people/jason.png')" @click="setActiveTab(5)" v-bind:class="{ active: activeTab === 5 }"></div>
+                <div class="pic" v-lazy:background-image="require('~/static/images/people/sherwin.png')" @click="setActiveTab(0)" v-bind:class="{ active: activeTab === 0 }"></div>
+                <div class="pic" v-lazy:background-image="require('~/static/images/people/maya.png')" @click="setActiveTab(1)" v-bind:class="{ active: activeTab === 1 }"></div>
+                <div class="pic" v-lazy:background-image="require('~/static/images/people/bryce.png')" @click="setActiveTab(2)" v-bind:class="{ active: activeTab === 2 }"></div>
+                <div class="pic" v-lazy:background-image="require('~/static/images/people/paul.png')" @click="setActiveTab(3)" v-bind:class="{ active: activeTab === 3 }"></div>
+                <div class="pic" v-lazy:background-image="require('~/static/images/people/eric.png')" @click="setActiveTab(4)" v-bind:class="{ active: activeTab === 4 }"></div>
+                <div class="pic" v-lazy:background-image="require('~/static/images/people/jason.png')" @click="setActiveTab(5)" v-bind:class="{ active: activeTab === 5 }"></div>
             </div>
         </div>
     </div>

@@ -50,12 +50,12 @@
         </div>
       </div>
     </section>
-    <section id="caseStudies">
+    <!-- <section id="caseStudies">
       <div class="pageWidth">
         <h3>We've made things useful, useable &amp; beautiful. Here are some examples.</h3>
         <ProductStudies />
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
