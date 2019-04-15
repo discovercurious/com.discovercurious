@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <div class="columns">
+          <div class="columns s-textRow">
             <div class="col">
               <h3>Curious helps a cybersecurity startup find a unique voice.</h3>
               <h5>Why was Curious hired?</h5>
@@ -40,7 +40,7 @@
     </section>
     <section class="studySection s-2ColText bg-white">
       <div class="pageWidth">
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>The Setting</h5>
               <p>The principals of Ostra had the experience and know how to maximize enterprise-level digital protection software and protocols for unprotected medium to small businesses. Looking to market to clients outside their area of expertise, they asked Curious for help packaging this innovative service in a way that made sense to business owners without an IT degree.</p>
@@ -75,7 +75,7 @@
     </section>
     <section class="studySection s-ImageGroup bg-white">
       <div class="pageWidth">
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>The Results</h5>
               <p>Putting it all together, the new website and investor pitch deck featured not just data but a story to show why and how simple sophisticated digital protection can be.</p>

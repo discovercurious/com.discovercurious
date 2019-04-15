@@ -3,7 +3,7 @@
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
           <h3>Why one of MN’s top remodeling companies works with Curious.</h3>
-          <div class="columns">
+          <div class="columns s-textRow">
             <div class="col">
               <p>White Crane, a residential design-build company in Minneapolis, has been successfully remodeling homes for over 16 years. With growth as a primary goal, Curious was hired to help generate the right leads for the sales team.</p>
             </div>
@@ -18,7 +18,7 @@
     <section class="studySection s-ImageGroup bg-darkGray s-noBorder">
       <div class="pageWidth">
           <h4>The Initial Strategy - Generating Relevant Leads</h4>
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>Generating leads can be easy, but there are hidden costs to unqualified leads.</h5>
               <p>Dead end leads can deplete your sales team’s time and resources. For White Crane, the low-hanging fruit was identifying where the bad leads were coming from and shutting off the marketing generating those leads. From there, we developed a robust content strategy tapping into homeowners’ curiosity around remodels happening in comparable homes. With this content, we targeted potential clients who are likely to remodel. The leads quickly right-sided themselves and aligned with White Crane’s goals.</p>
@@ -67,7 +67,7 @@
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/resultsbottomright.png')"></div>
             </div>
           </div>
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <p class="quote">Discovering Curious was a bit of a process, but once here, we knew we had a partner we could trust. White Crane is a residential design/build remodeling company without the in-house bandwidth to do our marketing consistently and effectively. Couple that with the continued rise of the internet and its content-rich capability, we needed help. Enter Curious! This firm is leading, listening, and learning and the number and quality of leads reflect exactly this.  These are people I trust who are delivering the goods.</p>
               <p class="attr">Susan Denk, Owner &amp; Founder of White Crane Construction</p>

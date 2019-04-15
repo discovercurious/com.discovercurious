@@ -144,11 +144,11 @@ button:focus {
         top: 99.5%;
     }
     &:after {
-        z-index: 5;
+        z-index: -1;
     }
     &:before {
         height: 2.3rem;
-        z-index: 1;
+        z-index: -2;
         background-color: #333;
         opacity: 0;
         transition: opacity 0.25s ease;
@@ -913,7 +913,7 @@ button,
 //     }
 // }
 //-----------------------------------------------
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     h3 {
         font-size: 3rem;
         margin-bottom: 2rem;
@@ -1019,9 +1019,31 @@ button,
         }
     }
     #caseStudies {
+        .col3 .col {
+            flex-basis: 100%;
+            margin: 0 0 2rem 0;
+        }
+    }
+    .col3.caseStudyList {
+        flex-wrap: wrap;
         .col {
             flex-basis: 100%;
-            margin-bottom: 2rem;
+            margin: 0 0 2rem 0;
+        }
+    }
+    #cta {
+        .button {
+            margin-top: 2rem;
+            display: block;
+        }
+    }
+    .studySection {
+        .s-textRow {
+            flex-wrap: wrap;
+            .col {
+                flex-basis: 100%;
+                margin: 0 0 2rem 0;
+            }
         }
     }
     #people {

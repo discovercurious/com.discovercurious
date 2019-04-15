@@ -3,7 +3,7 @@
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
           <h3>The title of this case study</h3>
-          <div class="columns">
+          <div class="columns s-textRow">
             <div class="col">
               <h5>Why was Curious hired?</h5>
               <p>probably because we're amazing and other people want in on the amazing!!! But that's not all, they had a problem we could solve.</p>
@@ -72,7 +72,7 @@
         <section class="studySection s-ImageGroup bg-darkGray">
       <div class="pageWidth">
           <h4>section header (optional)</h4>
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>Look a yellow car</h5>
               <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>

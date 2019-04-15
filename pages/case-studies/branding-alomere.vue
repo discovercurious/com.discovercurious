@@ -7,7 +7,7 @@
     </section>
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <div class="columns">
+          <div class="columns s-textRow">
             <div class="col">
               <h3>Alomere Health Rebrand Strategy</h3>
               <h5>Why was Curious hired?</h5>
@@ -33,7 +33,7 @@
     </section>
     <section class="studySection s-2ColText bg-ltGray">
       <div class="pageWidth">
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>The Setting</h5>
               <p>Douglas County Hospital (DCH) was the pride of the community because of its economic influence as a large employer and it’s national recognition for excellence.</p>
@@ -69,7 +69,7 @@
         <section class="studySection s-ImageGroup bg-darkGray">
       <div class="pageWidth">
           <h4>The Results</h4>
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <p>The rebrand launched with great success due to a strategy that first united employees, and then inspired the community with the leadership’s vision months before the unveiling of the new name.</p>
               <p>We assisted Alomere Health with a rebrand rollout across all touchpoints from clinic and hospital external/internal wayfinding signage to updating all collateral and advertising materials.</p>

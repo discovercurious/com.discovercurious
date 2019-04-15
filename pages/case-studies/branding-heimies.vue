@@ -7,9 +7,9 @@
     </section>
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <div class="columns">
+          <div class="columns s-textRow">
             <div class="col">
-              <h3>Curious helps St. Paul’s Heimie’s Habadashery with a unique product launch.</h3>
+              <h3>Curious helps St. Paul’s Heimie’s Haberdashery with a unique product launch.</h3>
               <h5>Why was Curious hired?</h5>
               <p>Heimie’s was exploring marketing a hand-made leather and canvas bag brand. Owner Anthony Adler reached out to Curious to help him build a brand that clearly communicated his uniqueness in a crowded bag market.</p>
             </div>
@@ -53,7 +53,7 @@
     </section>
     <section class="studySection s-2ColText bg-ltGray">
       <div class="pageWidth">
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>The Setting</h5>
               <p>If you’re looking to buy a quality, masculine, leather bag, there are lots of options to choose from. We knew that Anthony’s locally made, handcrafted, old-world values, made a compelling story.</p>
@@ -67,7 +67,7 @@
     </section>
     <section class="studySection s-ImageGroup bg-darkGray">
       <div class="pageWidth">
-          <div class="col2">
+          <div class="col2 s-textRow">
             <div class="col">
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/7.jpg')"></div>
             </div>
