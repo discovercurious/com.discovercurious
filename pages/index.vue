@@ -41,12 +41,21 @@
 
 <script>
 import Team from '@/components/people.vue';
+import TypeMate from 'typemate';
 
 
 export default {
   components: {
     Team,
   },
+  mounted: function(){
+    this.$nextTick(function () {
+    const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li' });
+    tm.apply();
+    console.log('rendered')
+    })
+  },
+  
 }
 </script>
 

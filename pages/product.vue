@@ -62,6 +62,7 @@
 <script>
 import Team from '@/components/people.vue';
 import ProductStudies from '@/components/ProductStudies.vue';
+import TypeMate from 'typemate';
 
 export default {
   components: {
@@ -74,7 +75,14 @@ export default {
         { hid: 'description', name: 'description', content: 'My custom description' }
       ]
     }
-  }
+  },
+  mounted: function(){
+    this.$nextTick(function () {
+    const tm = new TypeMate(undefined, { selector: 'h2, h3, p' });
+    tm.apply();
+    console.log('rendered')
+    })
+  },
 }
 </script>
 
