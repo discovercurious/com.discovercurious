@@ -41,13 +41,13 @@
             <p>How do you let go and set the company up for success? How do you make changes that are innovative but not too disruptive? It can be overwhelming. Curious has a process to help your team ask the right questions and find consensus to make your next best move quickly.</p>
             <p>
               <strong>Guided discussions on these topics:</strong>
-              <ul>
+            </p>
+            <ul>
                 <li>Leadership personality assessments</li>
                 <li>Align old and new brand vision, values, value proposition, personality, voice</li>
                 <li>Merger/Acquisition strategies</li>
                 <li>Brand positioning</li><li>Messaging</li>
               </ul>
-            </p>
             <p>At the end of this workshop, Curious will assemble a Brand Guideline that creates a corporate foundation for future decision making.</p>
           </div>
           <div class="button">Get in touch</div>

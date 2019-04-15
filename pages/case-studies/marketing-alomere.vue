@@ -11,7 +11,7 @@
           <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereMarketing/computer.png')"></div>
       </div>
     </section>
-    <section class="studySection s-2ColText bg-darkGray">
+    <section class="studySection s-2ColText bg-darkGray s-noBorder">
       <div class="pageWidth">
           <h4>Building Health &amp; Wellness in an Expanding Community</h4>
           <div class="col2 s-textRow">
@@ -19,12 +19,12 @@
               <p>Alomere Health is not only the largest provider of medical services in their community but also the largest employer. Dedicated to improving the health and wellness in their community, Alomere was looking to build awareness with their continually expanding audience. Curious implemented highly targeted digital strategies to bolster their reach. </p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereMarketing/computer.png')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereMarketing/community.png')"></div>
             </div>
           </div>
       </div>
     </section>
-    <section class="studySection s-2ColText bg-ltGray">
+    <section class="studySection s-2ColText bg-ltGray s-noBorder">
       <div class="pageWidth">
           <h4>The Recruitment Challenge</h4>
           <div class="col2 s-textRow">
@@ -37,7 +37,7 @@
           </div>
       </div>
     </section>
-    <section class="studySection s-2ColText bg-white">
+    <section class="studySection s-2ColText bg-white s-noBorder">
       <div class="pageWidth">
           <h4>The Expansion Challenge</h4>
           <div class="col2 s-textRow">

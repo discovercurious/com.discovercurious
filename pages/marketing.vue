@@ -35,14 +35,12 @@
           <div class="featureContent">
             <h5>Workshop: What’s your next best opportunity for marketing?</h5>
             <p>While our team partners with several organizations to develop and implement marketing strategies, some of our clients wanted direction on next steps. These customized workshops are designed to cover multiple topics and provide a foundation to discover your next best opportunities.</p>
-            <p>
-              After a 30 minute consult to make sure this is a good fit, we create a customized 3-hour strategic workshop to explore:
-              <ul>
+            <p>After a 30 minute consult to make sure this is a good fit, we create a customized 3-hour strategic workshop to explore:</p>
+            <ul>
                 <li>Best practices in digital marketing and how to target your audience.</li>
                 <li>Game plans for how your team can execute internally. Marketing tactics, specific to your business, with both a quick win and long term strategy.</li>
                 <li>Breaking down barriers between marketing and sales teams.</li>
               </ul>
-            </p>
           </div>
           <div class="button">Schedule a consultation</div>
         </div>
