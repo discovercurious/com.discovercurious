@@ -65,7 +65,7 @@ export default Vue.extend({
       if(this.eatSpam === ''){
         if(this.senderName != '' && this.senderEmail != '' && this.contactMessage != ''){
           $.ajax({
-            url: 'http://brycehowitson.com/curiousContact.php',
+            url: 'https://brycehowitson.com/curiousContact.php',
             type: 'GET',
             data: {
                 to: 'hello@discovercurious.com',
