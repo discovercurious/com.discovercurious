@@ -10,7 +10,7 @@ export default async({ app }) => {
         //     // entire view has been re-rendered
         //     const tm = new TypeMate(undefined, { selector: 'h2, h3, p' });
         //     tm.apply();
-        //     console.log('rendered')
+        //      
         // })
     });
 

@@ -21,7 +21,7 @@ export default {
     // this.$nextTick(function () {
     // const tm = new TypeMate(undefined, { selector: 'h2, h3, p' });
     // tm.apply();
-    // console.log('rendered')
+    //  
     // })
   },
   methods: {}

@@ -52,7 +52,7 @@ export default {
     this.$nextTick(function () {
     const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li' });
     tm.apply();
-    console.log('rendered')
+     
     })
   },
   

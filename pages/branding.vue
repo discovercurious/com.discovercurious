@@ -35,12 +35,22 @@
           </div>
         </div>
         <div class="feature">
-          <div class="featureImage" v-lazy:background-image="require('~/static/images/featured/designsprints.png')"></div>
+          <div class="featureImage" v-lazy:background-image="require('~/static/images/featured/transitionWorkshop.png')"></div>
           <div class="featureContent">
-            <h5>Featured thing</h5>
-            <p>why does anyone care?</p>
+            <h5>Leadership Transition Workshops</h5>
+            <p>How do you let go and set the company up for success? How do you make changes that are innovative but not too disruptive? It can be overwhelming. Curious has a process to help your team ask the right questions and find consensus to make your next best move quickly.</p>
+            <p>
+              <strong>Guided discussions on these topics:</strong>
+              <ul>
+                <li>Leadership personality assessments</li>
+                <li>Align old and new brand vision, values, value proposition, personality, voice</li>
+                <li>Merger/Acquisition strategies</li>
+                <li>Brand positioning</li><li>Messaging</li>
+              </ul>
+            </p>
+            <p>At the end of this workshop, Curious will assemble a Brand Guideline that creates a corporate foundation for future decision making.</p>
           </div>
-          <div class="button">Read the article</div>
+          <div class="button">Get in touch</div>
         </div>
       </div>
     </section>
@@ -74,7 +84,7 @@ export default {
     this.$nextTick(function () {
     const tm = new TypeMate(undefined, { selector: 'h2, h3, p' });
     tm.apply();
-    console.log('rendered')
+     
     })
   },
 }
