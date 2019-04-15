@@ -72,7 +72,8 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [
-        { src: '~/plugins/vue-lazy-background', ssr: false }
+        { src: '~/plugins/vue-lazy-background', mode: 'client' },
+        { src: '~/plugins/after-route.js', mode: 'client' },
     ],
 
     /*
