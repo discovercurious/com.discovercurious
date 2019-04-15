@@ -67,6 +67,15 @@
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/resultsbottomright.png')"></div>
             </div>
           </div>
+          <div class="col2">
+            <div class="col">
+              <p class="quote">Discovering Curious was a bit of a process, but once here, we knew we had a partner we could trust. White Crane is a residential design/build remodeling company without the in-house bandwidth to do our marketing consistently and effectively. Couple that with the continued rise of the internet and its content-rich capability, we needed help. Enter Curious! This firm is leading, listening, and learning and the number and quality of leads reflect exactly this.  These are people I trust who are delivering the goods.</p>
+              <p class="attr">Susan Denk, Owner &amp; Founder of White Crane Construction</p>
+            </div>
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/whitecrane/susan.png')"></div>
+            </div>
+          </div>
       </div>
     </section>
     <section class="studySection s-ImageGroup bg-darkGray">

@@ -413,14 +413,29 @@ button,
     }
     .feature {
         background: $color-gold1;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-blend-mode: multiply;
-        padding: 20rem 1rem 1rem 1rem;
+        padding: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         color: $color-white;
+        .featureImage {
+            position: relative;
+            padding-bottom: 49.09%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background-position: center center;
+            background-size: cover;
+            transition: opacity 0.25s ease-in-out;
+            opacity: 0;
+            margin-bottom: 1rem;
+            &[lazy=loaded] {
+                opacity: 1;
+            }
+        }
+        .featureContent {
+            flex: 2;
+        }
         h5 {
             color: $color-gray6;
         }
@@ -482,12 +497,6 @@ button,
             justify-content: space-between;
         }
     }
-    .leftSide {
-        flex-basis: 40%;
-    }
-    .rightSide {
-        flex-basis: 60%;
-    }
     .teamTop {
         color: $color-white;
         background-color: $color-gold2;
@@ -499,6 +508,12 @@ button,
             border-left: 1px solid $color-white;
             border-right: 1px solid $color-white;
             justify-content: space-between;
+        }
+        .leftSide {
+            flex-basis: 40%;
+        }
+        .rightSide {
+            flex-basis: 60%;
         }
     }
     .pic {
@@ -553,9 +568,19 @@ button,
     .teamBottom {
         padding: 8rem 0;
         background-color: $color-gold1;
+        .leftSide,
+        .rightSide {
+            flex-basis: 50%;
+        }
+        .leftSide {
+            padding-right: 2rem;
+        }
+        .rightSide {
+            padding-left: 2rem;
+        }
     }
     .peopleWrap {
-        min-height: 40rem;
+        min-height: 50rem;
         overflow: hidden;
     }
     .personInfo {
@@ -566,7 +591,6 @@ button,
     }
     .questionList {
         padding: 0;
-        margin: 0 0 0 8rem;
         li {
             list-style-type: none;
             border-top: 1px solid $color-gold2;
@@ -579,12 +603,7 @@ button,
         }
     }
     .questions {
-        position: absolute;
-        bottom: 20%;
-        left: 4rem;
         font-size: 1.5rem;
-        transform: rotate(-90deg);
-        transform-origin: left top;
         font-weight: 600;
     }
     .expertLink {
@@ -709,6 +728,23 @@ button,
         border: 1px solid $color-white;
         margin-bottom: 2rem;
         border-radius: 0.3rem;
+    }
+    .quote {
+        @include font-playfair;
+        &:before {
+            content: open-quote;
+            font-size: 200%;
+        }
+        &:after {
+            content: close-quote;
+        }
+    }
+    .attr {
+        text-align: right;
+        font-weight: 600;
+        &:before {
+            content: '- '
+        }
     }
 }
 

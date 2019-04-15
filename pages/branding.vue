@@ -34,7 +34,8 @@
             </div>
           </div>
         </div>
-        <div class="feature" v-lazy:background-image="require('~/static/images/featured/designsprints.png')">
+        <div class="feature">
+          <div class="featureImage" v-lazy:background-image="require('~/static/images/featured/designsprints.png')"></div>
           <div class="featureContent">
             <h5>Featured thing</h5>
             <p>why does anyone care?</p>
