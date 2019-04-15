@@ -31,7 +31,7 @@ export default {
             return { x: 0, y: 0 }
         },
 
-        base: process.env.NODE_ENV !== 'development' ? '/curiousnuxt/' : '/'
+        // base: process.env.NODE_ENV !== 'development' ? '/curiousnuxt/' : '/'
     },
 
     /*
