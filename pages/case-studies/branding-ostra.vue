@@ -4,7 +4,7 @@
       <div class="pageWidth">
           <div class="columns s-textRow">
             <div class="col">
-              <h3>Curious helps a cybersecurity startup find a unique voice.</h3>
+              <h3>Curious helps a cybersecurity startup find a unique voice</h3>
               <h5>Why was Curious hired?</h5>
               <p>Ostra needed help translating scary technical jargon for business owners who need 360&deg; digital protection.</p>
             </div>

@@ -4,7 +4,7 @@
       <div class="intro pageWidth">
         <h2>It’s proven. Great design produces  valuable brands. Yet branding must be more than a cool logo &amp; clean packaging.</h2>
         <div class="cta">
-          Would you like an audit of your current positioning and brand? <a href="#">We can help!</a>
+          Would you like an audit of your current positioning and brand? <nuxt-link to="/#contact">We can help!</nuxt-link>
         </div>
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
@@ -12,7 +12,7 @@
     <section id="main">
       <div class="pageWidth serviceIntro">
         <div class="serviceLeft">
-          <h3>We help businesses answer brand questions like these.</h3>
+          <h3>We help businesses answer brand questions like these</h3>
           <div class="col2">
             <div class="col">
               <ul class="questions">

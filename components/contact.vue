@@ -2,14 +2,18 @@
     <section id="contact">
       <div class="pageWidth col2">
         <div class="col">
-          <h3>Advisor, partner, coach, or cheerleader, Curious can help.</h3>
+          <h3>Advisor, partner, coach, or cheerleader, Curious can help</h3>
           <p>We understand the complexities of growing and innovating a business. The good news is that you don’t have to go it alone. We’d love to help! But before we can do that, we need to know a bit more about you and your challenges.</p>
           <p><strong>Please fill out this quick form and we’ll get back to you as soon as possible.</strong></p>
           <p class="address"><a href="https://www.google.com/maps/place/Curious/@44.9989033,-93.2525572,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32db8b34daef9:0xe12fd7d2771f2dc2!8m2!3d44.9988995!4d-93.2503632">807 Broadway Street NE, Suite 140<br />Minneapolis, MN 55413</a></p>
         </div>
         <div class="col form">
-          <div v-if="messageSuccess">
-            Your message has been sent
+          <div class="success" v-if="messageSuccess">
+            <h4>Thanks for saying hi!</h4>
+            <h5>We'll get back to you as soon as we can. While you wait, perhaps you'd like to learn about the <nuxt-link to="/#people">team</nuxt-link> reading your email.</h5>
+            <div class="buttonWrap">
+              <button @click="clearThanks()">Another Message</button>
+            </div>
           </div>
           <div v-else>
             <input type="text" name="name" v-model="senderName" placeholder="My name is" required>
@@ -86,7 +90,10 @@ export default Vue.extend({
           this.messageErrors = 'Name, Email & Message cannot be blank'
         }
       }
-    }
+    },
+    clearThanks(){
+      this.messageSuccess = false;
+    },
   },
   computed: {
 

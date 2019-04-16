@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>Why one of MN’s top remodeling companies works with Curious.</h3>
+          <h3>Why one of MN’s top remodeling companies works with Curious</h3>
           <div class="columns s-textRow">
             <div class="col">
               <p>White Crane, a residential design-build company in Minneapolis, has been successfully remodeling homes for over 16 years. With growth as a primary goal, Curious was hired to help generate the right leads for the sales team.</p>

@@ -7,14 +7,14 @@
         <!-- <img class="aboutProcess" src="~assets/images/process.svg" alt=""> -->
         </h2>
         <div class="cta">
-          Growing your business <a href="#">starts with a chat</a>
+          Growing your business <nuxt-link to="/#contact">starts with a chat</nuxt-link>
         </div>
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
     </section>
     <section id="main">
       <div class="pageWidth">
-        <h3>Discover your best opportunities for growth, informed by all aspects of business.</h3>
+        <h3>Discover your best opportunities for growth, informed by all aspects of business</h3>
         <div class="col3">
             <nuxt-link tag="div" class="col" to="branding">
               <h4><span>Curious Helps</span> Define Brands</h4>

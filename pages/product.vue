@@ -4,7 +4,7 @@
       <div class="intro pageWidth">
         <h2>Good products are useful, usable &amp; beautiful.  Great ones solve customer pain in revolutionary ways.</h2>
         <div class="cta">
-          Growing your business <a href="#">starts with a chat</a>
+          Growing your business <nuxt-link to="/#contact">starts with a chat.</nuxt-link>
         </div>
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
@@ -12,7 +12,7 @@
     <section id="main">
       <div class="pageWidth serviceIntro">
         <div class="serviceLeft">
-          <h3>We use business context &amp; proven techniques to help you answer questions like these:</h3>
+          <h3>We use business context &amp; proven techniques to help you answer questions like these</h3>
           <div class="col2">
             <div class="col">
               <h5>Product Development</h5>

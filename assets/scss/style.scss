@@ -684,8 +684,9 @@ button,
         font-size: 1.8rem;
         color: $color-gold1;
     }
-    button {
-        float: right;
+    .buttonWrap {
+        padding-top: 2rem;
+        text-align: center;
     }
     .address {
         margin-top: 4rem;
@@ -721,6 +722,20 @@ button,
         left: 0;
         right: 0;
         clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    }
+    .success {
+        padding-top: 2rem;
+        &:before {
+            @extend %fa-icon;
+            @extend .fas;
+            content: fa-content($fa-var-paper-plane);
+            display: block;
+            text-align: center;
+            font-size: 15rem;
+            margin-bottom: 4rem;
+            color: $color-white;
+            text-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
+        }
     }
 }
 

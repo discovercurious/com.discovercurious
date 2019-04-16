@@ -9,7 +9,7 @@
       <div class="pageWidth">
           <div class="columns s-textRow">
             <div class="col">
-              <h3>Curious helps St. Paul’s Heimie’s Haberdashery with a unique product launch.</h3>
+              <h3>Curious helps St. Paul’s Heimie’s Haberdashery with a unique product launch</h3>
               <h5>Why was Curious hired?</h5>
               <p>Heimie’s was exploring marketing a hand-made leather and canvas bag brand. Owner Anthony Adler reached out to Curious to help him build a brand that clearly communicated his uniqueness in a crowded bag market.</p>
             </div>
