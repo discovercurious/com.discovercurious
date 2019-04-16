@@ -45,6 +45,7 @@ body {
     @include font-OS;
     font-size: 1.4rem;
     color: $color-gray6;
+    background-color: $color-gray5;
 }
 
 a {
@@ -170,6 +171,16 @@ p {
     line-height: 1.4;
 }
 
+.page-enter-active,
+.page-leave-active {
+    transition: all 0.5s ease;
+}
+
+.page-enter,
+.page-leave-active {
+    opacity: 0;
+}
+
 .pageWidth {
     max-width: $max-content;
     margin: 0 auto;
@@ -271,7 +282,7 @@ $top-height: 70vh;
         width: 100%;
     }
     h2 {
-        max-width: 90%;
+        max-width: 93%;
     }
     .cta {
         min-height: 10vh;

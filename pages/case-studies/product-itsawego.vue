@@ -106,7 +106,7 @@ export default {
   components: {
     ProductStudies,
   },
-  layout: 'CaseStudy'
+  // layout: 'CaseStudy'
 }
 </script>
 

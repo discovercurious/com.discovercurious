@@ -101,7 +101,7 @@ export default {
   components: {
     MarketingStudies,
   },
-  layout: 'CaseStudy'
+  // layout: 'CaseStudy'
 }
 </script>
 

@@ -17,12 +17,8 @@ export default {
   components: {
     Contact, PageHeader
   },
+  
   mounted: function(){
-    // this.$nextTick(function () {
-    // const tm = new TypeMate(undefined, { selector: 'h2, h3, p' });
-    // tm.apply();
-    //  
-    // })
   },
   methods: {}
 }

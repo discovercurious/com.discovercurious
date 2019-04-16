@@ -3,7 +3,7 @@
     <div class="teamTop">
         <div class="pageWidth">
             <div class="leftSide">
-                <h3>Innovation &amp; growth aren’t solitary activities.</h3>
+                <h3 class="js⁠-⁠typemate__ignore">Innovation &amp; growth aren’t solitary activities.</h3>
                 <p>Curious team members are trusted guides who help solve hard business challenges.</p>
             </div>
             <div class="rightSide">

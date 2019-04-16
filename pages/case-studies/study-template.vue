@@ -100,7 +100,7 @@ export default {
   components: {
     Team,
   },
-  layout: 'CaseStudy'
+  // layout: 'CaseStudy'
 }
 </script>
 
