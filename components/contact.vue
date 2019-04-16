@@ -23,11 +23,11 @@
             <div class="selectList">
             <select name="subject" v-model="contactSubject" >
             <option value="" disabled selected>What's this about? (choose one)</option>
-            <option value="Branding Inquiry">Branding help</option>
-            <option value="Marketing Inquiry">Marketing help</option>
-            <option value="Product Inquiry">Product help</option>
-            <option value="More about Design Sprints">Schedule a Design Sprint</option>
-            <option value="General Inquiry">Just saying hello</option>
+            <option value="1">Branding help</option>
+            <option value="2">Marketing help</option>
+            <option value="3">Product help</option>
+            <option value="4">Schedule a Design Sprint</option>
+            <option value="5">Just saying hello</option>
             </select>
             </div>
             <textarea name="" v-model="contactMessage" cols="30" rows="10" placeholder="My message is" required></textarea>
@@ -68,15 +68,39 @@ export default Vue.extend({
       var that = this;
       if(this.eatSpam === ''){
         if(this.senderName != '' && this.senderEmail != '' && this.contactMessage != ''){
+          switch(this.contactSubject){
+            case "1":
+              var newSubject = "discovercurious.com: I need branding help";
+              var toEmail = "branding@discovercurious.com"
+              break;
+            case "2":
+              var newSubject = "discovercurious.com: I need marketing help";
+              var toEmail = "marketing@discovercurious.com"
+              break;
+            case "3":
+              var newSubject = "discovercurious.com: I need product help";
+              var toEmail = "product@discovercurious.com"
+              break;
+            case "4":
+              var newSubject = "discovercurious.com: I'd like to schedule a Design Sprint";
+              var toEmail = "product@discovercurious.com"
+              break;
+            default:
+              var newSubject = "discovercurious.com: General Inquiry";
+              var toEmail = "hello@discovercurious.com"
+              break;
+          }
+
           $.ajax({
             url: 'https://brycehowitson.com/curiousContact.php',
             type: 'GET',
             data: {
-                to: 'hello@discovercurious.com',
+                to: toEmail,
                 name: that.senderName,
                 email: that.senderEmail,
+                org: that.senderCompany,
                 comment: that.contactMessage,
-                subject: that.contactSubject,
+                subject: newSubject,
             },
             success: function(result) {
                 console.log(result);
@@ -92,6 +116,8 @@ export default Vue.extend({
       }
     },
     clearThanks(){
+      this.contactMessage = '';
+      this.contactSubject = '';
       this.messageSuccess = false;
     },
   },

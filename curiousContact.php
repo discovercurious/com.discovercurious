@@ -25,10 +25,11 @@ $testing = 'this worked';
 $toemail = $_GET['to'];
 $name = $_GET['name'];
 $email = $_GET['email'];
+$company = $_GET['org'];
 $comment = $_GET['comment'];
 $todayis = date("l, F j, Y, g:i a") ;
-$subject = "discovercurious.com: " . $_GET['subject'];
-$message = " Message: $comment \r \n From: $name  \r \n Reply to: $email";
+$subject = $_GET['subject'];
+$message = " Message: $comment \r \n From: $name at $company  \r \n Reply to: $email";
 $headers = 'From: bryce@brycehowitson.com';
 
 
