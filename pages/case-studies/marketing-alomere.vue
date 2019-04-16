@@ -45,7 +45,7 @@
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereMarketing/expansion.png')"></div>
             </div>
             <div class="col">
-              <p>Being the largest healthcare provider in the region means you are continuing to adding services and offerings that benefit the community. To get the word out, Curious continues to utilize highly targeted digital marketing strategies to get in front of those likely interested in these new (and some existing) services. Awareness is key in healthcare as medical technologies continue to advance. </p>
+              <p>Being the largest healthcare provider in the region means continuously adding services and offerings that benefit the community. To get the word out, Curious continues to utilize highly targeted digital marketing strategies to get in front of those likely interested in these new (and some existing) services. Awareness is key in healthcare as medical technologies continue to advance.</p>
             </div>
           </div>
       </div>

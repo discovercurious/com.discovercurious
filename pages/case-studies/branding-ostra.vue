@@ -43,7 +43,7 @@
           <div class="col2 s-textRow">
             <div class="col">
               <h5>The Setting</h5>
-              <p>The principals of Ostra had the experience and know how to maximize enterprise-level digital protection software and protocols for unprotected medium to small businesses. Looking to market to clients outside their area of expertise, they asked Curious for help packaging this innovative service in a way that made sense to business owners without an IT degree.</p>
+              <p>The principals of Ostra had the experience and know-how to maximize enterprise-level digital protection software and protocols for unprotected medium to small businesses. Looking to market to clients outside their area of expertise, they asked Curious for help packaging this innovative service in a way that made sense to business owners without an IT degree.</p>
             </div>
             <div class="col">
               <h5>The Strategy</h5>
@@ -78,7 +78,7 @@
           <div class="col2 s-textRow">
             <div class="col">
               <h5>The Results</h5>
-              <p>Putting it all together, the new website and investor pitch deck featured not just data but a story to show why and how simple sophisticated digital protection can be.</p>
+              <p>Putting it all together, the new website and investor pitch deck feature not just data, but a story that illustrates how simple sophisticated digital protection can be.</p>
             </div>
             <div class="col">
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/ostra/7.png')"></div>
