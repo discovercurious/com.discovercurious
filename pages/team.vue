@@ -23,7 +23,7 @@ export default {
   },
   mounted: function(){
     this.$nextTick(function () {
-    const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li' });
+    const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
     tm.apply();
      
     })
