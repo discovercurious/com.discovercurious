@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection s-ImageLarge bg-white">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/1.jpg')"></div>
+          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/2.jpg')"></div>
       </div>
     </section>
     <section class="studySection s-Intro bg-ltGray">
@@ -40,20 +40,37 @@
               <p>To stay locally independent, DCH and three local clinics merged in 2012 but kept their individual brands. Executive director, Carl Vaagenes knew their health system needed to grow if it wanted to stay strong. The county name no longer reflected the community they served and limited future growth.</p>
             </div>
             <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/1.jpg')"></div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="studySection s-2ColText bg-ltGray">
+      <div class="pageWidth">
+          <div class="col2 s-textRow">
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/ADs_1.jpg')"></div>
+            </div>
+            <div class="col">
               <h5>The Strategy</h5>
               <p>Curious helped Alomere Health’s leadership engage the stakeholders and the public to see the value in a change that would undoubtedly be emotional for many. Through a process of interviews, research, steering committee meetings, naming, branding, and design, Curious helped launch an exciting new chapter for a beloved community hero.</p>
             </div>
           </div>
       </div>
     </section>
+    <section class="studySection s-ImageLarge bg-white s-noBorder">
+      <div class="pageWidth">
+          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/3.jpg')"></div>
+      </div>
+    </section>
     <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/2.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/BirthCert_1.jpg')"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/3.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/Signage_1.jpg')"></div>
             </div>
           </div>
           <div class="col2">
@@ -66,14 +83,20 @@
           </div>
       </div>
     </section>
-        <section class="studySection s-ImageGroup bg-darkGray">
+        <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
           <h4>The Results</h4>
-          <div class="col2 s-textRow">
+          <div class="col1">
+            <h5>The rebrand launched with great success due to a strategy that first united employees, and then inspired the community with the leadership’s vision months before the unveiling of the new name.</h5>
+          </div>
+          
+          <div class="col3">
             <div class="col">
-              <p>The rebrand launched with great success due to a strategy that first united employees, and then inspired the community with the leadership’s vision months before the unveiling of the new name.</p>
               <p>We assisted Alomere Health with a rebrand rollout across all touchpoints from clinic and hospital external/internal wayfinding signage to updating all collateral and advertising materials.</p>
               <p>Our partnership continues. By adding targeted digital marketing to a traditional media mix (print, outdoor, radio), Curious helps Alomere create health-related conversations relevant to focused audiences.</p>
+            </div>
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/Signage_2.jpg')"></div>
             </div>
             <div class="col">
               <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/alomereBrand/7.jpg')"></div>
