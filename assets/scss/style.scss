@@ -1093,6 +1093,12 @@ button,
             left: auto;
             right: auto;
             top: auto;
+            flex-wrap: wrap;
+            .leftSide,
+            .rightSide {
+                flex-basis: 100%;
+                padding-left: 0;
+            }
         }
     }
     #contact {
