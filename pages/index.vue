@@ -7,7 +7,7 @@
         <!-- <img class="aboutProcess" src="~assets/images/process.svg" alt=""> -->
         </h2>
         <div class="cta">
-          Growing your business <nuxt-link to="/#contact">starts with a chat</nuxt-link>
+          Growing your business <nuxt-link to="#contact">starts with a chat</nuxt-link>
         </div>
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>

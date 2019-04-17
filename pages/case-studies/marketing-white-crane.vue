@@ -87,7 +87,7 @@
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Get results like this: </span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+          <span>Get results like this: </span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>

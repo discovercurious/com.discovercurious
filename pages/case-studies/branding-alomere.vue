@@ -113,7 +113,7 @@
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Need help building consensus within a large organization?</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+          <span>Need help building consensus within a large organization?</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>

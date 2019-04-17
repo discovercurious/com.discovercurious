@@ -95,7 +95,7 @@
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Starting something new? We can help you build a brand that is approachable and unique.</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+          <span>Starting something new? We can help you build a brand that is approachable and unique.</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>

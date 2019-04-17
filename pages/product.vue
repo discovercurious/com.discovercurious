@@ -4,7 +4,7 @@
       <div class="intro pageWidth">
         <h2>Good products are useful, usable &amp; beautiful.  Great ones solve customer pain in revolutionary ways.</h2>
         <div class="cta">
-          Growing your business <nuxt-link to="/#contact">starts with a chat.</nuxt-link>
+          Growing your business <nuxt-link to="#contact">starts with a chat.</nuxt-link>
         </div>
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>

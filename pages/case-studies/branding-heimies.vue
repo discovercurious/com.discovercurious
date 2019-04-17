@@ -87,7 +87,7 @@
     <section id="cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Starting something new? We can help you build a brand that reflects a smart positioning strategy.</span> <nuxt-link class="button" to="/#contact">Get in touch</nuxt-link>
+          <span>Starting something new? We can help you build a brand that reflects a smart positioning strategy.</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>
