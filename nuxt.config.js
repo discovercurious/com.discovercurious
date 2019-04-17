@@ -104,5 +104,10 @@ export default {
          ** You can extend webpack config here
          */
         extend(config, ctx) {}
+    },
+    render: {
+        static: {
+            maxAge: 1000 * 60 * 60 * 24 * 7
+        }
     }
 }
