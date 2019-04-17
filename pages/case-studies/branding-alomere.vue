@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection s-ImageLarge bg-white">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/2.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/2.jpg`"></div>
       </div>
     </section>
     <section class="studySection s-Intro bg-ltGray">
@@ -40,7 +40,7 @@
               <p>To stay locally independent, DCH and three local clinics merged in 2012 but kept their individual brands. Executive director, Carl Vaagenes knew their health system needed to grow if it wanted to stay strong. The county name no longer reflected the community they served and limited future growth.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/1.jpg`"></div>
             </div>
           </div>
       </div>
@@ -49,7 +49,7 @@
       <div class="pageWidth">
           <div class="col2 s-textRow">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/ADs_1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/ADs_1.jpg`"></div>
             </div>
             <div class="col">
               <h5>The Strategy</h5>
@@ -60,25 +60,25 @@
     </section>
     <section class="studySection s-ImageLarge bg-white s-noBorder">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/3.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/3.jpg`"></div>
       </div>
     </section>
     <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/BirthCert_1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/BirthCert_1.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/Signage_1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/Signage_1.jpg`"></div>
             </div>
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/4.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/4.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/5.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/5.jpg`"></div>
             </div>
           </div>
       </div>
@@ -96,10 +96,10 @@
               <p>Our partnership continues. By adding targeted digital marketing to a traditional media mix (print, outdoor, radio), Curious helps Alomere create health-related conversations relevant to focused audiences.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/Signage_2.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/Signage_2.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereBrand/7.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/7.jpg`"></div>
             </div>
           </div>
       </div>

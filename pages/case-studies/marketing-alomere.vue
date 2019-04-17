@@ -8,7 +8,7 @@
     </section>
     <section class="studySection s-ImageLarge bg-ltGray">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/computer.png`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/computer.png`"></div>
       </div>
     </section>
     <section class="studySection s-2ColText bg-darkGray s-noBorder">
@@ -19,7 +19,7 @@
               <p>Alomere Health is not only the largest provider of medical services in their community but also the largest employer. Dedicated to improving the health and wellness in their community, Alomere was looking to build awareness with their continually expanding audience. Curious implemented highly targeted digital strategies to bolster their reach. </p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/community.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/community.png`"></div>
             </div>
           </div>
       </div>
@@ -32,7 +32,7 @@
               <p>Recruitment is an ongoing challenge for everyone. And even more challenging when you’re looking to find the very best doctors, nurses, and specialists in the healthcare field. Getting the Alomere Health story out to potential hires in schools and other healthcare organizations is a time consuming and expensive process of attending recruitment fairs and site visits. Curious developed a digital strategy to support in-person recruitment efforts by introducing Alomere Health before these events, bringing awareness to the benefits and opportunities working with Alomere.  </p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/recruitment.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/recruitment.png`"></div>
             </div>
           </div>
       </div>
@@ -42,7 +42,7 @@
           <h4>The Expansion Challenge</h4>
           <div class="col2 s-textRow">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/expansion.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/expansion.png`"></div>
             </div>
             <div class="col">
               <p>Being the largest healthcare provider in the region means continuously adding services and offerings that benefit the community. To get the word out, Curious continues to utilize highly targeted digital marketing strategies to get in front of those likely interested in these new (and some existing) services. Awareness is key in healthcare as medical technologies continue to advance.</p>
@@ -60,15 +60,15 @@
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/alomereResultsEngage.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/alomereResultsEngage.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/alomereResultsright.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/alomereResultsright.png`"></div>
             </div>
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`casestudies/alomereMarketing/alomereResultsWeb.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/alomereResultsWeb.png`"></div>
             </div>
             <div class="col"></div>
           </div>
