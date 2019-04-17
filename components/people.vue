@@ -108,12 +108,13 @@
                 <div class="rightSide">
                     <div class="questions">Questions Eric might ask:</div>
                     <ul class="questionList">
-                        <li>Who told you could do that?</li>
-                        <li>Why did you think that would work?</li>
-                        <li>Why did you think these plugins would solve your problems?</li>
-                        <li>Don’t you currently pay someone to do this?</li>
                         <li>Where does your website live?</li>
+                        <li>Do your sales tools talk to each other? Could they?</li>
+                        <li>Do your analytics tell your users full story? Can they tell you more?</li>
+                        <li>Might something other than a Wordpress plugin solve this problem?</li>
                         <li>What’s for lunch?</li>
+                        <li>Are there recurring pain points that could be solved by your digital product or website?</li>
+                        <li>Should we re-invent the wheel with this feature or can we find a prebuilt solution?</li>
                     </ul>
                 </div>
             </div>

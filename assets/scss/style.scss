@@ -1096,6 +1096,17 @@ button,
         }
     }
     #people {
+        .pageWidth,
+        .personInfo {
+            flex-wrap: wrap;
+        }
+        .teamTop,
+        .teamBottom {
+            .leftSide,
+            .rightSide {
+                flex-basis: 100%;
+            }
+        }
         .teamTop {
             .rightSide {
                 height: 20rem;
@@ -1103,20 +1114,14 @@ button,
                 flex-basis: calc(100% + 4rem);
             }
         }
-        .pageWidth,
-        .personInfo {
-            flex-wrap: wrap;
-        }
-        .leftSide,
-        .rightSide {
-            flex-basis: 100%;
+        .teamBottom {
+            .leftSide {
+                margin-bottom: 2rem;
+            }
         }
         .questionList li {
             font-size: 1.6rem;
             padding: 0.5rem 0;
-        }
-        .teamBottom .leftSide {
-            margin-bottom: 2rem;
         }
         .personInfo {
             position: relative;
