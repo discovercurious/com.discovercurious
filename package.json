@@ -1,7 +1,7 @@
 {
     "name": "com.curiousweb",
     "version": "1.0.0",
-    "description": "Curious website using Nuxt",
+    "description": "Curious website",
     "author": "Bryce Howitson",
     "private": true,
     "scripts": {
