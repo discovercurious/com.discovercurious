@@ -470,7 +470,13 @@ button,
         .button {
             background-color: $color-gray6;
             color: $color-gold1;
-            font-weight: 400;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            &:hover {
+                background-color: $color-gold2;
+                color: $color-white;
+            }
         }
     }
     .questions {

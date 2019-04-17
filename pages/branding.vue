@@ -50,7 +50,7 @@
               </ul>
             <p>At the end of this workshop, Curious will assemble a Brand Guideline that creates a corporate foundation for future decision making.</p>
           </div>
-          <div class="button">Get in touch</div>
+          <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>

@@ -42,7 +42,7 @@
                 <li>Breaking down barriers between marketing and sales teams.</li>
               </ul>
           </div>
-          <div class="button">Schedule a consultation</div>
+          <nuxt-link class="button" to="#contact">Schedule a consultation</nuxt-link>
         </div>
       </div>
     </section>
@@ -67,8 +67,8 @@ export default {
   head () {
     return {
       title: 'Curious: Solving Your Marketing Challenges',
-    meta: [
-        { hid: 'description', name: 'description', content: 'My custom description' }
+      meta: [
+        { hid: 'description', name: 'description', content: 'Marketing coaches from Curious' }
       ]
     }
   },
