@@ -68,7 +68,7 @@ export default {
     return {
       title: 'Curious: Solving Your Marketing Challenges',
       meta: [
-        { hid: 'description', name: 'description', content: 'Marketing coaches from Curious' }
+        { hid: 'description', name: 'description', content: 'Curious consultants help you identify your next best marketing steps, and develop marketing strategies to find and connect with your customers.' }
       ]
     }
   },
@@ -76,7 +76,7 @@ export default {
     this.$nextTick(function () {
     const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li' });
     tm.apply();
-     
+
     })
   },
 }
