@@ -1,6 +1,7 @@
 @import "/fontawesome.scss";
 @import "/solid.scss";
 @import "/regular.scss";
+@import "/fonts.scss";
 @mixin font-base {
     font-style: normal;
     font-weight: normal;
@@ -11,11 +12,13 @@
 @mixin font-OS {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 @mixin font-playfair {
     font-family: "Playfair Display", "Georgia", serif;
     -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
 }
 
 // ---- Brand colors  ----------
