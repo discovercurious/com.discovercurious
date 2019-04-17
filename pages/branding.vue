@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="feature">
-          <div class="featureImage" v-lazy:background-image="require('~/static/images/featured/transitionWorkshop.png')"></div>
+          <div class="featureImage" v-lazy:background-image="`images/featured/transitionWorkshop.png`"></div>
           <div class="featureContent">
             <h5>Leadership Transition Workshops</h5>
             <p>How do you let go and set the company up for success? How do you make changes that are innovative but not too disruptive? It can be overwhelming. Curious has a process to help your team ask the right questions and find consensus to make your next best move quickly.</p>

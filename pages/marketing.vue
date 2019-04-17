@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="feature">
-          <div class="featureImage" v-lazy:background-image="require('~/static/images/featured/marketingWorkshop.png')"></div>
+          <div class="featureImage" v-lazy:background-image="`images/featured/marketingWorkshop.png`"></div>
           <div class="featureContent">
             <h5>Workshop: What’s your next best opportunity for marketing?</h5>
             <p>While our team partners with several organizations to develop and implement marketing strategies, some of our clients wanted direction on next steps. These customized workshops are designed to cover multiple topics and provide a foundation to discover your next best opportunities.</p>

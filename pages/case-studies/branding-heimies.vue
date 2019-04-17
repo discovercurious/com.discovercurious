@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection s-ImageLarge bg-ltGray">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/6.jpg')"></div>
+          <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/6.jpg`"></div>
       </div>
     </section>
     <section class="studySection s-Intro bg-ltGray">
@@ -32,21 +32,21 @@
       <div class="pageWidth">
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/1.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/1.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/2.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/2.jpg`"></div>
             </div>
           </div>
           <div class="col3">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/3.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/3.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/4.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/4.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/5.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/5.jpg`"></div>
             </div>
           </div>
       </div>
@@ -69,7 +69,7 @@
       <div class="pageWidth">
           <div class="col2 s-textRow">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="require('~/static/casestudies/heimies/7.jpg')"></div>
+              <div class="responsiveImage" v-lazy:background-image="`casestudies/heimies/7.jpg`"></div>
             </div>
             <div class="col">
               <h5>The Results</h5>
