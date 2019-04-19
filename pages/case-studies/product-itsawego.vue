@@ -5,7 +5,7 @@
           <div class="columns s-textRow">
             <div class="col">
               <h3>Growing from an interesting idea to marketable business</h3>
-              <p>Our friend Amanda looked at existing dating apps and noticed a dirty secret. Namely they don’t encourage a comfortable environment, especially for women. Questions abound around safety, what happens when there isn’t a connection and even what to do if friends/family don’t approve. She realized that group dates solve these issues but traditional tools don’t cater to that type of activity. The idea of building a better dating app was born, but where to start…</p>
+              <p>Our client Amanda looked at existing dating apps and noticed a dirty secret. Namely they don’t encourage a comfortable environment, especially for women. Questions abound around safety, what happens when there isn’t a connection and even what to do if friends/family don’t approve. She realized that group dates solve these issues but traditional tools don’t cater to that type of activity. The idea of building a better dating app was born, but where to start…</p>
             </div>
             <div class="col">
               <div class="curiousDid">
@@ -35,7 +35,7 @@
           </div>
       </div>
     </section>
-    
+
     <section class="studySection bg-white">
       <div class="pageWidth">
           <div class="col3 s-textRow" >
@@ -146,7 +146,7 @@ export default {
         // { hid: 'description', name: 'description', content: 'Curious consultants help you identify your next best marketing steps, and develop marketing strategies to find and connect with your customers.' },
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
-         
+
         // { hid: 'og:title', name: 'og:title', content: 'Curious - Solving Brand, Marketing & Product problems for small businesses' },
         // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
 
