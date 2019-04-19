@@ -7,13 +7,13 @@
       <h4><span>Itsawego</span>Product Story + Prototyping</h4>
       <button>View Case Study</button>
     </nuxt-link>
-    <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
+    <!-- <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
       <div class="pic">
         <div class="responsiveImage" v-lazy:background-image="`/casestudies/reve/1.jpg`"></div>
       </div>
       <h4><span>R&ecirc;ve Academy</span>Google Design Sprint Workshop</h4>
       <button>View Case Study</button>
-    </nuxt-link>
+    </nuxt-link> -->
     <!-- <nuxt-link to="/" tag="div" class="caseStudy col">
       <div class="pic">
         <div class="responsiveImage" v-lazy:background-image="`/casestudies/heimies/4.jpg`"></div>
