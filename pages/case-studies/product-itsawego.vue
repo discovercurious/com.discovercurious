@@ -2,14 +2,30 @@
   <div id="app">
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>Growing from an interesting idea to marketable business</h3>
           <div class="columns s-textRow">
             <div class="col">
+              <h3>Growing from an interesting idea to marketable business</h3>
               <p>Our friend Amanda looked at existing dating apps and noticed a dirty secret. Namely they don’t encourage a comfortable environment, especially for women. Questions abound around safety, what happens when there isn’t a connection and even what to do if friends/family don’t approve. She realized that group dates solve these issues but traditional tools don’t cater to that type of activity. The idea of building a better dating app was born, but where to start…</p>
+            </div>
+            <div class="col">
+              <div class="curiousDid">
+                <h5>What Curious provided</h5>
+              <p>
+                <ul>
+                  <li>Design Sprint</li>
+                  <li>Survey Training</li>
+                  <li>Interactive Prototype</li>
+                  <li>Product Story Coaching</li>
+                  <li>Monetization Resources</li>
+                </ul>
+              </p>
+              </div>
             </div>
           </div>
       </div>
     </section>
+
+
     <section class="studySection s-ImageLarge bg-darkGray">
       <div class="pageWidth">
           <div class="col1">
