@@ -47,7 +47,7 @@ export default {
 
             { hid: 'og:type', name: 'og:type', content: 'website' },
             { hid: 'og:url', name: 'og:url', content: 'https://discovercurious.com' },
-            { hid: 'og:title', name: 'og:title', content: 'Curious - Solving Brand, Marketing & Product problems for small businesses' },
+            { hid: 'og:title', name: 'og:title', content: 'Curious - Solving Brand, Marketing & Product challenges for small businesses' },
             { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
 
             { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/images/shareLogo.png' },
