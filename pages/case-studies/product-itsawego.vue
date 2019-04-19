@@ -44,7 +44,7 @@
             </div>
             <div class="col">
               <h5>Asking many questions</h5>
-              <p>The biggest hurdle between the spark of an idea and a viable product boils down to “who needs this?”. To answer that question, Curious helped Amanda craft a survey to assess potential audience pain points and demographics. After a week and over 200 responses later, we had an answer. There seemed to be a need, but where to focus and worse how could she continue to validate her idea?</p>
+              <p>The biggest hurdle between the spark of an idea and a viable product boils down to, who needs this? To answer that question, Curious helped Amanda craft a survey to assess potential audience pain points and demographics. After a week, and over 200 responses later, we had an answer. There seemed to be a need, but where to focus, and how could she continue to validate her idea?</p>
             </div>
             <div class="col">
               <h5>Run fast &amp; break things</h5>
@@ -104,7 +104,7 @@
           <div class="col2 s-textRow">
             <div class="col">
               <h5>An idea you can touch</h5>
-              <p>Armed with an interactive prototype, Amanda is able to test and validate her assumptions with anyone she meets. But it’s value doesn’t stop there. Everyone from potential investors to partner businesses can easily imagine exactly how this app works. And when it comes time to build it for real? Any development shop can use the prototype for extremely accurate proposals with a clear definition of done.</p>
+              <p>Armed with an interactive prototype, Amanda is able to test and validate her assumptions with anyone she meets. But its value doesn’t stop there. Everyone from potential investors, to partner businesses, can easily imagine exactly how this app works. And when it comes time to build it for real, any development shop can use the prototype for extremely accurate proposals.</p>
             </div>
             <div class="col">
               <h5>Curious connections</h5>
