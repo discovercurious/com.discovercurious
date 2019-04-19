@@ -346,6 +346,19 @@ button,
     }
 }
 
+.responsiveVideo {
+    position: relative;
+    padding-bottom: 49.09%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    video {
+        display: block;
+        object-fit: cover;
+        max-width: 100%;
+    }
+}
+
 .col2,
 .col3,
 .col4 {
@@ -768,7 +781,8 @@ button,
 // -------------- Case Study Modules -------------------//
 .studySection {
     padding: 4rem 0;
-    .responsiveImage {
+    .responsiveImage,
+    .responsiveVideo {
         background-repeat: no-repeat;
         border: 1px solid $color-white;
         margin-bottom: 2rem;
@@ -796,7 +810,8 @@ button,
 .bg-ltGray {
     background-color: $color-gray1;
     color: $color-gray6;
-    .responsiveImage {
+    .responsiveImage,
+    .responsiveVideo {
         border-color: darken($color-gray1, 5%);
     }
 }
@@ -804,7 +819,8 @@ button,
 .bg-darkGray {
     background-color: $color-gray5;
     color: $color-white;
-    .responsiveImage {
+    .responsiveImage,
+    .responsiveVideo {
         border-color: darken($color-gray5, 5%);
     }
 }
@@ -812,7 +828,8 @@ button,
 .bg-gold {
     background-color: $color-gold1;
     color: $color-white;
-    .responsiveImage {
+    .responsiveImage,
+    .responsiveVideo {
         border-color: darken($color-gold1, 5%);
     }
 }
@@ -820,7 +837,8 @@ button,
 .bg-white {
     background-color: $color-white;
     color: $color-gray4;
-    .responsiveImage {
+    .responsiveImage,
+    .responsiveVideo {
         border-color: darken($color-gray1, 5%);
     }
 }
@@ -853,7 +871,8 @@ button,
         margin: 0 0 0 1rem;
     }
     .col2 {
-        .responsiveImage {
+        .responsiveImage,
+        .responsiveVideo {
             padding-bottom: 60%;
         }
         .col {
@@ -864,7 +883,8 @@ button,
         }
     }
     .col3 {
-        .responsiveImage {
+        .responsiveImage,
+        .responsiveVideo {
             padding-bottom: 75%;
         }
         .col {
@@ -877,12 +897,14 @@ button,
 }
 
 .s-noBorder {
-    .responsiveImage {
+    .responsiveImage,
+    .responsiveVideo {
         border: 0 none transparent;
         border-radius: 0;
     }
     .col2 {
-        .responsiveImage {
+        .responsiveImage,
+        .responsiveVideo {
             padding-bottom: 65%;
         }
     }

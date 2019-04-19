@@ -2,98 +2,115 @@
   <div id="app">
     <section class="studySection s-Intro bg-ltGray">
       <div class="pageWidth">
-          <h3>The title of this case study</h3>
+          <h3>Growing from an interesting idea to marketable business</h3>
           <div class="columns s-textRow">
             <div class="col">
-              <h5>Why was Curious hired?</h5>
-              <p>probably because we're amazing and other people want in on the amazing!!! But that's not all, they had a problem we could solve.</p>
-            </div>
-            <div class="col">
-              <h5>What Curious provided</h5>
-              <p>
-                <ul>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                  <li>Some stuff</li>
-                </ul>
-              </p>
+              <p>Our friend Amanda looked at existing dating apps and noticed a dirty secret. Namely they don’t encourage a comfortable environment, especially for women. Questions abound around safety, what happens when there isn’t a connection and even what to do if friends/family don’t approve. She realized that group dates solve these issues but traditional tools don’t cater to that type of activity. The idea of building a better dating app was born, but where to start…</p>
             </div>
           </div>
       </div>
     </section>
-    <section class="studySection s-ImageLarge bg-white">
+    <section class="studySection s-ImageLarge bg-darkGray">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
-          
-      </div>
-    </section>
-    <section class="studySection s-2ColText bg-darkGray">
-      <div class="pageWidth">
-          <h4>Section header</h4>
-          <div class="col2">
+          <div class="col1">
             <div class="col">
-              <h5>Subhead</h5>
-              <p>stuff</p>
-            </div>
-            <div class="col">
-              <h5>Subhead</h5>
-              <p>stuff</p>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/1.jpg`"></div>
             </div>
           </div>
       </div>
     </section>
-    <section class="studySection s-ImageGroup bg-gold">
+    
+    <section class="studySection bg-white">
       <div class="pageWidth">
-          <h4>section header (optional)</h4>
-          <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
-          <div class="col2">
+          <div class="col3 s-textRow" >
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554496272-b77154d74dc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80'"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/sprint1.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
-            </div>
-          </div>
-          <div class="col3">
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554398063-26678c252e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'"></div>
+              <h5>Asking many questions</h5>
+              <p>The biggest hurdle between the spark of an idea and a viable product boils down to “who needs this?”. To answer that question, Curious helped Amanda craft a survey to assess potential audience pain points and demographics. After a week and over 200 responses later, we had an answer. There seemed to be a need, but where to focus and worse how could she continue to validate her idea?</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554369205-8b1de386d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'"></div>
-            </div>
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554336903-a5f31529dd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'"></div>
+              <h5>Run fast &amp; break things</h5>
+              <p>Seeing the lack of a clear path forward, Curious recommended a modified Design Sprint with the goal of identifying key assumptions for further testing. The Design Sprint Methodology created by Google Ventures, typically takes place in a five day workshop that covers ideation, basic prototyping and testing. Due to the small team and the focus on individual problems, we decided to focus on ideation with a shorter sprint. Amanda concluded that we should focus on three opportunities unique to group dating to create prototypes.</p>
             </div>
           </div>
       </div>
     </section>
-        <section class="studySection s-ImageGroup bg-darkGray">
+    <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
-          <h4>section header (optional)</h4>
+          <h4>Fake it BEFORE you make it</h4>
+          <h5>When prototyping focus and efficiency are extremely important. Since we wanted to test feature ideas instead of the basic fundamentals of a mobile app, Curious identified a pre-built “UI library” consisting of layouts, widgets and buttons. Customizing these items allowed us to iterate quickly on feature benefits, while maintaining a style that users intuitively expect. After the interface was created, we linked screens together creating an even more believable experience.</h5>
+      </div>
+    </section>
+
+    <section class="studySection s-ImageGroup bg-ltGray">
+      <div class="pageWidth">
           <div class="col2 s-textRow">
             <div class="col">
-              <h5>Look a yellow car</h5>
-              <p>We like yellow cars because they match out branding and we like snow because well... Minnesota in April.</p>
+              <div class="responsiveVideo">
+                <video loop autoplay muted poster="/casestudies/itsawego/chat_placeholder.png">
+                  <source src="/casestudies/itsawego/chat.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h5>The love connection</h5>
+              <p>The foundation of any dating app is the ability to match interested parties. We had to show how matching could work in a group setting while conveying personality, interests and background.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1554545760-e86cb53b588d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1103&q=80'"></div>
+              <div class="responsiveVideo">
+                <video loop autoplay muted poster="/casestudies/itsawego/matching_placeholder.png">
+                  <source src="/casestudies/itsawego/matching.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h5>Communication &amp; Logistics</h5>
+              <p>In a world with an excess of communication options, we felt it was imperative to offer a tool for specific group communication. While group chat is well understood, what unique opportunities could that create? We wanted to show the ability to include scheduling and empower the most organized person in the group to facilitate action from within a common interface.</p>
             </div>
           </div>
       </div>
     </section>
+
+
+    <section class="studySection s-ImageGroup s-noBorder bg-ltGray">
+      <div class="pageWidth">
+          <div class="col2 s-textRow">
+            <div class="col">
+              <h5>Business partnerships</h5>
+              <p>An obvious goal is to make this a viable, sustainable business. Amanda concluded that business partnerships are one of the best ways to generate revenue. But a good partnership offers value to the users and therefore must appear an interface. We focused our remaining prototype effort on presenting curated suggestions in non-intrusive ways that might be useful during a group date.</p>
+            </div>
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/suggest.png`"></div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="studySection bg-white">
+      <div class="pageWidth">
+          <div class="col2 s-textRow">
+            <div class="col">
+              <h5>An idea you can touch</h5>
+              <p>Armed with an interactive prototype, Amanda is able to test and validate her assumptions with anyone she meets. But it’s value doesn’t stop there. Everyone from potential investors to partner businesses can easily imagine exactly how this app works. And when it comes time to build it for real? Any development shop can use the prototype for extremely accurate proposals with a clear definition of done.</p>
+            </div>
+            <div class="col">
+              <h5>Curious connections</h5>
+              <p>Throughout the process of disrupting traditional online dating, Amanda has relied on Curious as more than a consultant or maker. Instead we’ve acted as a coach to create accountability, provide advice and create connections to the entrepreneurial community.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="studySection s-ImageLarge s-noBorder bg-white">
+      <div class="pageWidth">
+          <div class="col1">
+            <div class="col">
+              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/brand.png`"></div>
+            </div>
+          </div>
+      </div>
+    </section>
+
     <section class="studySection s-ImageGroup bg-darkGray">
       <div class="pageWidth">
           <h5>More Product</h5>
           <ProductStudies />
-      </div>
-    </section>
-    <section id="cta">
-      <div class="pageWidth">
-        <div class="ctaText">
-          <span>Call to action</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
-        </div>
       </div>
     </section>
   </div>
