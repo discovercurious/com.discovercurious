@@ -59,7 +59,7 @@
 
     <section class="studySection s-facilitator bg-darkGray">
       <div class="pageWidth">
-          <div class="col3">
+          <div class="col3 s-textRow">
             <div class="col">
               <h5>Sherwin Schwartzrock</h5>
               <div class="responsiveImage" v-lazy:background-image="`/workshops/sherwin.jpg`"></div>

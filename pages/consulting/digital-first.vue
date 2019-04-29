@@ -86,7 +86,7 @@
 
     <section class="studySection s-facilitator bg-darkGray">
       <div class="pageWidth">
-          <div class="col3">
+          <div class="col3 s-textRow">
             <div class="col double">
               <h4>About the facilitator</h4>
               <p>I’ve spent 20 years watching organizations struggle to adapt a digital mindset. Without this change in thinking, businesses often fail to build marketable products, waste huge sums of money and alienate their top innovation talent. I don’t want simple knowledge gaps or misaligned processes to torpedo anyone’s ability to create amazing solutions. So I created this workshop to help teams bridge the gap between analog and digital.</p>
