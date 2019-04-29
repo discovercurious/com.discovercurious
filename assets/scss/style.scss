@@ -390,6 +390,9 @@ button,
     >.col {
         flex-basis: 30%;
     }
+    .double {
+        flex-basis: 60%;
+    }
     h3 {
         flex-basis: 60%;
         max-width: 100%;
@@ -860,6 +863,10 @@ button,
     }
 }
 
+.bg-white+.bg-white {
+    border-top: 1px solid $color-gray1;
+}
+
 .s-Intro {
     h3 {
         max-width: 90%;
@@ -924,6 +931,13 @@ button,
         .responsiveVideo {
             padding-bottom: 65%;
         }
+    }
+}
+
+.s-facilitator {
+    .responsiveImage,
+    .responsiveVideo {
+        padding-bottom: 75%;
     }
 }
 

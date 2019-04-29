@@ -34,14 +34,14 @@
                 <ol>
                   <li>See where technology is going and imagine how it might be used to create products for your market.</li>
                   <li>Improve your relationship with vendors and in-house teams by speaking a unified language.</li>
-                  <li>Utilize a test and iterate mindset on your next project.</li>
+                  <li>Utilize a test + iterate mindset on your next project.</li>
                 </ol>
               </p>
             </div>
           </div>
       </div>
     </section>
-    <section class="studySection bg-darkGray">
+    <section class="studySection bg-white">
       <div class="pageWidth">
           <h4>Workshop outline</h4>
           <div class="col3 s-textRow" >
@@ -84,16 +84,18 @@
       </div>
     </section>
 
-    <section class="studySection s-facilitator bg-ltGray">
+    <section class="studySection s-facilitator bg-darkGray">
       <div class="pageWidth">
-          <div class="col2">
-            <div class="col">
-              Pic
+          <div class="col3">
+            <div class="col double">
+              <h4>About the facilitator</h4>
+              <p>I’ve spent 20 years watching organizations struggle to adapt a digital mindset. Without this change in thinking, businesses often fail to build marketable products, waste huge sums of money and alienate their top innovation talent. I don’t want simple knowledge gaps or misaligned processes to torpedo anyone’s ability to create amazing solutions. So I created this workshop to help teams bridge the gap between analog and digital.</p>
+              <p>Over the course of my career, I’ve designed interfaces, translated business/technical needs, written code, architected solutions and helped define success. I’ve seen the struggles of creating a “digital first organization” from many different perspectives and possess a deep knowledge of the tech involved. Additionally, I’m certified by Google to facilitate innovation workshops.</p>
+              <p>All that really means is that I understand a successful workshop is built from equal parts knowledge transfer, hands on exercises and timely brain breaks. All with a dash or post-it note art tossed in for fun. I look forward to meeting your team!</p>
             </div>
             <div class="col">
-              <h4>About the facilitator</h4>
               <h5>Bryce Howitson</h5>
-              <p>Stuff about bryce</p>
+              <div class="responsiveImage" v-lazy:background-image="`/workshops/bryce.jpg`"></div>
             </div>
           </div>
       </div>
@@ -103,21 +105,19 @@
 </template>
 
 <script>
-import ProductStudies from '@/components/ProductStudies.vue';
 
 export default {
   components: {
-    ProductStudies,
   },
   head () {
     return {
-      title: 'Curious: Case Study - making an idea real',
+      title: 'Curious: Workshop - Digital Thinking for Analog Organizations',
       meta: [
         // { hid: 'description', name: 'description', content: 'Curious consultants help you identify your next best marketing steps, and develop marketing strategies to find and connect with your customers.' },
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
 
-        { hid: 'og:title', name: 'og:title', content: 'Curious: Case Study - making an idea real' },
+        { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
         // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
 
          { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/images/og/itsawego_share.png' },
