@@ -4,7 +4,7 @@
       <div class="pageWidth">
           <div class="col1 s-textRow">
             <div class="col">
-              <h3><span>Workshop:</span>Secession Branding</h3>
+              <h3><span>Workshop:</span>Branding for business transition</h3>
               <p>Many baby boomer company founders are retiring and would like to transition their business to the next generation leadership. Because they are leaving a legacy, transition isn’t just about selling the business for a quick buck. The outgoing and incoming leadership need to share a common vision for the company, yet allowing for new management styles, new processes, new compensation models, new positioning, new products, and possibly a new vision.</p>
               <p>How do you let go and set the company up for success? How do you make changes that are helpful and not too disruptive? How do you address new technology and a more competitive marketplace? It isn’t easy. But we can help you navigate the process as an unemotional, experienced guide.</p>
             </div>
