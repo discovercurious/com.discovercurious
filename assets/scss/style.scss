@@ -825,6 +825,10 @@ button,
     .callout {
         color: $color-gold1;
     }
+    .note {
+        color: lighten($color-gray4, 25%);
+        font-style: italic;
+    }
 }
 
 .bg-ltGray {
@@ -930,6 +934,12 @@ button,
         .responsiveImage,
         .responsiveVideo {
             padding-bottom: 65%;
+        }
+    }
+    .col3 {
+        .responsiveImage,
+        .responsiveVideo {
+            padding-bottom: 80%;
         }
     }
 }

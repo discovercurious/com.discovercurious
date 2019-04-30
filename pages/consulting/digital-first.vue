@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <section class="studySection bg-ltGray">
+    <section class="studySection bg-ltGray s-noBorder">
       <div class="pageWidth">
-          <div class="col1 s-textRow">
+          <h3><span>Workshop:</span>Digital Thinking for Analog Organizations</h3>
+          <div class="col2 s-textRow">
             <div class="col">
-              <h3><span>Workshop:</span>Digital Thinking for Analog Organizations</h3>
+              <div class="responsiveImage" v-lazy:background-image="`/workshops/digital-first.svg`"></div>
+            </div>
+            <div class="col">
               <h5>A foundational workshop providing teams with techniques to start imagining and developing digital products to innovate their organization.</h5>
               <p>This half-day session will help your team: 1) Build a basic knowledge of how digital products work, 2) Quickly gain an understanding of proven processes used by leading tech companies to develop new ideas, and 3) Learn techniques to cross-functionally collaborate to define and understand success.</p>
               <p>We’ll de-mystify terminology, discuss common iterative approaches to product development, and uncover opportunities unique to a digital mindset. Finally, we’ll explore examples on the technical horizon to spark ideas for the future.</p>
@@ -29,8 +32,8 @@
               </p>
             </div>
             <div class="col">
-              <h4>After this workshop</h4>
-              <p>You'll be able to:
+              <h4>You'll be able to:</h4>
+              <p>
                 <ol>
                   <li>See where technology is going and imagine how it might be used to create products for your market.</li>
                   <li>Improve your relationship with vendors and in-house teams by speaking a unified language.</li>
@@ -75,9 +78,8 @@
               </p>
             </div>
             <div class="col">
-              <h5>Note:</h5>
               <p class="note">
-                To provide greatest value, each workshop is customized to the participants’ specific organization, industry and set of challenges.
+                <strong>Note:</strong> To provide greatest value, each workshop is customized to the participants’ specific organization, industry and set of challenges.
               </p>
             </div>
           </div>
@@ -89,9 +91,11 @@
           <div class="col3 s-textRow">
             <div class="col double">
               <h4>About the facilitator</h4>
-              <p>I’ve spent 20 years watching organizations struggle to adapt a digital mindset. Without this change in thinking, businesses often fail to build marketable products, waste huge sums of money and alienate their top innovation talent. I don’t want simple knowledge gaps or misaligned processes to torpedo anyone’s ability to create amazing solutions. So I created this workshop to help teams bridge the gap between analog and digital.</p>
-              <p>Over the course of my career, I’ve designed interfaces, translated business/technical needs, written code, architected solutions and helped define success. I’ve seen the struggles of creating a “digital first organization” from many different perspectives and possess a deep knowledge of the tech involved. Additionally, I’m certified by Google to facilitate innovation workshops.</p>
-              <p>All that really means is that I understand a successful workshop is built from equal parts knowledge transfer, hands on exercises and timely brain breaks. All with a dash or post-it note art tossed in for fun. I look forward to meeting your team!</p>
+              <p>I’ve spent 20 years watching organizations struggle to adopt a digital mindset. Without this change in thinking, businesses often fail to build marketable products, waste huge sums of money, and alienate their top innovation talent. I don’t want simple knowledge gaps or misaligned processes to torpedo anyone’s ability to create amazing solutions. I created this workshop to help teams bridge the gap between analog and digital.</p>
+
+              <p>Over the course of my career, I’ve designed interfaces, translated business/technical needs, written code, architected solutions, and helped define success. I’ve seen the struggles of creating a “digital first organization” from many different perspectives and possess a deep knowledge of the tech involved. Additionally, I’m certified by Google to facilitate innovation workshops.</p>
+
+              <p>All that really means is that I understand a successful workshop is built from equal parts knowledge transfer, hands-on exercises, and timely brain breaks. All with a dash or post-it note art tossed in for fun. I look forward to meeting your team!</p>
             </div>
             <div class="col">
               <h5>Bryce Howitson</h5>
@@ -120,10 +124,10 @@ export default {
         { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
         // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
 
-         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/images/og/itsawego_share.png' },
+         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
          { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-         { hid: 'og:image:width', name: 'og:image:width', content: '1080' },
-         { hid: 'og:image:height', name: 'og:image:height', content: '500' },
+         { hid: 'og:image:width', name: 'og:image:width', content: '1168' },
+         { hid: 'og:image:height', name: 'og:image:height', content: '1034' },
       ]
     }
   },
