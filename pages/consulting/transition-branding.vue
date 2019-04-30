@@ -47,15 +47,21 @@
               </p>
             </div>
             <div class="col">
-              <h5>Note:</h5>
               <p class="note">
-                To provide greatest value, each workshop is customized to the participants’ specific organization, industry and set of challenges.
+                <strong>Note:</strong> To provide greatest value, each workshop is customized to the participants’ specific organization, industry and set of challenges.
               </p>
             </div>
           </div>
       </div>
     </section>
 
+    <section class="studySection bg-ltGray s-cta">
+      <div class="pageWidth">
+        <div class="ctaText">
+          <span>Need more details about what's discussed or want customization?</span> <nuxt-link class="button" to="#contact">Please Contact Us</nuxt-link>
+        </div>
+      </div>
+    </section>
 
     <section class="studySection s-facilitator bg-darkGray">
       <div class="pageWidth">
