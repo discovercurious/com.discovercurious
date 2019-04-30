@@ -783,7 +783,7 @@ button,
 
 // -------------- Case Study Modules -------------------//
 .studySection {
-    padding: 4rem 0;
+    padding: 6rem 0;
     .responsiveImage,
     .responsiveVideo {
         background-repeat: no-repeat;
@@ -829,46 +829,6 @@ button,
         color: lighten($color-gray4, 25%);
         font-style: italic;
     }
-}
-
-.bg-ltGray {
-    background-color: $color-gray1;
-    color: $color-gray5;
-    .responsiveImage,
-    .responsiveVideo {
-        border-color: darken($color-gray1, 5%);
-    }
-}
-
-.bg-darkGray {
-    background-color: $color-gray5;
-    color: $color-white;
-    .responsiveImage,
-    .responsiveVideo {
-        border-color: darken($color-gray5, 5%);
-    }
-}
-
-.bg-gold {
-    background-color: $color-gold1;
-    color: $color-white;
-    .responsiveImage,
-    .responsiveVideo {
-        border-color: darken($color-gold1, 5%);
-    }
-}
-
-.bg-white {
-    background-color: $color-white;
-    color: $color-gray5;
-    .responsiveImage,
-    .responsiveVideo {
-        border-color: darken($color-gray1, 5%);
-    }
-}
-
-.bg-white+.bg-white {
-    border-top: 1px solid $color-gray1;
 }
 
 .s-Intro {
@@ -951,11 +911,7 @@ button,
     }
 }
 
-#cta {
-    background-color: $color-gray1;
-    .pageWidth {
-        padding: 8rem 0;
-    }
+.s-cta {
     .ctaText {
         max-width: 80%;
         text-align: center;
@@ -969,15 +925,20 @@ button,
     button {
         display: inline-block;
     }
+    // &:before {
+    //     content: '';
+    //     position: absolute;
+    //     height: 3rem;
+    //     bottom: 99%;
+    //     left: 0;
+    //     right: 0;
+    //     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    // }
+}
+
+.s-cta:nth-of-type(1) {
     &:before {
-        content: '';
-        background-color: $color-gray1;
-        position: absolute;
-        height: 3rem;
-        bottom: 99.9%;
-        left: 0;
-        right: 0;
-        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        display: none;
     }
 }
 
@@ -1013,6 +974,58 @@ button,
 
 #cta {
     display: none;
+}
+
+.bg-ltGray {
+    background-color: $color-gray1;
+    color: $color-gray5;
+    .responsiveImage,
+    .responsiveVideo {
+        border-color: darken($color-gray1, 5%);
+    }
+    &.s-cta:before {
+        background-color: $color-gray1;
+    }
+}
+
+.bg-darkGray {
+    background-color: $color-gray5;
+    color: $color-white;
+    .responsiveImage,
+    .responsiveVideo {
+        border-color: darken($color-gray5, 5%);
+    }
+    &.s-cta:before {
+        background-color: $color-gray5;
+    }
+}
+
+.bg-gold {
+    background-color: $color-gold1;
+    color: $color-white;
+    .responsiveImage,
+    .responsiveVideo {
+        border-color: darken($color-gold1, 5%);
+    }
+    &.s-cta:before {
+        background-color: $color-gold1;
+    }
+}
+
+.bg-white {
+    background-color: $color-white;
+    color: $color-gray5;
+    .responsiveImage,
+    .responsiveVideo {
+        border-color: darken($color-gray1, 5%);
+    }
+    &.s-cta:before {
+        background-color: $color-white;
+    }
+}
+
+.bg-white+.bg-white {
+    border-top: 1px solid $color-gray1;
 }
 
 //-----------------------------------------------

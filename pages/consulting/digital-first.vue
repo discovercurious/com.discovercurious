@@ -8,9 +8,9 @@
               <div class="responsiveImage" v-lazy:background-image="`/workshops/digital-first.svg`"></div>
             </div>
             <div class="col">
-              <h5>A foundational workshop providing teams with techniques to start imagining and developing digital products to innovate their organization.</h5>
-              <p>This half-day session will help your team: 1) Build a basic knowledge of how digital products work, 2) Quickly gain an understanding of proven processes used by leading tech companies to develop new ideas, and 3) Learn techniques to cross-functionally collaborate to define and understand success.</p>
-              <p>We’ll de-mystify terminology, discuss common iterative approaches to product development, and uncover opportunities unique to a digital mindset. Finally, we’ll explore examples on the technical horizon to spark ideas for the future.</p>
+              <h5>A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.</h5>
+              <p>This half-day session will help your team: 1) Implement the benefits unique to digital platforms during new product development , 2) See how to replicate the processes developed by leading tech companies to build amazing products while saving valuable resources, and 3) Learn techniques to cross-functionally collaborate to define and understand success.</p>
+              <p>We’ll de-mystify terminology, discuss iterative approaches to product development, and uncover opportunities unique to a digital mindset. Finally, we’ll explore technology examples beyond the web to address audiences of the future.</p>
             </div>
           </div>
       </div>
@@ -23,10 +23,10 @@
               <h4>What you'll learn:</h4>
               <p>
                 <ol>
-                  <li>How organizations with a "digital first" mindset assemble teams and create processes that allow them to build engaging digital products.</li>
+                  <li>How organizations with a "digital first" mindset assemble teams and processes to rapidly engage audiences and meet their needs.</li>
                   <li>Identify the various types of technical platforms and when to leverage their unique attributes.</li>
                   <li>Why learning is an integral part of continuously-evolving products and how to integrate test-and-enhancement cycles into your product development.</li>
-                  <li>Which benefits of digital are unique to your business/industry and how to leverage them to improve what you create.</li>
+                  <li>Which benefits of digital are unique to your business/industry and how to leverage them to maximize your investment.</li>
                   <li>The problem with budget buckets and how to better estimate production costs for digital products.</li>
                 </ol>
               </p>
@@ -35,15 +35,25 @@
               <h4>You'll be able to:</h4>
               <p>
                 <ol>
-                  <li>See where technology is going and imagine how it might be used to create products for your market.</li>
-                  <li>Improve your relationship with vendors and in-house teams by speaking a unified language.</li>
-                  <li>Utilize a test + iterate mindset on your next project.</li>
+                  <li>Utilize new and existing resources to produce content specifically optimized for the digital medium.</li>
+                  <li>Save time and money by speaking a unified language when building digital products.</li>
+                  <li>Utilize a “test and learn then iterate” mindset on your next project.</li>
+                  <li>See where technology is going and imagine how it might be used to create unique products for your market.</li>
                 </ol>
               </p>
             </div>
           </div>
       </div>
     </section>
+
+    <section class="studySection bg-gold s-cta">
+      <div class="pageWidth">
+        <div class="ctaText">
+          <span>Want more information or to offer this workshop to your team?</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
+        </div>
+      </div>
+    </section>
+
     <section class="studySection bg-white">
       <div class="pageWidth">
           <h4>Workshop outline</h4>
@@ -52,13 +62,14 @@
               <h5>Part A (2 hours)</h5>
               <p>
                 <ul>
-                  <li>A (brief) History of Digital</li>
-                  <li>Device ecosystems</li>
+                  <li>Review where we've been (brief history)</li>
+                  <li>Modern device ecosystems</li>
                   <li>Common digital product types</li>
-                  <li class="callout"><strong>Exercise:</strong> Building a data stream</li>
-                  <li>Digital opportunities</li>
+                  <li><strong>Exercise:</strong> Things we wish we knew</li>
+                  <li>Digital opportunities you shouldn't ignore</li>
                   <li>Development practices (Design Thinking, Lean, Agile)</li>
-                  <li>Team roles &amp; How to fill them</li>
+                  <li>Implementation roles &amp; How to fill them</li>
+                  <li><strong>Discuss:</strong> What does success look like?</li>
                 </ul>
               </p>
             </div>
@@ -69,11 +80,12 @@
                   <li>A story and a warning</li>
                   <li>Estimating the cost of production</li>
                   <li>Building to the minimums</li>
-                  <li class="callout"><strong>Exercise:</strong> Trim the feature fat</li>
+                  <li><strong>Exercise:</strong> Trim the feature fat</li>
                   <li>Testing, One, Two, Three</li>
                   <li>Fake it first</li>
                   <li>Monetization options</li>
                   <li>Near future technology to consider</li>
+                  <li><strong>Discuss:</strong> What can we implement?</li>
                 </ul>
               </p>
             </div>
@@ -85,7 +97,13 @@
           </div>
       </div>
     </section>
-
+    <section class="studySection bg-ltGray s-cta">
+      <div class="pageWidth">
+        <div class="ctaText">
+          <span>Need more details about what's discussed or want customization?</span> <nuxt-link class="button" to="#contact">Please Contact Us</nuxt-link>
+        </div>
+      </div>
+    </section>
     <section class="studySection s-facilitator bg-darkGray">
       <div class="pageWidth">
           <div class="col3 s-textRow">
@@ -122,7 +140,7 @@ export default {
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
 
         { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
-        // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
+        { hid: 'og:description', name: 'og:description', content: 'A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.' },
 
          { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
          { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
