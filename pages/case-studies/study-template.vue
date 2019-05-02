@@ -26,7 +26,6 @@
     <section class="studySection s-ImageLarge bg-white">
       <div class="pageWidth">
           <div class="responsiveImage" v-lazy:background-image="'https://images.unsplash.com/photo-1553532070-e2c5714303e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'"></div>
-          
       </div>
     </section>
     <section class="studySection s-2ColText bg-darkGray">

@@ -168,7 +168,9 @@ h5 {
     line-height: 1.4;
 }
 
-p {
+p,
+ol li,
+ul li {
     margin-bottom: 1rem;
     font-size: 1.6rem;
     line-height: 1.4;
@@ -818,9 +820,12 @@ button,
     &:first-child {
         padding-top: 8rem;
     }
-    h3 span {
-        display: block;
-        font-weight: 400;
+    h3 {
+        max-width: 70%;
+        span {
+            display: block;
+            font-weight: 400;
+        }
     }
     .callout {
         color: $color-gold1;

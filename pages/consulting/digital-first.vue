@@ -10,7 +10,7 @@
             <div class="col">
               <h5>A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.</h5>
               <p>This half-day session will help your team: 1) Implement the benefits unique to digital platforms during new product development , 2) See how to replicate the processes developed by leading tech companies to build amazing products while saving valuable resources, and 3) Learn techniques to cross-functionally collaborate to define and understand success.</p>
-              <p>We’ll de-mystify terminology, discuss iterative approaches to product development, and uncover opportunities unique to a digital mindset. Finally, we’ll explore technology examples beyond the web to address audiences of the future.</p>
+              <p>We’ll de-mystify terminology, discuss iterative approaches to product development, highlight available tools to integrate, and uncover opportunities unique to a digital mindset. Finally, we’ll explore technology examples beyond the web to address audiences of the future.</p>
             </div>
           </div>
       </div>
@@ -21,26 +21,22 @@
           <div class="col2 s-textRow" >
             <div class="col">
               <h4>What you'll learn:</h4>
-              <p>
-                <ol>
-                  <li>How organizations with a "digital first" mindset assemble teams and processes to rapidly engage audiences and meet their needs.</li>
-                  <li>Identify the various types of technical platforms and when to leverage their unique attributes.</li>
-                  <li>Why learning is an integral part of continuously-evolving products and how to integrate test-and-enhancement cycles into your product development.</li>
+              <ol>
+                  <li>How organizations with a "digital first" mindset assemble teams and create processes to rapidly engage audiences and meet their needs.</li>
+                  <li>Identify the various types of technical platforms available and when to leverage their unique attributes.</li>
                   <li>Which benefits of digital are unique to your business/industry and how to leverage them to maximize your investment.</li>
+                  <li>How to leverage tools from Amazon, Google, and Microsoft to speed production while decreasing costs.</li>
                   <li>The problem with budget buckets and how to better estimate production costs for digital products.</li>
                 </ol>
-              </p>
             </div>
             <div class="col">
               <h4>You'll be able to:</h4>
-              <p>
-                <ol>
-                  <li>Utilize new and existing resources to produce content specifically optimized for the digital medium.</li>
+              <ol>
+                  <li>Utilize new and existing resources to produce content specifically optimized for digital mediums.</li>
                   <li>Save time and money by speaking a unified language when building digital products.</li>
                   <li>Utilize a “test and learn then iterate” mindset on your next project.</li>
-                  <li>See where technology is going and imagine how it might be used to create unique products for your market.</li>
+                  <li>Visualize technology’s direction post web and imagine how it might be used to create unique products for your market.</li>
                 </ol>
-              </p>
             </div>
           </div>
       </div>
@@ -60,7 +56,6 @@
           <div class="col3 s-textRow" >
             <div class="col">
               <h5>Part A (2 hours)</h5>
-              <p>
                 <ul>
                   <li>Review where we've been (brief history)</li>
                   <li>Modern device ecosystems</li>
@@ -71,12 +66,10 @@
                   <li>Implementation roles &amp; How to fill them</li>
                   <li><strong>Discuss:</strong> What does success look like?</li>
                 </ul>
-              </p>
             </div>
             <div class="col">
               <h5>Part B (2 hours)</h5>
-              <p>
-                <ul>
+              <ul>
                   <li>A story and a warning</li>
                   <li>Estimating the cost of production</li>
                   <li>Building to the minimums</li>
@@ -87,7 +80,6 @@
                   <li>Near future technology to consider</li>
                   <li><strong>Discuss:</strong> What can we implement?</li>
                 </ul>
-              </p>
             </div>
             <div class="col">
               <p class="note">
