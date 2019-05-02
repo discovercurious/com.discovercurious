@@ -100,10 +100,10 @@ export default {
         { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Branding for business transition' },
         { hid: 'og:description', name: 'og:description', content: 'How do you let go and set the company up for success? How do you make changes that are helpful and not too disruptive? How do you address new technology and a more competitive marketplace? It isn’t easy. But we can help you navigate the process as an unemotional, experienced guide.' },
 
-         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
+         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/hurdles.png' },
          { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-         { hid: 'og:image:width', name: 'og:image:width', content: '1168' },
-         { hid: 'og:image:height', name: 'og:image:height', content: '1034' },
+         { hid: 'og:image:width', name: 'og:image:width', content: '1129' },
+         { hid: 'og:image:height', name: 'og:image:height', content: '520' },
       ]
     }
   },
