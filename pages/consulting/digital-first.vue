@@ -11,6 +11,7 @@
               <h5>A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.</h5>
               <p>This half-day session will help your team: 1) Implement the benefits unique to digital platforms during new product development , 2) See how to replicate the processes developed by leading tech companies to build amazing products while saving valuable resources, and 3) Learn techniques to cross-functionally collaborate to define and understand success.</p>
               <p>We’ll de-mystify terminology, discuss iterative approaches to product development, highlight available tools to integrate, and uncover opportunities unique to a digital mindset. Finally, we’ll explore technology examples beyond the web to address audiences of the future.</p>
+              <p><strong>We've designed this workshop to re-energize your team through entertaining and collaborative learning exercises.</strong> Additionally, these exercieses generate actionable ideas you could begin to implement the very next day.</p>
             </div>
           </div>
       </div>
