@@ -65,8 +65,8 @@
           <div class="col2 s-textRow">
             <div class="col">
               <div class="responsiveVideo">
-                <video loop autoplay muted poster="/casestudies/itsawego/chat_placeholder.png">
-                  <source src="/casestudies/itsawego/chat.mp4" type="video/mp4">
+                <video loop autoplay muted poster="/casestudies/itsawego/matching_placeholder.png">
+                  <source src="/casestudies/itsawego/matching.mp4" type="video/mp4">
                 </video>
               </div>
               <h5>Making a love connection</h5>
@@ -74,8 +74,8 @@
             </div>
             <div class="col">
               <div class="responsiveVideo">
-                <video loop autoplay muted poster="/casestudies/itsawego/matching_placeholder.png">
-                  <source src="/casestudies/itsawego/matching.mp4" type="video/mp4">
+                <video loop autoplay muted poster="/casestudies/itsawego/chat_placeholder.png">
+                  <source src="/casestudies/itsawego/chat.mp4" type="video/mp4">
                 </video>
               </div>
               <h5>Communication &amp; Logistics</h5>
