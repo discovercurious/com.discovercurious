@@ -1,26 +1,53 @@
 <template>
-        <div class="col3 caseStudyList">
+        <div class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
           <nuxt-link to="/case-studies/branding-alomere" tag="div" class="caseStudy col">
-            <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/2.jpg`"></div>
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/2.jpg`"></div>
+              </div>
             </div>
-            <h4><span>Alomere Health</span> Guiding Rename &amp; Rebrand Strategy</h4>
-            <button>View Case Study</button>
+            <div class="studyInfo">
+              <h4><span>Alomere Health</span> Guiding Rename &amp; Rebrand Strategy</h4>
+              <button>View Case Study</button>
+            </div>
           </nuxt-link>
+
           <nuxt-link to="/case-studies/branding-ostra" tag="div" class="caseStudy col">
-            <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/2.jpg`"></div>
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/2.jpg`"></div>
+              </div>
             </div>
-            <h4><span>Ostra</span> Collaborative Brand Story Development</h4>
-            <button>View Case Study</button>
+            <div class="studyInfo">
+              <h4><span>Ostra</span> Collaborative Brand Story Development</h4>
+              <button>View Case Study</button>
+            </div>
           </nuxt-link>
+
           <nuxt-link to="/case-studies/branding-heimies" tag="div" class="caseStudy col">
-            <div class="pic">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/heimies/4.jpg`"></div>
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/casestudies/heimies/4.jpg`"></div>
+              </div>
             </div>
-            <h4><span>Heimies Made</span> Define Unique Brand Position</h4>
-            <button>View Case Study</button>
+            <div class="studyInfo">
+              <h4><span>Heimies Made</span> Define Unique Brand Position</h4>
+              <button>View Case Study</button>
+            </div>
           </nuxt-link>
+
+          <nuxt-link to="/case-studies/" tag="div" class="caseStudy col">
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/1.jpg`"></div>
+              </div>
+            </div>
+            <div class="studyInfo">
+              <h4><span>The Foundry</span> New Name for Storied Hitory</h4>
+              <button>View Case Study</button>
+            </div>
+          </nuxt-link>
+
         </div>
 </template>
 
@@ -29,6 +56,8 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'BrandingStudies',
-  
+  props: {
+    type: String,
+  },
 });
 </script>

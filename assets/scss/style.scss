@@ -947,12 +947,12 @@ button,
     }
 }
 
-.caseStudyList.col3 {
-    justify-content: flex-start;
+.caseStudyList {
     .pic {
         background-color: $color-white;
         padding: 1rem;
         margin-bottom: 2rem;
+        box-shadow: 0 0 0.4rem 0 rgba(0, 0, 0, 0.1);
     }
     .responsiveImage {
         filter: grayscale(1);
@@ -963,16 +963,57 @@ button,
         transition: all 0.25s ease;
     }
     .col {
-        flex-basis: calc(33.33% - 2rem);
-        margin-left: 2rem;
-        &:first-child {
-            margin-left: 0;
-        }
         &:hover {
             cursor: pointer;
             .responsiveImage {
                 filter: grayscale(0);
             }
+        }
+    }
+}
+
+.caseStudyList.col3 {
+    justify-content: flex-start;
+    .col {
+        display: none;
+        flex-basis: calc(33.33% - 2rem);
+        margin-left: 2rem;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    .col:nth-child(-n+3) {
+        display: block;
+    }
+}
+
+.caseStudyList.studiesFull {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .col {
+        flex-basis: calc(50% - 2rem);
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+        display: flex;
+        &:nth-child(odd) {
+            margin-left: 0;
+        }
+        .picWrap {
+            flex: 2;
+            margin-right: 1rem;
+        }
+        .studyInfo {
+            flex: 1;
+        }
+        h4 {
+            font-size: 2rem;
+        }
+        button {
+            display: none;
+        }
+        .responsiveImage {
+            filter: grayscale(0);
         }
     }
 }
@@ -1014,6 +1055,12 @@ button,
     }
     &.s-cta:before {
         background-color: $color-gold1;
+    }
+    h3 {
+        color: $color-gray5;
+        &:after {
+            background-color: $color-gold2;
+        }
     }
 }
 

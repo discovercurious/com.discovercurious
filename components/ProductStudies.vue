@@ -1,26 +1,29 @@
 <template>
-  <div class="col3 caseStudyList">
+  <div class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
     <nuxt-link to="/case-studies/product-itsawego" tag="div" class="caseStudy col">
-      <div class="pic">
-        <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/1.jpg`"></div>
+      <div class="picWrap">
+        <div class="pic">
+          <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/1.jpg`"></div>
+        </div>
       </div>
-      <h4><span>Itsawego</span>Product Story + Prototyping</h4>
-      <button>View Case Study</button>
+      <div class="studyInfo">
+        <h4><span>Itsawego</span>Product Story + Prototyping</h4>
+        <button>View Case Study</button>
+      </div>
     </nuxt-link>
-    <!-- <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
-      <div class="pic">
-        <div class="responsiveImage" v-lazy:background-image="`/casestudies/reve/1.jpg`"></div>
+
+    <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
+      <div class="picWrap">
+        <div class="pic">
+          <div class="responsiveImage" v-lazy:background-image="`/casestudies/reve/1.jpg`"></div>
+        </div>
       </div>
-      <h4><span>R&ecirc;ve Academy</span>Google Design Sprint Workshop</h4>
-      <button>View Case Study</button>
-    </nuxt-link> -->
-    <!-- <nuxt-link to="/" tag="div" class="caseStudy col">
-      <div class="pic">
-        <div class="responsiveImage" v-lazy:background-image="`/casestudies/heimies/4.jpg`"></div>
+      <div class="studyInfo">
+        <h4><span>R&ecirc;ve Academy</span>Google Design Sprint Workshop</h4>
+        <button>View Case Study</button>
       </div>
-      <h4><span>University of Minnesota</span>Platform Ideation &amp; Development Support</h4>
-      <button>View Case Study</button>
-    </nuxt-link> -->
+    </nuxt-link>
+
   </div>
 </template>
 
@@ -29,6 +32,8 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'ProductStudies',
-  
+  props: {
+    type: String,
+  },
 });
 </script>
