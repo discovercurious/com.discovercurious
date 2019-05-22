@@ -12,7 +12,7 @@
       </div>
     </nuxt-link>
 
-    <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
+    <!-- <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
       <div class="picWrap">
         <div class="pic">
           <div class="responsiveImage" v-lazy:background-image="`/casestudies/reve/1.jpg`"></div>
@@ -22,7 +22,7 @@
         <h4><span>R&ecirc;ve Academy</span>Google Design Sprint Workshop</h4>
         <button>View Case Study</button>
       </div>
-    </nuxt-link>
+    </nuxt-link> -->
 
   </div>
 </template>
