@@ -36,14 +36,14 @@
             </div>
           </nuxt-link>
 
-          <nuxt-link to="/case-studies/" tag="div" class="caseStudy col">
+          <nuxt-link to="/case-studies/branding-foundry" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/1.jpg`"></div>
               </div>
             </div>
             <div class="studyInfo">
-              <h4><span>The Foundry</span> New Name for Storied Hitory</h4>
+              <h4><span>The Foundry</span> New Name Evokes a Storied History</h4>
               <button>View Case Study</button>
             </div>
           </nuxt-link>

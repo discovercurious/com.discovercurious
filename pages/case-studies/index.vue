@@ -3,9 +3,9 @@
     <section id="top">
       <div class="intro pageWidth">
         <h2>We’re stong believers in show &amp; tell, so here are a few examples of past projects.</h2>
-        <div class="cta">
+        <!-- <div class="cta">
           <nuxt-link to="#contact">Find an experienced partner</nuxt-link>
-        </div>
+        </div> -->
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
     </section>

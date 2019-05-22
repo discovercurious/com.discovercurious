@@ -2,12 +2,18 @@
   <div id="app">
     <section id="top">
       <div class="intro pageWidth">
-        <h2>We’re a small team with big experience across many diciplines &amp; technologies.</h2>
-        <div class="cta">
+        <h2>True collaboration is teaching + doing, with a lot of fun thrown in for good measure. We just described our workshops.</h2>
+        <!-- <div class="cta">
           <nuxt-link to="#contact">Find an experienced partner</nuxt-link>
-        </div>
+        </div> -->
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
+    </section>
+    <section id="" class="studySection s-ImageGroup bg-ltGray">
+      <div class="pageWidth">
+        <h3>2019 Curious Workshops</h3>
+        <WorkshopList type="full" />
+      </div>
     </section>
     <team></team>
   </div>
@@ -15,11 +21,13 @@
 
 <script>
 import Team from '@/components/people.vue';
+import WorkshopList from '@/components/WorkshopList.vue';
 import TypeMate from 'typemate';
 
 export default {
   components: {
     Team,
+    WorkshopList
   },
   mounted: function(){
     this.$nextTick(function () {

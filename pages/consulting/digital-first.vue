@@ -106,7 +106,7 @@
 
               <p>Over the course of my career, I’ve designed interfaces, translated business/technical needs, written code, architected solutions, and helped define success. I’ve seen the struggles of creating a “digital first organization” from many different perspectives and possess a deep knowledge of the tech involved. Additionally, I’m certified by Google to facilitate innovation workshops.</p>
 
-              <p>All that really means is that I understand a successful workshop is built from equal parts knowledge transfer, hands-on exercises, and timely brain breaks. All with a dash or post-it note art tossed in for fun. I look forward to meeting your team!</p>
+              <p>What that really means is I understand a successful workshop is built from equal parts knowledge transfer, hands-on exercises, and timely brain breaks. All with a dash of post-it note art tossed in for fun. I look forward to meeting your team!</p>
             </div>
             <div class="col">
               <h5>Bryce Howitson</h5>

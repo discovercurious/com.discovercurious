@@ -953,8 +953,19 @@ button,
         padding: 1rem;
         margin-bottom: 2rem;
         box-shadow: 0 0 0.4rem 0 rgba(0, 0, 0, 0.1);
+        &:after {
+            content: '';
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            bottom: 1rem;
+            left: 1rem;
+            background-color: $color-white;
+            z-index: 1;
+        }
     }
     .responsiveImage {
+        z-index: 10;
         filter: grayscale(1);
         margin-bottom: 0;
         border-radius: 0;
@@ -968,6 +979,18 @@ button,
             .responsiveImage {
                 filter: grayscale(0);
             }
+        }
+    }
+    &.workshopList {
+        .pic {
+            background-color: $color-white;
+        }
+        .responsiveImage {
+            border: 0.1rem solid $color-gray1;
+        }
+        h5 {
+            font-size: 1.6rem;
+            font-weight: 600;
         }
     }
 }
