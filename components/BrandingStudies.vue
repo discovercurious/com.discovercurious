@@ -1,6 +1,6 @@
 <template>
         <div class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
-          <nuxt-link to="/case-studies/branding-alomere" tag="div" class="caseStudy col">
+          <nuxt-link v-if="$nuxt.$route.path != '/case-studies/branding-alomere'" to="/case-studies/branding-alomere" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/2.jpg`"></div>
@@ -12,7 +12,7 @@
             </div>
           </nuxt-link>
 
-          <nuxt-link to="/case-studies/branding-ostra" tag="div" class="caseStudy col">
+          <nuxt-link v-if="$nuxt.$route.path != '/case-studies/branding-ostra'" to="/case-studies/branding-ostra" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/2.jpg`"></div>
@@ -24,7 +24,7 @@
             </div>
           </nuxt-link>
 
-          <nuxt-link to="/case-studies/branding-heimies" tag="div" class="caseStudy col">
+          <nuxt-link v-if="$nuxt.$route.path != '/case-studies/branding-heimies'" to="/case-studies/branding-heimies" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/casestudies/heimies/4.jpg`"></div>
@@ -36,7 +36,7 @@
             </div>
           </nuxt-link>
 
-          <nuxt-link to="/case-studies/branding-foundry" tag="div" class="caseStudy col">
+          <nuxt-link v-if="$nuxt.$route.path != '/case-studies/branding-foundry'" to="/case-studies/branding-foundry" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/1.jpg`"></div>

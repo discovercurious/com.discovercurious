@@ -1,7 +1,7 @@
 <template>
   <div class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
 
-    <nuxt-link to="/case-studies/marketing-white-crane" tag="div" class="caseStudy col">
+    <nuxt-link v-if="$nuxt.$route.path != '/case-studies/marketing-white-crane'" to="/case-studies/marketing-white-crane" tag="div" class="caseStudy col">
       <div class="picWrap">
         <div class="pic">
           <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/1.jpg`"></div>
@@ -13,7 +13,7 @@
       </div>
     </nuxt-link>
 
-    <nuxt-link to="/case-studies/marketing-alomere" tag="div" class="caseStudy col">
+    <nuxt-link v-if="$nuxt.$route.path != '/case-studies/marketing-alomere'" to="/case-studies/marketing-alomere" tag="div" class="caseStudy col">
       <div class="picWrap">
         <div class="pic">
           <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereMarketing/1.jpg`"></div>

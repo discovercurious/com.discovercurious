@@ -35,5 +35,8 @@ export default Vue.extend({
   props: {
     type: String,
   },
+  mounted: function(){
+    console.log("route " + $nuxt.$route.path);
+  },
 });
 </script>
