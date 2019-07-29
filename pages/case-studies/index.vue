@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="allStudies">
     <section id="top">
       <div class="intro pageWidth">
         <h2>We’re stong believers in show &amp; tell, so here are a few examples of past projects.</h2>
@@ -15,15 +15,15 @@
         <BrandingStudies type="full" />
       </div>
     </section>
-    <section id="" class="studySection s-ImageGroup bg-gold">
+    <section id="" class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
         <h3>Marketing Consulting</h3>
         <MarketingStudies type="full" />
       </div>
     </section>
-    <section id="" class="studySection s-ImageGroup bg-darkGray">
+    <section id="" class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
-        <h3>Digital Product</h3>
+        <h3>Digital Product Development</h3>
         <ProductStudies type="full" />
       </div>
     </section>

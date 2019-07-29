@@ -2,7 +2,7 @@
   <div id="app">
     <section id="top">
       <div class="intro pageWidth">
-        <h2>True collaboration is teaching + doing, with a lot of fun thrown in for good measure. We just described our workshops.</h2>
+        <h2>True collaboration is coaching + creating, with a lot of fun thrown in for good measure.</h2>
         <!-- <div class="cta">
           <nuxt-link to="#contact">Find an experienced partner</nuxt-link>
         </div> -->
@@ -11,7 +11,7 @@
     </section>
     <section id="" class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
-        <h3>2019 Curious Workshops</h3>
+        <h3>Some ways to work with us:</h3>
         <WorkshopList type="full" />
       </div>
     </section>
