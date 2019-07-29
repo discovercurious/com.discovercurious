@@ -3,9 +3,9 @@
     <section id="top">
       <div class="intro pageWidth">
         <h2>Find and connect with your audience. Improve your business.</h2>
-        <div class="cta">
+        <!-- <div class="cta">
           Are you generating the right traffic? <nuxt-link to="#contact">Get answers.</nuxt-link>
-        </div>
+        </div> -->
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
     </section>

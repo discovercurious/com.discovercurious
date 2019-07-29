@@ -4,8 +4,9 @@
           <div class="menuToggle" @click="showMenu()">Menu</div>
           <nav>
             <div class="navWrap">
-              <a href="#" class="primaryNav">We Help You</a>
+              <span class="primaryNav">We Help </span>
               <div class="subNav">
+                <span>Businesses</span>
                 <nuxt-link to="/branding" @click.native="showMenu()">Define Brands</nuxt-link>
                 <nuxt-link to="/marketing" @click.native="showMenu()">Build Marketing</nuxt-link>
                 <nuxt-link to="/product" @click.native="showMenu()">Create Products</nuxt-link>

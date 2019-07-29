@@ -46,7 +46,7 @@
             <h5>Feeling stuck? Need to engage your team? Short on time?</h5>
             <p>Why not compress ideation, prototyping and testing into a week or less with a <a href="https://www.gv.com/sprint/" target="_blank" rel="noopener noreferrer">Design Sprint Workshop</a>. Our Google trained facilitators will guide your team through unlocking creative solutions in a fun activity driven environment.</p>
           </div>
-          <nuxt-link class="button" to="#contact">Schedule a Sprint</nuxt-link>
+          <!-- <nuxt-link class="button" to="#contact">Schedule a Sprint</nuxt-link> -->
         </div>
       </div>
     </section>
