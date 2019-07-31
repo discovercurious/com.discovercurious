@@ -2,102 +2,79 @@
   <div id="app">
     <section class="studySection bg-ltGray s-noBorder">
       <div class="pageWidth">
-          <h3><span>Workshop:</span>Digital Thinking for Analog Organizations</h3>
+          <h3><span>Engagement:</span>Curious Opportunity Map</h3>
           <div class="col2 s-textRow">
             <div class="col">
               <div class="responsiveImage" v-lazy:background-image="`/workshops/digital-first.svg`"></div>
             </div>
-            <div class="col">
-              <h5>Digital Thinking for Analog Organizations provides teams with techniques to imagine and develop digital products that create unique innovative solutions for their organization or market.</h5>
-              <p>This half-day session will help your team: 1) Implement the benefits unique to digital platforms during new product development , 2) See how to replicate the processes developed by leading tech companies to build amazing products while saving valuable resources, and 3) Learn techniques to cross-functionally collaborate to define and understand success.</p>
-              <p>We’ll de-mystify terminology, discuss iterative approaches to product development, highlight available tools to integrate, and uncover opportunities unique to a digital mindset. Finally, we’ll explore technology examples beyond the web to address audiences of the future.</p>
-              <p><strong>We've designed this workshop to re-energize your team through entertaining and collaborative learning exercises.</strong> Additionally, these exercieses generate actionable ideas you could begin to implement the very next day.</p>
-            </div>
           </div>
       </div>
     </section>
-
-    <section class="studySection bg-white">
+    <section class="studySection bg-ltGray s-noBorder">
       <div class="pageWidth">
-          <div class="col2 s-textRow" >
+          <h5>Do you have an idea to grow your business but the path to achieving that goal is hazy? Do you imagine templating a service to generate new revenue or leads? How might your existing offerings be tweaked to reach a new audience? </h5>
+          <div class="col2 s-textRow">
             <div class="col">
-              <h4>What you'll learn:</h4>
-              <ol>
-                  <li>How organizations with a "digital first" mindset assemble teams and create processes to rapidly engage audiences and meet their needs.</li>
-                  <li>Identify the various types of technical platforms available and when to leverage their unique attributes.</li>
-                  <li>Which benefits of digital are unique to your business/industry and how to leverage them to maximize your investment.</li>
-                  <li>How to leverage tools from Amazon, Google, and Microsoft to speed production while decreasing costs.</li>
-                  <li>The problem with budget buckets and how to better estimate production costs for digital products.</li>
-                </ol>
+              <p>At Curious we believe every business will benefit from answering these questions. We created the Curious Opportunity Map (COP) process to identify ways to productize your unique business, service, and knowledge. But it doesn’t stop there. The COP process combines collaborative workshops with Curious product branding and marketing expertise to not only uncover opportunities, but also provide definition to empower you to decide how best to invest in your business. By the end of the process you’ll receive documentation covering the vision, pros/cons, estimated costs, production hurdles, success metrics and ROI for 2-3 unique opportunities.</p>
             </div>
             <div class="col">
-              <h4>You'll be able to:</h4>
+              <p><strong>Curious Opportunity Mapping provides these benefits:</strong></p>
               <ol>
-                  <li>Utilize new and existing resources to produce content specifically optimized for digital mediums.</li>
-                  <li>Save time and money by speaking a unified language when building digital products.</li>
-                  <li>Utilize a “test and learn then iterate” mindset on your next project.</li>
-                  <li>Visualize technology’s direction post web and imagine how it might be used to create unique products for your market.</li>
-                </ol>
+                <li>Efficiently shape the challenge to quickly identify opportunities and roadblocks</li>
+                <li>Identify the full picture of the problem being solved</li> 
+                <li>Collaborate with experienced product and marketing experts</li>
+                <li>Bring clarity to the impact and viability of ideas / solutions</li>
+                <li>Understand implementation costs</li>
+                <li>Clearly define success and how to measure it</li>
+              </ol>
             </div>
-          </div>
-      </div>
-    </section>
-
-    <section class="studySection bg-gold s-cta">
-      <div class="pageWidth">
-        <div class="ctaText">
-          <span>Want more information or to offer this workshop to your team?</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>
-
+    <section class="studySection bg-darkGray s-cta">
+      <div class="pageWidth">
+        <div class="ctaText">
+          <span>Ready to start identifiying product opportunities?</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
+        </div>
+      </div>
+    </section>
     <section class="studySection bg-white">
       <div class="pageWidth">
-          <h4>Workshop outline</h4>
-          <div class="col3 s-textRow" >
+          <h4>How it works + deliverables</h4>
+          <div class="col2 s-textRow" >
             <div class="col">
-              <h5>Part A (2 hours)</h5>
+              <h5>Exploration Audit  (half day)</h5>
                 <ul>
-                  <li>Review where we've been (brief history)</li>
-                  <li>Modern device ecosystems</li>
-                  <li>Common digital product types</li>
-                  <li><strong>Exercise:</strong> Things we wish we knew</li>
-                  <li>Digital opportunities you shouldn't ignore</li>
-                  <li>Development practices (Design Thinking, Lean, Agile)</li>
-                  <li>Implementation roles &amp; How to fill them</li>
-                  <li><strong>Discuss:</strong> What does success look like?</li>
+                  <li>Lightning Talks - Expert conversations to provide perspective and goals of the problem being solved.</li>
+                  <li>Definition Exercise - Define the challenge and establish success metrics.</li>
+                  <li>"How Might We" Exercise - clarify the challenges and context based on lighting talks.</li> 
+                  <li>Demo Time - share existing marketplace examples that solve similar problems to provide context and inspiration.</li>
+                  <li>Listening Session - ensure Curious completely understands goals &amp; objectives. </li>
                 </ul>
             </div>
             <div class="col">
-              <h5>Part B (2 hours)</h5>
+              <h5>Curious Recommendations</h5>
               <ul>
-                  <li>A story and a warning</li>
-                  <li>Estimating the cost of production</li>
-                  <li>Building to the minimums</li>
-                  <li><strong>Exercise:</strong> Trim the feature fat</li>
-                  <li>Testing, One, Two, Three</li>
-                  <li>Fake it first</li>
-                  <li>Monetization options</li>
-                  <li>Near future technology to consider</li>
-                  <li><strong>Discuss:</strong> What can we implement?</li>
+                  <li>Presentation of opportunities (2-3 solutions)</li>
+                  <li>Take-away documentation of each solution including pros/cons, estimated implementation costs and role/expertise requirements</li>
                 </ul>
-            </div>
-            <div class="col">
-              <p class="note">
-                <strong>Note:</strong> To provide greatest value, each workshop is customized to the participants’ specific organization, industry and set of challenges.
+                <h5>Business Investment $5,000.00</h5>
+                <p class="note">
+                <strong>Note:</strong> To provide greatest value, each collaboration session is customized to the participants’ specific organization, industry and set of challenges.
               </p>
             </div>
           </div>
       </div>
     </section>
-    <section class="studySection bg-ltGray s-cta">
+    <section class="studySection bg-gold s-cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Need more details about what's discussed or want customization?</span> <nuxt-link class="button" to="#contact">Please Contact Us</nuxt-link>
+          <span>Wondering how to innovate your products or services?</span> <nuxt-link class="button" to="#contact">Say Hello</nuxt-link>
         </div>
       </div>
     </section>
-    <section class="studySection s-facilitator bg-darkGray">
+
+    <!-- <section class="studySection s-facilitator bg-darkGray">
       <div class="pageWidth">
           <div class="col3 s-textRow">
             <div class="col double">
@@ -114,7 +91,7 @@
             </div>
           </div>
       </div>
-    </section>
+    </section> -->
 
   </div>
 </template>
@@ -126,11 +103,8 @@ export default {
   },
   head () {
     return {
-      title: 'Curious: Workshop - Digital Thinking for Analog Organizations',
+      title: 'Curious: Opportunity Mapping & Solution Identification',
       meta: [
-        // { hid: 'description', name: 'description', content: 'Curious consultants help you identify your next best marketing steps, and develop marketing strategies to find and connect with your customers.' },
-
-        // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
 
         { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
         { hid: 'og:description', name: 'og:description', content: 'A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.' },

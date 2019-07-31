@@ -40,7 +40,7 @@
               </div>
             </div>
             <div class="studyInfo">
-              <h4><span>Product Development</span> Opportunity Finder</h4>
+              <h4><span>Product Development</span> Product Opportunity Mapping</h4>
               <h5>Type: Recommendation <br />
                 Cost: $5,000
               </h5>

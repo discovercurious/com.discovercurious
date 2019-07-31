@@ -523,18 +523,37 @@
             flex-basis: 60%;
         }
         >*:nth-child(2) {
-            flex-basis: 30%;
+            flex-basis: calc(40% - 6rem);
+            margin-left: 6rem;
         }
         h3 {
             max-width: 95%;
         }
+        .questions {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            li {
+                margin: 0;
+                padding: 1.5rem 0 1.5rem 3rem;
+                border-top: 1px solid darken($color-gray1, 5%);
+                font-size: 1.5rem;
+                &:before {
+                    content: '';
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    background: $color-gold2;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                }
+            }
+        }
         .feature {
-            background: $color-gold1;
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: $color-white;
+            background: darken($color-gray1, 10%);
+            padding: 1rem 2rem;
             .featureImage {
                 position: relative;
                 padding-bottom: 49.09%;
@@ -550,8 +569,8 @@
                     opacity: 1;
                 }
             }
-            .featureContent {
-                flex: 2;
+            .featureTop {
+                margin-bottom: 4rem;
             }
             h5 {
                 color: $color-gray6;
@@ -562,41 +581,16 @@
                 text-decoration: underline;
             }
             li {
-                padding-bottom: 1rem;
-                font-size: 1.6rem;
-                line-height: 1.2;
-            }
-            .button {
-                background-color: $color-gray6;
-                color: $color-gold1;
-                font-weight: 600;
-                text-decoration: none;
-                transition: all 0.25s ease;
-                &:hover {
-                    background-color: $color-gold2;
-                    color: $color-white;
-                }
-            }
-        }
-        .questions {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-            li {
-                padding: 1.5rem 0 1.5rem 3rem;
-                border-top: 1px solid darken($color-gray1, 5%);
-                font-size: 1.5rem;
                 &:before {
-                    content: '';
-                    width: 0.8rem;
-                    height: 0.8rem;
-                    background: $color-gold2;
-                    border-radius: 50%;
-                    position: absolute;
-                    top: 50%;
-                    left: 0;
-                    transform: translateY(-50%);
+                    background-color: $color-white;
                 }
+            }
+            button {
+                display: inline-block;
+                margin-left: 0.5rem;
+                font-size: 1rem;
+                font-weight: 400;
+                padding: 0.5rem 1rem;
             }
         }
     }

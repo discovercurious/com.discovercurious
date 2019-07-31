@@ -41,18 +41,33 @@
           </div>
         </div>
         <div class="feature">
-          <div class="featureImage" v-lazy:background-image="`/images/featured/designsprints.png`"></div>
+          <!-- <div class="featureImage" v-lazy:background-image="`/images/featured/designsprints.png`"></div>
           <div class="featureContent">
             <h5>Feeling stuck? Need to engage your team? Short on time?</h5>
             <p>Why not compress ideation, prototyping and testing into a week or less with a <a href="https://www.gv.com/sprint/" target="_blank" rel="noopener noreferrer">Design Sprint Workshop</a>. Our Google trained facilitators will guide your team through unlocking creative solutions in a fun activity driven environment.</p>
           </div>
-          <nuxt-link class="button" to="#contact">Schedule a Sprint</nuxt-link>
+          <nuxt-link class="button" to="#contact">Schedule a Sprint</nuxt-link> -->
+          <div class="featureTop">
+            <h4>Curious helps imagine, define, prototype and test product opportunities.</h4>
+            <p>We want to help you create successful solutions your users will love. We can partner with your team to fill expertise gaps, provide education and training, or manage the entire process. It's up to you. </p>
+          </div>
+          <h5>Services we offer:</h5>
+          <ul class="questions">
+            <li>Google Design Sprint Workshops <button>More</button></li>
+            <li>Opportunity Identification/Mapping <button>More</button></li>
+            <li>Customer Needs Analysis (Personas, Jobs to Be Done)</li>
+            <li>Definition (Technical Architecture, Wireframes, UX Flows)</li>
+            <li>Prototyping includeing web, apps, voice, augmented/virtual reality</li>
+            <li>Moderated User Testing</li>
+            <li>Managing 3rd Party Production Efforts</li>
+            <li>Training &amp; Mentoring your team</li>
+          </ul>
         </div>
       </div>
     </section>
     <section id="caseStudies">
       <div class="pageWidth">
-        <h3>We've made things useful, useable &amp; beautiful. Here are some examples.</h3>
+        <h3>Product Development Case Studies</h3>
         <ProductStudies />
       </div>
     </section>
