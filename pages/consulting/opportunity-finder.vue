@@ -100,13 +100,13 @@ export default {
       title: 'Curious: Opportunity Mapping & Solution Identification',
       meta: [
 
-        { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
-        { hid: 'og:description', name: 'og:description', content: 'A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.' },
+        { hid: 'og:title', name: 'og:title', content: 'Curious: Opportunity Mapping & Solution Identification' },
+        { hid: 'og:description', name: 'og:description', content: 'We created the Curious Opportunity Map (COP) process to identify ways to productize your unique business, service, and knowledge.' },
 
          { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/cop.png' },
          { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
          { hid: 'og:image:width', name: 'og:image:width', content: '1168' },
-         { hid: 'og:image:height', name: 'og:image:height', content: '1034' },
+         { hid: 'og:image:height', name: 'og:image:height', content: '722' },
       ]
     }
   },
