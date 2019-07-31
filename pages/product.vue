@@ -12,7 +12,7 @@
     <section id="main">
       <div class="pageWidth serviceIntro">
         <div class="serviceLeft">
-          <h3>We use business context &amp; proven techniques to help you answer questions like these</h3>
+          <h3>We use business context &amp; proven techniques to help you answer questions like these:</h3>
           <div class="col2">
             <div class="col">
               <h5>Product Development</h5>

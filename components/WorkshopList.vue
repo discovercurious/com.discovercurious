@@ -11,7 +11,6 @@
               <h4><span>Product Development</span> Digital Thinking for Analog Organizations</h4>
               <h5>Type: Workshop <br />
                 Length: 1/2 Day <br />
-                Cost: $$$
               </h5>
             </div>
           </nuxt-link>
@@ -27,7 +26,6 @@
               <h4><span>Brand Strategy</span> Branding for business transition</h4>
               <h5>Type: Workshop <br />
                 Length: 1/2 Day <br />
-                Cost: $$$
               </h5>
             </div>
           </nuxt-link>
@@ -35,7 +33,7 @@
           <nuxt-link to="/consulting/opportunity-finder" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
-                <div class="responsiveImage" v-lazy:background-image="`/workshops/default.jpg`"></div>
+                <div class="responsiveImage" v-lazy:background-image="`/workshops/cop.png`"></div>
                 <span class="learnMore">Learn More</span>
               </div>
             </div>

@@ -2,32 +2,25 @@
   <div id="app">
     <section class="studySection bg-ltGray s-noBorder">
       <div class="pageWidth">
-          <h3><span>Engagement:</span>Curious Opportunity Map</h3>
-          <div class="col2 s-textRow">
-            <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/workshops/digital-first.svg`"></div>
-            </div>
+        <h3><span>Engagement:</span>Curious Opportunity Map</h3>
+        <div class="col2 s-textRow">
+          <div class="col">
+            <h5>Do you have an idea to grow your business but the path to achieving that goal is hazy?</h5>
+            <p>Do you imagine templating a service to generate new revenue or leads? How might your existing offerings be tweaked to reach a new audience? </p>
+            <p>At Curious we believe every business will benefit from answering these questions. We created the Curious Opportunity Map (COP) process to identify ways to productize your unique business, service, and knowledge. But it doesn’t stop there. The COP process combines collaborative workshops with Curious product branding and marketing expertise to not only uncover opportunities, but also provide definition to empower you to decide how best to invest in your business. By the end of the process you’ll receive documentation covering the vision, pros/cons, estimated costs, production hurdles, success metrics and ROI for 2-3 unique opportunities.</p>
           </div>
-      </div>
-    </section>
-    <section class="studySection bg-ltGray s-noBorder">
-      <div class="pageWidth">
-          <h5>Do you have an idea to grow your business but the path to achieving that goal is hazy? Do you imagine templating a service to generate new revenue or leads? How might your existing offerings be tweaked to reach a new audience? </h5>
-          <div class="col2 s-textRow">
-            <div class="col">
-              <p>At Curious we believe every business will benefit from answering these questions. We created the Curious Opportunity Map (COP) process to identify ways to productize your unique business, service, and knowledge. But it doesn’t stop there. The COP process combines collaborative workshops with Curious product branding and marketing expertise to not only uncover opportunities, but also provide definition to empower you to decide how best to invest in your business. By the end of the process you’ll receive documentation covering the vision, pros/cons, estimated costs, production hurdles, success metrics and ROI for 2-3 unique opportunities.</p>
-            </div>
-            <div class="col">
-              <p><strong>Curious Opportunity Mapping provides these benefits:</strong></p>
-              <ol>
-                <li>Efficiently shape the challenge to quickly identify opportunities and roadblocks</li>
-                <li>Identify the full picture of the problem being solved</li> 
-                <li>Collaborate with experienced product and marketing experts</li>
-                <li>Bring clarity to the impact and viability of ideas / solutions</li>
-                <li>Understand implementation costs</li>
-                <li>Clearly define success and how to measure it</li>
-              </ol>
-            </div>
+          <div class="col">
+            <p><strong>Curious Opportunity Mapping provides these benefits:</strong></p>
+            <ol>
+              <li>Efficiently shape the challenge to quickly identify opportunities and roadblocks</li>
+              <li>Identify the full picture of the problem being solved</li> 
+              <li>Collaborate with experienced product and marketing experts</li>
+              <li>Bring clarity to the impact and viability of ideas / solutions</li>
+              <li>Understand implementation costs</li>
+              <li>Clearly define success and how to measure it</li>
+            </ol>
+            <h5>Business Investment $5,000.00</h5>
+          </div>
         </div>
       </div>
     </section>
@@ -38,7 +31,7 @@
         </div>
       </div>
     </section>
-    <section class="studySection bg-white">
+    <section class="studySection bg-white s-noBorder">
       <div class="pageWidth">
           <h4>How it works + deliverables</h4>
           <div class="col2 s-textRow" >
@@ -64,6 +57,7 @@
               </p>
             </div>
           </div>
+          <div class="responsiveImage" v-lazy:background-image="`/workshops/cop.svg`"></div>
       </div>
     </section>
     <section class="studySection bg-gold s-cta">
@@ -109,7 +103,7 @@ export default {
         { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
         { hid: 'og:description', name: 'og:description', content: 'A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.' },
 
-         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
+         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/cop.png' },
          { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
          { hid: 'og:image:width', name: 'og:image:width', content: '1168' },
          { hid: 'og:image:height', name: 'og:image:height', content: '1034' },
