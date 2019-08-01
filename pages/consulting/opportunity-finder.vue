@@ -7,7 +7,7 @@
           <div class="col">
             <h5>Do you have an idea to grow your business but the path to achieving that goal is hazy?</h5>
             <p>Do you imagine templating a service to generate new revenue or leads? How might your existing offerings be tweaked to reach a new audience? </p>
-            <p>At Curious we believe every business will benefit from answering these questions. We created the Curious Opportunity Map (COP) process to identify ways to productize your unique business, service, and knowledge. But it doesn’t stop there. The COP process combines collaborative workshops with Curious product branding and marketing expertise to not only uncover opportunities, but also provide definition to empower you to decide how best to invest in your business. By the end of the process you’ll receive documentation covering the vision, pros/cons, estimated costs, production hurdles, success metrics and ROI for 2-3 unique opportunities.</p>
+            <p>At Curious we believe every business will benefit from answering these questions. We created the Curious Opportunity Map Process (COP) to identify ways to productize your unique business, service, and knowledge. But it doesn’t stop there. The COP process combines collaborative workshops with Curious product branding and marketing expertise to not only uncover opportunities, but also provide definition to empower you to decide how best to invest in your business. By the end of the process you’ll receive documentation covering the vision, pros/cons, estimated costs, production hurdles, success metrics and ROI for 2-3 unique opportunities.</p>
           </div>
           <div class="col">
             <p><strong>Curious Opportunity Mapping provides these benefits:</strong></p>
