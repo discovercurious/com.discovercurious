@@ -19,18 +19,17 @@
               <li>Understand implementation costs</li>
               <li>Clearly define success and how to measure it</li>
             </ol>
-            <h5>Business Investment $5,000.00</h5>
           </div>
         </div>
       </div>
     </section>
-    <section class="studySection bg-darkGray s-cta">
+    <!-- <section class="studySection bg-ltGray s-cta">
       <div class="pageWidth">
         <div class="ctaText">
           <span>Ready to start identifiying product opportunities?</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="studySection bg-white s-noBorder">
       <div class="pageWidth">
           <h4>How it works + deliverables</h4>
@@ -60,10 +59,11 @@
           <div class="responsiveImage" v-lazy:background-image="`/workshops/cop.svg`"></div>
       </div>
     </section>
+    
     <section class="studySection bg-gold s-cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Wondering how to innovate your products or services?</span> <nuxt-link class="button" to="#contact">Say Hello</nuxt-link>
+          <span>Ready to start identifiying product opportunities?</span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
         </div>
       </div>
     </section>

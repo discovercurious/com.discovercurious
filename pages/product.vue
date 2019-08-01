@@ -53,12 +53,12 @@
           </div>
           <h5>Services we offer:</h5>
           <ul class="questions">
-            <li>Google Design Sprint Workshops <button>More</button></li>
+            <li>Google Design Sprint Workshops</li>
             <li>Opportunity Identification/Mapping <button>More</button></li>
             <li>Customer Needs Analysis (Personas, Jobs to Be Done)</li>
             <li>Definition (Technical Architecture, Wireframes, UX Flows)</li>
-            <li>Prototyping includeing web, apps, voice, augmented/virtual reality</li>
-            <li>Moderated User Testing</li>
+            <li>Prototyping includeing web apps, mobile, platforms, voice, augmented/virtual reality</li>
+            <li>UX Research/Testing (strategy, recruitment, moderation)</li>
             <li>Managing 3rd Party Production Efforts</li>
             <li>Training &amp; Mentoring your team</li>
           </ul>

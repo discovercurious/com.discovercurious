@@ -39,13 +39,19 @@
     </section>
     <section id='aboutUs'>
       <div class="pageWidth">
-        <div class="col2">
-          <h3>Curious about Curious?</h3>
+        <h3>Curious about Curious?</h3>
+        <div class="col3">
           <div class="col">
-            <h4>Who we work with</h4>
+            <h4>How we work</h4>
+            <p>Curious specializes in helping small to medium businesses take actionable steps to address common challenges to improving offerings, story and awareness. If you need an outside perspective Curious will consult to help you identify issues and set goals. If you need a push we’ll act as a coach, keeping you accountable and cheering for your success. Finally if you need execution support, we’ll roll up our sleeves to make it happen.</p>
+          </div>
+          <div class="col">
+            <h4>&nbsp;</h4>
+            <p>We believe the challenges of creating/maintaining products, defining branding and driving awareness are intertwined but require unique expertise. To that end, Curious consultants possess deep knowledge and experience in branding, marketing or product/tech but also maintain working knowledge across all areas. This perspective enables big picture thinking and successful cross collaboration.</p>
           </div>
           <div class="col">
             <h4>What we do</h4>
+            <p>Our product specialists bring concepts to life from ideation to interface design to prototyping and testing. Curious brand experts tell your story to investors, stakeholders and customers. Along the way they’ll collaborate to create components of a brand including naming services and identity design. Our marketing strategists teach you to grow your audience by creating a marketing machine by using traditional tools in unique ways.</p>
           </div>
         </div>
       </div>

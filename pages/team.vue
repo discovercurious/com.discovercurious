@@ -3,9 +3,9 @@
     <section id="top">
       <div class="intro pageWidth">
         <h2>We’re a small team with big experience across many diciplines &amp; technologies.</h2>
-        <div class="cta">
+        <!-- <div class="cta">
           <nuxt-link to="#contact">Find an experienced partner</nuxt-link>
-        </div>
+        </div> -->
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
     </section>
