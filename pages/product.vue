@@ -54,7 +54,7 @@
           <h5>Services we offer:</h5>
           <ul class="questions">
             <li>Google Design Sprint Workshops</li>
-            <li>Opportunity Identification/Mapping <button>More</button></li>
+            <li>Opportunity Identification/Mapping <nuxt-link to="/consulting/opportunity-finder" tag="button">More</nuxt-link></li>
             <li>Customer Needs Analysis (Personas, Jobs to Be Done)</li>
             <li>Definition (Technical Architecture, Wireframes, UX Flows)</li>
             <li>Prototyping includeing web apps, mobile, platforms, voice, augmented/virtual reality</li>
