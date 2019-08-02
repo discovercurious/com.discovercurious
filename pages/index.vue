@@ -46,7 +46,7 @@
             <p>Curious specializes in helping small to medium businesses take actionable steps to address common challenges to improving offerings, story and awareness. If you need an outside perspective Curious will consult to help you identify issues and set goals. If you need a push we’ll act as a coach, keeping you accountable and cheering for your success. Finally if you need execution support, we’ll roll up our sleeves to make it happen.</p>
           </div>
           <div class="col">
-            <h4>&nbsp;</h4>
+            <h4 class="textSpace">&nbsp;</h4>
             <p>We believe the challenges of creating/maintaining products, defining branding and driving awareness are intertwined but require unique expertise. To that end, Curious consultants possess deep knowledge and experience in branding, marketing or product/tech but also maintain working knowledge across all areas. This perspective enables big picture thinking and successful cross collaboration.</p>
           </div>
           <div class="col">

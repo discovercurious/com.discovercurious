@@ -1338,10 +1338,14 @@
                 border-top: 0 none transparent;
             }
         }
-        #caseStudies {
+        #caseStudies,
+        #aboutUs {
             .col3 .col {
                 flex-basis: 100%;
                 margin: 0 0 2rem 0;
+            }
+            .textSpace {
+                display: none;
             }
         }
         .col3.caseStudyList,
