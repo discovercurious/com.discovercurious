@@ -67,7 +67,8 @@ export default {
         ],
         script: [{
             src: "https://code.jquery.com/jquery-3.4.0.min.js",
-            type: "text/javascript"
+            type: "text/javascript",
+            defer: true
         }, ]
     },
 
