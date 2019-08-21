@@ -38,6 +38,9 @@ export default {
      ** Headers of the page
      */
     head: {
+        htmlAttrs: {
+            lang: 'en'
+        },
         title: 'Curious - Solving Brand, Marketing & Product problems for small businesses',
         meta: [
             { charset: 'utf-8' },

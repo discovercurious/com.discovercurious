@@ -16,10 +16,15 @@
             </div>
           </div>
           <div v-else>
+            <label for="name">Your Name</label>
             <input type="text" name="name" v-model="senderName" placeholder="My name is" required>
+            <label for="email">Your Email Address</label>
             <input type="email" name="email" v-model="senderEmail" placeholder="My email address is" required>
+            <label for="company">Your Company</label>
             <input type="text" name="company" v-model="senderCompany" placeholder="I represent (organization)">
+            <label for="discount">How much of a discount?</label>
             <input type="text" name="discount" v-model="eatSpam" class="hp">
+            <label for="subject">Subject</label>
             <div class="selectList">
             <select name="subject" v-model="contactSubject" >
             <option value="" disabled selected>What's this about? (choose one)</option>
@@ -30,7 +35,8 @@
             <option value="5">Just saying hello</option>
             </select>
             </div>
-            <textarea name="" v-model="contactMessage" cols="30" rows="10" placeholder="My message is" required></textarea>
+            <label for="message">Your Message</label>
+            <textarea name="message" v-model="contactMessage" cols="30" rows="10" placeholder="My message is" required></textarea>
             {{messageErrors}}
             <div class="buttonWrap">
             <button @click="processContact()">Send Message</button>
