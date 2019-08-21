@@ -17,26 +17,26 @@
           </div>
           <div v-else>
             <label for="name">Your Name</label>
-            <input type="text" name="name" v-model="senderName" placeholder="My name is" required>
+            <input type="text" id="name" name="name" v-model="senderName" placeholder="My name is" required>
             <label for="email">Your Email Address</label>
-            <input type="email" name="email" v-model="senderEmail" placeholder="My email address is" required>
+            <input type="email" id="email" name="email" v-model="senderEmail" placeholder="My email address is" required>
             <label for="company">Your Company</label>
-            <input type="text" name="company" v-model="senderCompany" placeholder="I represent (organization)">
+            <input type="text" id="company" name="company" v-model="senderCompany" placeholder="I represent (organization)">
             <label for="discount">How much of a discount?</label>
-            <input type="text" name="discount" v-model="eatSpam" class="hp">
-            <label for="subject">Subject</label>
+            <input type="text" id="discount" name="discount" v-model="eatSpam" class="hp">
             <div class="selectList">
-            <select name="subject" v-model="contactSubject" >
-            <option value="" disabled selected>What's this about? (choose one)</option>
-            <option value="1">Branding help</option>
-            <option value="2">Marketing help</option>
-            <option value="3">Product help</option>
-            <option value="4">Schedule a Design Sprint</option>
-            <option value="5">Just saying hello</option>
-            </select>
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" v-model="contactSubject" >
+                <option value="" disabled selected>What's this about? (choose one)</option>
+                <option value="1">Branding help</option>
+                <option value="2">Marketing help</option>
+                <option value="3">Product help</option>
+                <option value="4">Schedule a Design Sprint</option>
+                <option value="5">Just saying hello</option>
+              </select>
             </div>
             <label for="message">Your Message</label>
-            <textarea name="message" v-model="contactMessage" cols="30" rows="10" placeholder="My message is" required></textarea>
+            <textarea id="message" name="message" v-model="contactMessage" cols="30" rows="10" placeholder="My message is" required></textarea>
             {{messageErrors}}
             <div class="buttonWrap">
             <button @click="processContact()">Send Message</button>

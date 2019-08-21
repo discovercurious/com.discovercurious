@@ -57,6 +57,8 @@ export default {
             { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
             { hid: 'og:image:width', name: 'og:image:width', content: '1080' },
             { hid: 'og:image:height', name: 'og:image:height', content: '800' },
+
+            { hid: 'Cache-Control', name: 'Cache-Control', content: 'public, must-revalidate, proxy-revalidate, max-age=0' },
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
