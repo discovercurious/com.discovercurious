@@ -913,6 +913,41 @@
         }
     }
     
+    .blogSection {
+        .pageWidth {
+            max-width: 80rem;
+        }
+        p {
+            font-size: 1.6rem;
+            line-height: 1.5;
+        }
+        blockquote {
+            text-align: center;
+            border-radius: 1px solid $color-gray1;
+            .quote {
+                font-size: 2.8rem;
+                color: $color-gray4;
+            }
+            .attr {
+                display: block;
+                width: 100%;
+            }
+        }
+        h4,
+        h5 {
+            margin: 2rem 0;
+        }
+        .byline {
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            color: $color-gray4;
+            @include font-playfair;
+            .author:before {
+                content: 'By '
+            }
+        }
+    }
+    
     .s-Intro {
         h3 {
             max-width: 90%;
@@ -1210,21 +1245,7 @@
     //     }
     // }
     //-----------------------------------------------
-    @media only screen and (max-width: 600px) {
-        h3 {
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            max-width: 100%;
-        }
-        h4 {
-            font-size: 2rem;
-            span {
-                font-size: 75%;
-            }
-        }
-        h5 {
-            font-size: 1.8rem;
-        }
+    @media only screen and (max-width: 800px) {
         #pageTop header {
             min-height: 3rem;
             max-height: 3rem;
@@ -1301,6 +1322,23 @@
             &.showMenu nav {
                 transform: translate(0, 0);
             }
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        h3 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            max-width: 100%;
+        }
+        h4 {
+            font-size: 2rem;
+            span {
+                font-size: 75%;
+            }
+        }
+        h5 {
+            font-size: 1.8rem;
         }
         #top {
             display: block;

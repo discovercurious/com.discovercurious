@@ -1,11 +1,10 @@
 <template>
-  <div id="app">
-    <section class="studySection blogSection bg-ltGray">
+  <div id="app" class="blogSection">
+    <section class="studySection bg-ltGray">
       <div class="pageWidth">
           <h3>How an iterative strategy can help you make your marketing run like clockwork</h3>
           <div class="byline">
-            <div class="author">Jason Rysavy</div>
-            <div class="date">Today</div>
+            <span class="author">Jason Rysavy</span> - <span class="date">09-05-2019</span>
           </div>
           <div class="col2 s-textRow">
               <p>In 2008, a small startup began its mission to sell grammar-checking software to universities. Unlike its technology counterparts, it wanted to avoid the need for venture capital and bootstrap its way to profitability. The startup’s plan? Test a highly targeted digital marketing strategy and improve on it from there. </p>
@@ -17,7 +16,7 @@
 
               <h4>What is an iterative strategy?</h4>
               <blockquote>
-                The essence of strategy is choosing what not to do.
+                <span class="quote">The essence of strategy is choosing what not to do.</span>
                 <span class="attr">Michael Porter</span>
               </blockquote>
               <p>As Porter highlights, choosing which paths to avoid is just as important as which to pursue when picking your strategy. This makes testing potential solutions invaluable. If you don’t first identify low-performing options, you could get stuck with a strategy that’s a drain on resources instead of a boost to business performance.</p>
@@ -59,7 +58,8 @@
               <p>As an end result, you get a highly predictable marketing machine you can put money into and know what kind of ROI you’ll get from it. The benefits are clear, but still, business owners should watch for the common challenges that arise when building a marketing machine. </p>
 
               <h5>What are some of the issues organizations run into when building a marketing machine?</h5>
-              <blockquote>Planning is bringing the future into the present so that you can do something about it now.
+              <blockquote>
+                <span class="quote">Planning is bringing the future into the present so that you can do something about it now.</span>
                 <span class="attr">Alan Lakein, author</span>
               </blockquote>
 
