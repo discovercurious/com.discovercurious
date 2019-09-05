@@ -919,7 +919,8 @@
         }
         p {
             font-size: 1.6rem;
-            line-height: 1.5;
+            line-height: 1.8;
+            margin-bottom: 2rem;
         }
         blockquote {
             text-align: center;
@@ -944,6 +945,19 @@
             @include font-playfair;
             .author:before {
                 content: 'By '
+            }
+        }
+        .ctaText {
+            border-top: 1px solid $color-gray4;
+            color: $color-gray4;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            font-size: 1.6rem;
+            text-align: center;
+            .button {
+                display: block;
+                margin: 2rem auto;
+                max-width: 20rem;
             }
         }
     }
