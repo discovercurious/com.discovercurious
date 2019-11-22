@@ -971,10 +971,19 @@
             display: flex;
             justify-content: space-between;
         }
+        .columns.half {
+            flex-wrap: wrap;
+            h3 {
+                flex-basis: 100%;
+            }
+            .col {
+                flex-basis: 49%;
+            }
+        }
         .col:first-child {
             flex-basis: 70%;
             margin-right: 2rem;
-            p {
+            p:first-of-type {
                 @include font-playfair;
                 font-size: 2rem;
                 font-weight: 400;
