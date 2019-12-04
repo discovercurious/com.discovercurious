@@ -14,6 +14,7 @@
     "dependencies": {
         "@nuxtjs/axios": "^5.6.0",
         "@nuxtjs/google-analytics": "^2.2.0",
+        "@vimeo/player": "^2.10.0",
         "cross-env": "^5.2.0",
         "nuxt": "^2.9.1",
         "prismic-nuxt": "^0.5.3",
