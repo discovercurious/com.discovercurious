@@ -11,7 +11,7 @@
             <h3>Alomere Health Rebrand</h3>
             <div class="col">
               <div class="responsiveVideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/R-rKAYHN0dM?rel=0&modestbranding=1?theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/R-rKAYHN0dM?rel=0&modestbranding=1?theme=dark&playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col">
