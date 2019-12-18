@@ -5,10 +5,25 @@
           <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/2.jpg`"></div>
       </div>
     </section>
-    <section class="studySection s-Intro bg-ltGray">
+    <section class="studySection s-Intro bg-darkGray">
       <div class="pageWidth">
           <div class="columns half s-textRow">
             <h3>Alomere Health Rebrand</h3>
+            <div class="col">
+              <div class="responsiveVideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/R-rKAYHN0dM?rel=0&modestbranding=1?theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col">
+              <h5>Video title</h5>
+              <p>Tell me something about this video</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="studySection s-2ColText bg-ltGray">
+      <div class="pageWidth">
+          <div class="col2 s-textRow">
             <div class="col">
               <h5>A well-loved institution ponders its name</h5>
               <p>For sixty-plus years, the hospital in Alexandria, Minnesota, was known as Douglas County Hospital (DCH). Despite being beloved—we were told by several people that they would never call it anything else—the name had challenges:</p>
