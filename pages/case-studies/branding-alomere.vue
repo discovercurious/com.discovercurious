@@ -15,8 +15,8 @@
               </div>
             </div>
             <div class="col">
-              <h5>Video title</h5>
-              <p>Tell me something about this video</p>
+              <h5>Panel Discussion: Leveraging a Rebrand to Solve a Healthcare Business Challenge</h5>
+              <p>As part of AIGA’s Business Conversation series, our client joined us for a discussion on Alomere Health’s rebrand. It’s a little over an hour, so buckle up! You’ll come away with an understanding of how the goal of Alomere’s rebrand wasn’t just a new logo and signage, it was to solve a very specific healthcare business challenge.</p>
             </div>
           </div>
       </div>
