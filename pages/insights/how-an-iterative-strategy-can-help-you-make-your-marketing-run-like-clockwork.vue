@@ -4,7 +4,7 @@
       <div class="pageWidth">
           <h3>How an iterative strategy can help you make your marketing run like clockwork</h3>
           <div class="byline">
-            <span class="author">Jason Rysavy</span> - <span class="date">09-05-2019</span>
+            <span class="author">Jason Rysavy</span>
           </div>
 
               <p>In 2008, a small startup began its mission to sell grammar-checking software to universities. Unlike its technology counterparts, it wanted to <a href="https://producthabits.com/how-grammarly-quietly-grew-its-way-to-7-million-daily-users/">avoid the need for venture capital</a> and bootstrap its way to profitability. The startup’s plan? Test a highly targeted digital marketing strategy and improve on it from there. </p>
@@ -13,7 +13,8 @@
               <p>Cutting out the need for investments had its advantages. Instead of worrying about what investors thought, Grammarly was free to be user-focused and to do something with the feedback it was consistently getting. This helped Grammarly understand its customers and target them with a strategy that they would engage with.</p>
               <p>Another contributor to Grammarly’s success was its iterative strategy. Instead of going after new markets, they went after the low-hanging fruit. When growth started to flatten, Grammarly didn’t try to build a new product. Instead, they widened their reach from solely universities to a general audience. They realized their low-hanging fruit was a shift in positioning. After all, nobody wants to send an email or report that’s full of typos.</p>
               <p>Grammarly grew to over 10 million users because of a deep understanding of its customers and a flexible marketing strategy. How can you overcome similar challenges and achieve true growth? It starts with an understanding of iterative strategy.</p>
-
+              <div class="responsiveImage" v-lazy:background-image="`/insights/jason_whiteboard1.jpg`"></div>
+              
               <h4>What is an iterative strategy?</h4>
               <blockquote>
                 <span class="quote">The essence of strategy is choosing what not to do.</span>
@@ -123,19 +124,19 @@ export default {
   },
   head () {
     return {
-      // title: 'Curious: Making Products Useful, Usable & Beautiful',
+      title: 'Curious Insights: Iterative marketing strategy',
       meta: [
-        // { hid: 'description', name: 'description', content: 'Curious consultants help you identify your next best marketing steps, and develop marketing strategies to find and connect with your customers.' },
+        { hid: 'description', name: 'description', content: 'How an iterative strategy can help you make your marketing run like clockwork. By Jason Rysavy' },
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
          
-        // { hid: 'og:title', name: 'og:title', content: 'Curious - Solving Brand, Marketing & Product problems for small businesses' },
-        // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
+        { hid: 'og:title', name: 'og:title', content: 'Curious Insights: Iterative marketing strategy' },
+        { hid: 'og:description', name: 'og:description', content: 'How an iterative strategy can help you make your marketing run like clockwork. By Jason Rysavy' },
 
-        // { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/images/shareLogo.png' },
-        // { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-        // { hid: 'og:image:width', name: 'og:image:width', content: '1080' },
-        // { hid: 'og:image:height', name: 'og:image:height', content: '800' },
+        { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/insights/jason_og.jpg' },
+        { hid: 'og:image:type', name: 'og:image:type', content: 'image/jpg' },
+        { hid: 'og:image:width', name: 'og:image:width', content: '1080' },
+        { hid: 'og:image:height', name: 'og:image:height', content: '800' },
       ]
     }
   },
