@@ -2,7 +2,7 @@
   <div id="app" class="allStudies">
     <section id="top">
       <div class="intro pageWidth">
-        <h2>We’re stong believers in show &amp; tell, so here are a few examples of past projects.</h2>
+        <h2>We’re strong believers in show &amp; tell, so here are a few examples of past projects.</h2>
         <!-- <div class="cta">
           <nuxt-link to="#contact">Find an experienced partner</nuxt-link>
         </div> -->
