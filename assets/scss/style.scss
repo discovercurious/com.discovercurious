@@ -472,6 +472,13 @@
         }
     }
     
+    .col4 {
+        >.col {
+            margin: 0;
+            flex-basis: calc(25% - 2rem);
+        }
+    }
+    
     #main {
         padding: 8rem 0;
         background-color: $color-gray1;
@@ -1268,6 +1275,26 @@
         border-top: 1px solid $color-gray1;
     }
     
+    .announce {
+        .col2 {
+            margin-bottom: 4rem;
+        }
+        .ctaText {
+            text-align: center;
+            margin: 2rem 0;
+            padding: 4rem 0;
+            border-top: 1px solid $color-gray4;
+            span {
+                font-size: 2rem;
+            }
+            .button {
+                display: block;
+                margin: 2rem auto;
+                max-width: 20rem;
+            }
+        }
+    }
+    
     //-----------------------------------------------
     // Font awesome example
     // h1 {
@@ -1355,6 +1382,10 @@
             &.showMenu nav {
                 transform: translate(0, 0);
             }
+        }
+        .announce .col2 .col {
+            flex-basis: 100%;
+            margin: 0 0 2rem 0;
         }
     }
     
