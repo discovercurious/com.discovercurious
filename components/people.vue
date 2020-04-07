@@ -10,8 +10,8 @@
                 <div class="pic" v-lazy:background-image="`/images/people/sherwin.png`" @click="setActiveTab(0)" v-bind:class="{ active: activeTab === 0 }"></div>
                 <div class="pic" v-lazy:background-image="`/images/people/maya.png`" @click="setActiveTab(1)" v-bind:class="{ active: activeTab === 1 }"></div>
                 <div class="pic" v-lazy:background-image="`/images/people/bryce.png`" @click="setActiveTab(2)" v-bind:class="{ active: activeTab === 2 }"></div>
-                <div class="pic" v-lazy:background-image="`/images/people/paul.png`" @click="setActiveTab(3)" v-bind:class="{ active: activeTab === 3 }"></div>
                 <div class="pic" v-lazy:background-image="`/images/people/eric.png`" @click="setActiveTab(4)" v-bind:class="{ active: activeTab === 4 }"></div>
+                <div class="pic" v-lazy:background-image="`/images/people/garrio.png`" @click="setActiveTab(3)" v-bind:class="{ active: activeTab === 3 }"></div>
                 <div class="pic" v-lazy:background-image="`/images/people/jason.png`" @click="setActiveTab(5)" v-bind:class="{ active: activeTab === 5 }"></div>
             </div>
         </div>

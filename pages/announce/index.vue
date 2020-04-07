@@ -80,8 +80,8 @@ export default {
 
         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/insights/closers.png' },
         { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-        { hid: 'og:image:width', name: 'og:image:width', content: '1100' },
-        { hid: 'og:image:height', name: 'og:image:height', content: '700' },
+        { hid: 'og:image:width', name: 'og:image:width', content: '945' },
+        { hid: 'og:image:height', name: 'og:image:height', content: '349' },
       ],
       script: [
         // {hid: 'Hubspot', src:'http://js.hs-scripts.com/3891745.js', defer: true}
