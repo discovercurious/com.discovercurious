@@ -6,7 +6,7 @@
       </div>
       <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
     </section> -->
-    <section id="" class="studySection bg-ltGray" >
+    <section id="" class="studySection s-ImageGroup s-noBorder bg-ltGray" >
       <div class="pageWidth">
         <div class="col2">
           <div class="col">
@@ -15,7 +15,7 @@
             <p>At Curious, we pair data with human intelligence, expert training, and industry experience to fill your pipeline with conversations that close. Sales + marketing done right. </p>
           </div>
           <div class="col">
-            <div class="responsiveImage" v-lazy:background-image="`http://bedorebusinessgroup.com/wp-content/uploads/2020/03/Header-events-and-media.jpg`"></div>
+            <div class="responsiveImage" v-lazy:background-image="`/insights/closers_transparent.png`"></div>
 
           </div>
         </div>
@@ -39,10 +39,11 @@
           </div>
         </div>
         <div class="ctaText">
-          <span>Do you want marketing that runs like clockwork? </span> <nuxt-link class="button" to="#contact">Let's Chat</nuxt-link>
+          <span>Want to learn more about the benefits of this partnership? </span> <a class="button" href="https://doodle.com/mm/garrioharrison/discovercurious">Let's Chat</a>
         </div>
       </div>
     </section>
+    <div v-html="scripts"></div>
   </div>
 </template>
 
@@ -54,6 +55,11 @@ export default {
   components: {
     
   },
+  data () {
+    return {
+      scripts: "<script src='http://js.hs-scripts.com/3891745.js'><\/script>"
+    }
+  },
   mounted: function(){
     this.$nextTick(function () {
     const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
@@ -63,19 +69,22 @@ export default {
   },
   head () {
     return {
-      // title: 'Curious: Making Products Useful, Usable & Beautiful',
+      title: 'Curious: Announcing a new partnership',
       meta: [
-        // { hid: 'description', name: 'description', content: 'Curious consultants help you identify your next best marketing steps, and develop marketing strategies to find and connect with your customers.' },
+        { hid: 'description', name: 'description', content: 'Curious and Closers Media create sales and marketing partnership to enhance your business.' },
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
          
-        // { hid: 'og:title', name: 'og:title', content: 'Curious - Solving Brand, Marketing & Product problems for small businesses' },
-        // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
+        { hid: 'og:title', name: 'og:title', content: 'Curious: Announcing a new partnership' },
+        { hid: 'og:description', name: 'og:description', content: 'Curious and Closers Media create sales and marketing partnership to enhance your business.' },
 
-        // { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/images/shareLogo.png' },
-        // { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-        // { hid: 'og:image:width', name: 'og:image:width', content: '1080' },
-        // { hid: 'og:image:height', name: 'og:image:height', content: '800' },
+        { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/insights/closers.png' },
+        { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
+        { hid: 'og:image:width', name: 'og:image:width', content: '1100' },
+        { hid: 'og:image:height', name: 'og:image:height', content: '700' },
+      ],
+      script: [
+        // {hid: 'Hubspot', src:'http://js.hs-scripts.com/3891745.js', defer: true}
       ]
     }
   },

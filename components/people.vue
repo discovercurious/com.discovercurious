@@ -84,17 +84,18 @@
         <transition name="slideFade">
             <div class="personInfo" v-show="activeTab === 3">
                 <div class="leftSide">
-                    <h4><span>Brand Consultant</span> Paul Gardner</h4>
-                    <p>Paul’s 13-year career has deep experience in retail and brand design for Fortune 100 companies as well as start-ups. He is passionate about capturing the emotion and personality of his clients in every point of contact for the customer. For Paul, every detail is important in developing authentic and valuable brands.</p>
+                    <h4><span>Marketing Consultant</span> Garrio Harrison</h4>
+                    <p>Garrio has spent his career at the intersection of design, technology, and resource allocation. He focuses on connecting the dots between marketing resources, sales enablement cashflow, marketing trends and revenue goals. Today he uses his experience implementing scalable marketing systems for companies that run on EOS to help our clients thrive.</p>
                 </div>
                 <div class="rightSide">
-                    <div class="questions">Questions Paul might ask:</div>
+                    <div class="questions">Questions Garrio might ask:</div>
                     <ul class="questionList">
-                        <li>At every point of contact (online, in-store, advertising, customer service), do customers get the same experience?</li>
-                        <li>Is your corporate identity future proof?</li>
-                        <li>Have you ever noticed your customers being confused when interacting with your services?</li>
-                        <li>Look at ALL of your brochures, catalogs, social media, advertising, and website… do they look like they come from the same place?</li>
-                        <li>Does your company “feel” like the vision you have for it?</li>
+                        <li>What are your revenue goals for the quarter?</li>
+                        <li>How did you acquire your best existing customers?</li>
+                        <li>Are your marketing plans aligned with your chash-flow?</li>
+                        <li>Are you using revenue focused metrics to align your sales and marketing efforts?</li>
+                        <li>Do marketing or sales issues keep coming up in your team meetings?</li>
+                        <li>Do you need more new leads or can we reach your revenue goals by creating more value for your existing customer?</li>
                     </ul>
                 </div>
             </div>
