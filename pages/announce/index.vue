@@ -11,7 +11,7 @@
         <div class="col2">
           <div class="col">
             <h3>Curious &amp; Closers Media Join Forces</h3>
-            <p>Due to current circumstances, Curious and <a href="http://bedorebusinessgroup.com">Closers Media</a> have joined forces to offer an end-to-end marketing/sales solution to EOS led companies to help them thrive during these unprecedented times.</p>
+            <p>Due to current circumstances, Curious and <a href="https://mailchi.mp/d724e965a327/closerscommunity">Closers Media</a> have joined forces to offer an end-to-end marketing/sales solution to EOS led companies to help them thrive during these unprecedented times.</p>
             <p>At Curious, we pair data with human intelligence, expert training, and industry experience to fill your pipeline with conversations that close. Sales + marketing done right. </p>
           </div>
           <div class="col">
