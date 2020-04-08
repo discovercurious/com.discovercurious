@@ -43,29 +43,25 @@
         </div>
       </div>
     </section>
-    <div v-html="scripts"></div>
   </div>
 </template>
 
 <script>
 import TypeMate from 'typemate';
 
-
 export default {
   components: {
     
   },
-  data () {
-    return {
-      scripts: "<script src='http://js.hs-scripts.com/3891745.js'><\/script>"
-    }
-  },
   mounted: function(){
     this.$nextTick(function () {
-    const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
-    tm.apply();
-     
+      const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
+      tm.apply();
     })
+
+    const hsScript = document.createElement('script')
+    hsScript.src = "//js.hs-scripts.com/3891745.js"
+    document.body.appendChild(hsScript)
   },
   head () {
     return {
@@ -84,7 +80,7 @@ export default {
         { hid: 'og:image:height', name: 'og:image:height', content: '349' },
       ],
       script: [
-        // {hid: 'Hubspot', src:'http://js.hs-scripts.com/3891745.js', defer: true}
+        //{hid: 'Hubspot', src:'//js.hs-scripts.com/3891745.js', defer: true}
       ]
     }
   },
