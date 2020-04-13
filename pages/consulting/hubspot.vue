@@ -70,7 +70,7 @@
 </template>
 
 <script>
-
+import TypeMate from 'typemate';
 export default {
   components: {
   },
@@ -91,6 +91,16 @@ export default {
         //  { hid: 'og:image:height', name: 'og:image:height', content: '1034' },
       ]
     }
+  },
+  mounted: function(){
+    this.$nextTick(function () {
+      const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
+      tm.apply();
+    })
+
+    const hsScript = document.createElement('script')
+    hsScript.src = "//js.hs-scripts.com/3891745.js"
+    document.body.appendChild(hsScript)
   },
 }
 </script>
