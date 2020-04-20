@@ -11,14 +11,20 @@
                 <p>As your sales pipeline begins to fill, we’ve partnered with virtual closing experts who are available to provide “on-demand” deal assistance to ensure expeditious deal closure.</p>
             </div>
             <div class="col">
-              <div class="responsiveVideo">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/qDCyvvdzND4?modestbranding=true" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+              <div class="responsiveImage" v-lazy:background-image="`/insights/closers_transparent.png`"></div>
             </div>
           </div>
       </div>
     </section>
 
+    <section class="studySection bg-gold s-cta">
+      <div class="pageWidth">
+        <div class="ctaText">
+          <span>Want more information or to get started with HubSpot?</span> <nuxt-link class="button" to="https://doodle.com/mm/garrioharrison/discovercurious">Schedule a Chat</nuxt-link>
+        </div>
+      </div>
+    </section>
+    
     <section class="studySection bg-white">
       <div class="pageWidth">
           <h5>Our proven process saves time at every stage of the funnel.</h5>
@@ -38,6 +44,14 @@
           </div>
       </div>
     </section>
+    <section class="studySection bg-white">
+      <div class="pageWidth">
+          <div class="responsiveVideo">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/qDCyvvdzND4?modestbranding=true" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+      </div>
+    </section>
+    
 
     <section class="studySection bg-gold s-cta">
       <div class="pageWidth">

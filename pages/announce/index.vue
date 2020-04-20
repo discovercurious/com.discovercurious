@@ -16,7 +16,6 @@
           </div>
           <div class="col">
             <div class="responsiveImage" v-lazy:background-image="`/insights/closers_transparent.png`"></div>
-
           </div>
         </div>
         <div class="col4 s-textRow">
