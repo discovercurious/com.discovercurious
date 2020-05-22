@@ -2,13 +2,7 @@ import pkg from './package'
 
 export default {
     mode: 'universal',
-    router: {
-        // base: process.env.NODE_ENV !== 'development' ? '/curiousnuxt/' : '/'
-    },
 
-    /*
-     ** Headers of the page
-     */
     head: {
         htmlAttrs: {
             lang: 'en'
@@ -69,14 +63,12 @@ export default {
      ** Nuxt.js modules
      */
     modules: [
-        // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
-        '@nuxtjs/google-analytics', ['prismic-nuxt', {
-            endpoint: 'https://discovercurious.cdn.prismic.io/api/v2',
-            linkResolver: function(doc, ctx) {
-                return '/insights/'
-            }
-        }]
+        '@/modules/static',
+        '@/modules/crawler',
+        '@nuxtjs/prismic',
+        '@nuxtjs/google-analytics',
+
     ],
     /*
      ** Axios module configuration
@@ -84,7 +76,11 @@ export default {
     axios: {
         // See https://github.com/nuxt-community/axios-module#options
     },
-
+    prismic: {
+        endpoint: 'https://discovercurious.cdn.prismic.io/api/v2',
+        linkResolver: '@/plugins/link-resolver',
+        htmlSerializer: '@/plugins/html-serializer',
+    },
     googleAnalytics: {
         id: 'UA-138299135-1',
         dev: false,
@@ -97,7 +93,12 @@ export default {
         /*
          ** You can extend webpack config here
          */
-        extend(config, ctx) {}
+        extend(config, ctx) {
+            config.resolve.alias['vue'] = 'vue/dist/vue.common'
+        }
+    },
+    generate: {
+        fallback: '404.html'
     },
     render: {
         static: {

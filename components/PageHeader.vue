@@ -1,23 +1,23 @@
 <template>
       <header id="pageHeader" v-bind:class="menuVisible ? 'showMenu': ''">
-          <nuxt-link tag="h1" to="/" exact @click.native="showMenu()">Curious</nuxt-link>
+          <nuxt-link tag="h1" to="/" exact @click.prevent="showMenu()">Curious</nuxt-link>
           <div class="menuToggle" @click="showMenu()">Menu</div>
           <nav>
             <div class="navWrap">
               <span class="primaryNav">We Help </span>
               <div class="subNav">
                 <span>Businesses</span>
-                <nuxt-link to="/branding" @click.native="showMenu()">Define Brands</nuxt-link>
-                <nuxt-link to="/marketing" @click.native="showMenu()">Build Marketing</nuxt-link>
-                <nuxt-link to="/product" @click.native="showMenu()">Create Products</nuxt-link>
+                <nuxt-link to="/branding" @click.prevent="showMenu()">Define Brands</nuxt-link>
+                <nuxt-link to="/marketing" @click.prevent="showMenu()">Build Marketing</nuxt-link>
+                <nuxt-link to="/product" @click.prevent="showMenu()">Create Products</nuxt-link>
               </div>
             </div>
 
-            <nuxt-link to="/consulting/" @click.native="showMenu()">Quick Wins</nuxt-link>
-            <nuxt-link to="/case-studies/" @click.native="showMenu()">Case Studies</nuxt-link>
-            <nuxt-link to="/insights/how-an-iterative-strategy-can-help-you-make-your-marketing-run-like-clockwork" @click.native="showMenu()">Insights</nuxt-link>
-            <nuxt-link to="/team" @click.native="showMenu()">Team</nuxt-link>
-            <a href="#contact" exact @click.native="showMenu()">Contact Us</a>
+            <nuxt-link to="/consulting/" @click.prevent="showMenu()">Quick Wins</nuxt-link>
+            <nuxt-link to="/case-studies/" @click.prevent="showMenu()">Case Studies</nuxt-link>
+            <nuxt-link to="/insights/" @click.prevent="showMenu()">Insights</nuxt-link>
+            <nuxt-link to="/team" @click.prevent="showMenu()">Team</nuxt-link>
+            <a href="#contact" exact @click.prevent="showMenu()">Contact Us</a>
             <a class="location" href="https://www.google.com/maps/place/Curious/@44.9989033,-93.2525572,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32db8b34daef9:0xe12fd7d2771f2dc2!8m2!3d44.9988995!4d-93.2503632">807 Broadway Street NE, Suite 140<br />Minneapolis, MN 55413</a>
           </nav>
       </header>
