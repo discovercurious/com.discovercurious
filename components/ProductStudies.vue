@@ -3,7 +3,7 @@
     <nuxt-link to="/case-studies/product-itsawego" tag="div" class="caseStudy col">
       <div class="picWrap">
         <div class="pic">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/1.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/itsawego/1.jpg`"></div>
         </div>
       </div>
       <div class="studyInfo">
@@ -15,7 +15,7 @@
     <!-- <nuxt-link to="/case-studies/product-reve-academy" tag="div" class="caseStudy col">
       <div class="picWrap">
         <div class="pic">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/reve/1.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/reve/1.jpg`"></div>
         </div>
       </div>
       <div class="studyInfo">

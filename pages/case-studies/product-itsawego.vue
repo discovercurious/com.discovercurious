@@ -30,7 +30,7 @@
       <div class="pageWidth">
           <div class="col1">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/itsawego/1.jpg`"></div>
             </div>
           </div>
       </div>
@@ -40,7 +40,7 @@
       <div class="pageWidth">
           <div class="col3 s-textRow" >
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/sprint1.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/itsawego/sprint1.png`"></div>
             </div>
             <div class="col">
               <h5>Asking many questions</h5>
@@ -65,8 +65,8 @@
           <div class="col2 s-textRow">
             <div class="col">
               <div class="responsiveVideo">
-                <video loop autoplay muted poster="/casestudies/itsawego/matching_placeholder.png">
-                  <source src="/casestudies/itsawego/matching.mp4" type="video/mp4">
+                <video loop autoplay muted poster="/images/casestudies/itsawego/matching_placeholder.png">
+                  <source src="/images/casestudies/itsawego/matching.mp4" type="video/mp4">
                 </video>
               </div>
               <h5>Making a love connection</h5>
@@ -74,8 +74,8 @@
             </div>
             <div class="col">
               <div class="responsiveVideo">
-                <video loop autoplay muted poster="/casestudies/itsawego/chat_placeholder.png">
-                  <source src="/casestudies/itsawego/chat.mp4" type="video/mp4">
+                <video loop autoplay muted poster="/images/casestudies/itsawego/chat_placeholder.png">
+                  <source src="/images/casestudies/itsawego/chat.mp4" type="video/mp4">
                 </video>
               </div>
               <h5>Communication &amp; Logistics</h5>
@@ -94,7 +94,7 @@
               <p>An obvious goal is to make this a viable, sustainable business. Amanda concluded that venue and activity partnerships are one of the best ways to generate revenue. But a good partnership offers value to the users and therefore must appear an interface. We focused our remaining prototype effort on presenting curated suggestions in non-intrusive ways that might be useful during a group date.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/suggest.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/itsawego/suggest.png`"></div>
             </div>
           </div>
       </div>
@@ -117,7 +117,7 @@
       <div class="pageWidth">
           <div class="col1">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/itsawego/brand.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/itsawego/brand.png`"></div>
             </div>
           </div>
       </div>

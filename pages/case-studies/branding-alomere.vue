@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection s-ImageLarge bg-white">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/2.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/2.jpg`"></div>
       </div>
     </section>
     <section class="studySection s-Intro bg-darkGray">
@@ -38,7 +38,7 @@
             <div class="col">
               <p>Because of these issues, the name hindered the ability to evolve easily with the rapid changes in healthcare, and it was challenging to communicate the amazing care the organization provided across multiple facilities and service lines. Carl Vaagenes, CEO, and the board knew that stellar community-owned healthcare could benefit from a presence that its current name constrained.</p>
               <p>The hard question was whether to change a name steeped with local history and generations-long relationships.</p>
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/1.jpg`"></div>
             </div>
           </div>
       </div>
@@ -60,7 +60,7 @@
 
     <section class="studySection s-ImageLarge bg-white s-noBorder">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/3.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/3.jpg`"></div>
       </div>
     </section>
 
@@ -91,8 +91,8 @@
       <div class="pageWidth">
           <div class="col2 s-textRow">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/ADs_1.jpg`"></div>
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/Signage_1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/ADs_1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/Signage_1.jpg`"></div>
             </div>
             <div class="col">
               <h5>The ending is the beginning.</h5>
@@ -109,10 +109,10 @@
       <div class="pageWidth">
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/4.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/4.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/5.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/5.jpg`"></div>
             </div>
           </div>
       </div>
@@ -131,10 +131,10 @@
               <p>For Alomere Health, the name was quickly embraced, even by those resistant to change. After a year, the organization’s name was natural and right—in the community and beyond—allowing Alomere Health to add specialties, reach new clients and positively affect the health of the entire area for decades.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/Signage_2.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/Signage_2.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/alomereBrand/7.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/alomereBrand/7.jpg`"></div>
             </div>
           </div>
       </div>

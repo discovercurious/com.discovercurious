@@ -27,13 +27,13 @@
       <div class="pageWidth">
           <div class="col3">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/2.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/2.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/6.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/6.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/5.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/5.png`"></div>
             </div>
           </div>
       </div>
@@ -54,21 +54,21 @@
     </section>
     <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/3.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/3.jpg`"></div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/1.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/4.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/4.jpg`"></div>
             </div>
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/8.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/8.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/9.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/9.png`"></div>
             </div>
           </div>
       </div>
@@ -81,7 +81,7 @@
               <p>Putting it all together, the new website and investor pitch deck feature not just data, but a story that illustrates how simple sophisticated digital protection can be.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/ostra/7.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/ostra/7.png`"></div>
             </div>
           </div>
       </div>

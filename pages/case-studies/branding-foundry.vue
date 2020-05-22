@@ -25,7 +25,7 @@
     </section>
     <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/7.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/7.jpg`"></div>
       </div>
     </section>
     <section class="studySection s-2ColText bg-white">
@@ -44,21 +44,21 @@
     </section>
     <section class="studySection s-ImageGroup bg-ltGray">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/8.jpg`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/8.jpg`"></div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/6.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/6.jpg`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/4.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/4.jpg`"></div>
             </div>
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/5.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/5.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/1.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/1.jpg`"></div>
             </div>
           </div>
       </div>
@@ -72,7 +72,7 @@
               <p>We followed up the rebrand with a modern and flexible website that offered a dramatically better experience finding and ordering resources online. Curious continues to innovate The Foundry offerings with a new online community and digital tools that make sharing their message easier and cost effective.</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/foundry/2.jpg`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/2.jpg`"></div>
             </div>
           </div>
       </div>

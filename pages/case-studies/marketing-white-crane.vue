@@ -12,7 +12,7 @@
     </section>
     <section class="studySection s-ImageLarge bg-white s-noBorder">
       <div class="pageWidth">
-          <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/houseAndSign.png`"></div>
+          <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/houseAndSign.png`"></div>
       </div>
     </section>
     <section class="studySection s-ImageGroup bg-darkGray s-noBorder">
@@ -24,7 +24,7 @@
               <p>Dead end leads can deplete your sales team’s time and resources. For White Crane, the low-hanging fruit was identifying where the bad leads were coming from and shutting off the marketing generating those leads. From there, we developed a robust content strategy tapping into homeowners’ curiosity around remodels happening in comparable homes. With this content, we targeted potential clients who are likely to remodel. The leads quickly right-sided themselves and aligned with White Crane’s goals.</p>
             </div>
             <div class="col">
-               <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/ipadiphone.png`"></div>
+               <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/ipadiphone.png`"></div>
             </div>
           </div>
       </div>
@@ -34,10 +34,10 @@
           <h4>Strategy Part Two - Align the Marketing &amp; Sales Teams</h4>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/left_sales.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/left_sales.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/right_sales.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/right_sales.png`"></div>
             </div>
           </div>
           <div class="col1">
@@ -53,18 +53,18 @@
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/resultstopleft.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/resultstopleft.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/resultstopright.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/resultstopright.png`"></div>
             </div>
           </div>
           <div class="col2">
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/resultsbottomleft.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/resultsbottomleft.png`"></div>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/resultsbottomright.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/resultsbottomright.png`"></div>
             </div>
           </div>
           <div class="col2 s-textRow">
@@ -73,7 +73,7 @@
               <p class="attr">Susan Denk, Owner &amp; Founder of White Crane Construction</p>
             </div>
             <div class="col">
-              <div class="responsiveImage" v-lazy:background-image="`/casestudies/whitecrane/susan.png`"></div>
+              <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/whitecrane/susan.png`"></div>
             </div>
           </div>
       </div>
