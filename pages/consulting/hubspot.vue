@@ -20,7 +20,7 @@
     <section class="studySection bg-gold s-cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Want more information or to get started with HubSpot?</span> <nuxt-link class="button" to="https://doodle.com/mm/garrioharrison/discovercurious">Schedule a Chat</nuxt-link>
+          <span>Want more information or to get started with HubSpot?</span> <a class="button" href="https://doodle.com/mm/garrioharrison/discovercurious">Schedule a Chat</a>
         </div>
       </div>
     </section>
@@ -51,35 +51,14 @@
               </div>
       </div>
     </section>
-    
 
     <section class="studySection bg-gold s-cta">
       <div class="pageWidth">
         <div class="ctaText">
-          <span>Want more information or to get started with HubSpot?</span> <nuxt-link class="button" to="https://doodle.com/mm/garrioharrison/discovercurious">Schedule a Chat</nuxt-link>
+          <span>Want more information or to get started with HubSpot?</span> <a class="button" href="https://doodle.com/mm/garrioharrison/discovercurious">Schedule a Chat</a>
         </div>
       </div>
     </section>
-
-    <!-- <section class="studySection s-facilitator bg-darkGray">
-      <div class="pageWidth">
-          <div class="col3 s-textRow">
-            <div class="col double">
-              <h4>About the facilitator</h4>
-              <p>I’ve spent 20 years watching organizations struggle to adopt a digital mindset. Without this change in thinking, businesses often fail to build marketable products, waste huge sums of money, and alienate their top innovation talent. I don’t want simple knowledge gaps or misaligned processes to torpedo anyone’s ability to create amazing solutions. I created this workshop to help teams bridge the gap between analog and digital.</p>
-
-              <p>Over the course of my career, I’ve designed interfaces, translated business/technical needs, written code, architected solutions, and helped define success. I’ve seen the struggles of creating a “digital first organization” from many different perspectives and possess a deep knowledge of the tech involved. Additionally, I’m certified by Google to facilitate innovation workshops.</p>
-
-              <p>What that really means is I understand a successful workshop is built from equal parts knowledge transfer, hands-on exercises, and timely brain breaks. All with a dash of post-it note art tossed in for fun. I look forward to meeting your team!</p>
-            </div>
-            <div class="col">
-              <h5>Bryce Howitson</h5>
-              <div class="responsiveImage" v-lazy:background-image="`/workshops/bryce.jpg`"></div>
-            </div>
-          </div>
-      </div>
-    </section> -->
-
   </div>
 </template>
 
