@@ -3,7 +3,7 @@
     <section class="studySection s-ImageGroup bg-ltGray" >
       <div class="pageWidth">
         <h3>What we're thinking about</h3>
-        <div id="insightItem" v-if="allInsights.length !== 0">
+        <div class="insightList col3" v-if="allInsights.length !== 0">
           <insightItem class="insightItem" v-for="insight in allInsights" :key="insight.id" :insight="insight"></insightItem>
       </div>
       </div>

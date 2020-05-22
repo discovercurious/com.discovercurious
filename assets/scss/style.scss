@@ -939,6 +939,14 @@
             line-height: 1.8;
             margin-bottom: 2rem;
         }
+        p,
+        .block-img {
+            img {
+                max-width: 80%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
         blockquote {
             text-align: center;
             border-radius: 1px solid $color-gray1;
@@ -1099,7 +1107,8 @@
         }
     }
     
-    .caseStudyList {
+    .caseStudyList,
+    .insightList {
         .pic {
             background-color: $color-white;
             padding: 1rem;
@@ -1201,6 +1210,13 @@
                     filter: grayscale(0);
                 }
             }
+        }
+    }
+    
+    .insightList {
+        margin-bottom: 6rem;
+        .pic {
+            max-width: 80%;
         }
     }
     

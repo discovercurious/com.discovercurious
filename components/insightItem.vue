@@ -1,14 +1,16 @@
 <template>
-  <div>
-      <div v-if="thumbnail" class="previewImage" :style="'background-image: url(' + thumbnail + ');'"></div>
-      <div v-if="!thumbnail" class="previewIcon">
-        <i class="far fa-coffee-pot"></i>
-      </div>
-
-      <h4>{{ $prismic.asText(insight.data.headline) }}</h4>
-      <p>{{$prismic.asText(insight.data.preview_text)}}</p>
-      <nuxt-link :to="link">Read It</nuxt-link>
-  </div>
+  <nuxt-link tag="div" class="caseStudy col" :to="link">
+            <div class="picWrap" v-if="thumbnail">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="thumbnail"></div>
+              </div>
+            </div>
+            <div class="studyInfo">
+              <h4>{{$prismic.asText(insight.data.headline)}}</h4>
+              <p>{{$prismic.asText(insight.data.preview_text)}}</p>
+              <button>Read it</button>
+            </div>
+          </nuxt-link>
 </template>
 
 <script>
