@@ -1167,6 +1167,9 @@
                 font-weight: 600;
             }
         }
+    }
+    
+    .caseStudyList {
         &.col3 {
             justify-content: flex-start;
             .col {
@@ -1214,7 +1217,17 @@
     }
     
     .insightList {
-        margin-bottom: 6rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .col {
+            flex-basis: calc(33.33% - 2rem);
+            margin-left: 2rem;
+            margin-bottom: 4rem;
+            &:first-child,
+            &:nth-child(3n+4) {
+                margin-left: 0;
+            }
+        }
         .pic {
             max-width: 80%;
         }
