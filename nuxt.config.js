@@ -56,12 +56,8 @@ export default {
      */
     plugins: [
         { src: '~/plugins/vue-lazy-background', mode: 'client' },
-        { src: '~/plugins/after-route.js', mode: 'client' },
     ],
-
-    /*
-     ** Nuxt.js modules
-     */
+    buildModules: [],
     modules: [
         '@nuxtjs/axios',
         '@/modules/static',
@@ -70,29 +66,17 @@ export default {
         '@nuxtjs/google-analytics',
 
     ],
-    /*
-     ** Axios module configuration
-     */
-    axios: {
-        // See https://github.com/nuxt-community/axios-module#options
+    googleAnalytics: {
+        id: 'UA-138299135-1',
+        dev: false,
     },
+    axios: {},
     prismic: {
         endpoint: 'https://discovercurious.cdn.prismic.io/api/v2',
         linkResolver: '@/plugins/link-resolver',
         htmlSerializer: '@/plugins/html-serializer',
     },
-    googleAnalytics: {
-        id: 'UA-138299135-1',
-        dev: false,
-    },
-
-    /*
-     ** Build configuration
-     */
     build: {
-        /*
-         ** You can extend webpack config here
-         */
         extend(config, ctx) {
             config.resolve.alias['vue'] = 'vue/dist/vue.common'
         }
