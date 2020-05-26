@@ -62,6 +62,11 @@ export default {
       error({ statusCode: 404, message: 'Page not found' })
     }
   },
+  mounted: function(){
+    const hsScript = document.createElement('script')
+    hsScript.src = "//js.hs-scripts.com/3891745.js"
+    document.body.appendChild(hsScript)
+  },
 
 }
 </script>
