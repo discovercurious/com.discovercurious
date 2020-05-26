@@ -1488,6 +1488,15 @@
                 margin: 0 0 2rem 0;
             }
         }
+        .insightList.col3 {
+            .col {
+                flex-basis: 100%;
+                margin-left: 0;
+            }
+            .pic {
+                max-width: 50%;
+            }
+        }
         #cta {
             .button {
                 margin-top: 2rem;
