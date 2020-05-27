@@ -9,7 +9,7 @@ export default function(doc) {
     }
 
     if (doc.type === 'insights') {
-        return '/insights/' + doc.uid
+        return '/results/' + doc.uid
     }
 
     return '/not-found'

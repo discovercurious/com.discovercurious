@@ -15,7 +15,7 @@
 
             <nuxt-link to="/consulting/" v-on:click.native="showMenu()">Quick Wins</nuxt-link>
             <nuxt-link to="/case-studies/" v-on:click.native="showMenu()">Case Studies</nuxt-link>
-            <nuxt-link to="/insights/" v-on:click.native="showMenu()">Insights</nuxt-link>
+            <nuxt-link to="/results/" v-on:click.native="showMenu()">Insights</nuxt-link>
             <nuxt-link to="/team" v-on:click.native="showMenu()">Team</nuxt-link>
             <a href="#contact" @click="showMenu()">Contact Us</a>
             <a class="location" href="https://www.google.com/maps/place/Curious/@44.9989033,-93.2525572,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32db8b34daef9:0xe12fd7d2771f2dc2!8m2!3d44.9988995!4d-93.2503632">807 Broadway Street NE, Suite 140<br />Minneapolis, MN 55413</a>
