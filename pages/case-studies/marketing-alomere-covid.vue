@@ -33,7 +33,7 @@
     <section class="studySection s-ImageGroup bg-ltGray s-noBorder">
       <div class="pageWidth">
           <h4>Stronger Together</h4>
-          <div class="col1">
+          <div class="col1 s-textRow">
             <p>As Alomere Health’s communication partners, Curious was concerned about the tone of the public communications. We knew the community needed clear information on how to be safe, yet in a tone of voice that was calming and reassuring. Curious initiated an inspirational  “Community Strong” campaign on Alomere’s social media platforms to highlight all of the amazing efforts of their staff and community. This campaign changed the conversation from “Emergency!” to “We are stronger together.” And because of a tight-knit community, there were countless stories to share.</p>
           </div>
       </div>
@@ -41,12 +41,29 @@
         <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/cs_full.png`" >
       </div>
     </section>
-    <section class="studySection s-ImageGroup bg-gold s-noBorder">
+    <section class="studySection s-ImageGroup bg-ltGray s-noBorder">
       <div class="pageWidth">
           <h4>Getting Back to Work</h4>
           <div class="col1">
             <h5>The good news was the “stay at home” messaging worked. The bad news was the “stay at home” messaging worked, which drastically reduced clinic visits.</h5>
-            <p>Eddie Reif (Alomere’s Director of Community Relations &amp; Development), asked Curious to communicate the overall safety of visiting the clinics by highlighting the extensive safety protocols. In addition, and possibly more importantly, was to get the word out quickly about the easy-to-use telemedicine video visits, and the services that worked well for these types of visits. This strategy reduced the fear of getting help for those who needed input from a doctor or nurse. From a highly targeted digital strategy, to long-form magazine articles, to newspaper and social media, the clinic visits increased as the communication increased.</p>
+            <p>Eddie Reif (Alomere’s Director of Community Relations &amp; Development), asked Curious to communicate the overall safety of visiting the clinics by highlighting the extensive safety protocols. In addition, and possibly more importantly, was to get the word out quickly about the easy-to-use telemedicine video visits, and the services that worked well for these types of visits.</p>
+            <p>&nbsp;</p>
+          </div>
+      </div>
+      <div class="col2 pageWidth">
+        <div class="col">
+          <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/safety.png`" >
+        </div>
+        <div class="col">
+          <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv_ad.png`" >
+        </div>
+      </div>
+    </section>
+
+    <section class="studySection s-ImageGroup bg-gold s-noBorder">
+      <div class="pageWidth">
+          <div class="col1">
+            <h5>This strategy reduced the fear of getting help for those who needed input from a doctor or nurse. From a highly targeted digital strategy, to long-form magazine articles, to newspaper and social media, the clinic visits increased as the communication increased.</h5>
           </div>
           <div class="col2">
             <div class="col">
@@ -59,28 +76,13 @@
       </div>
     </section>
     <section class="studySection s-ImageGroup bg-white s-noBorder">
-      <div class="pageWidth">
-          <div class="col">
+
+          <div class="pageWidth">
             <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/satw.png`" >
-          </div>
-          <div class="col2 s-textRow">
-            <div class="col">
-               <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/safety.png`" >
-            </div>
-            <div class="col">
-              <h5>Safe @ Work</h5>
+            <h4>Safe @ Work</h4>
               <p>As the state-wide quarantine orders loosened, Carl Vaagenes knew Alomere Health’s screening expertise would be helpful for all of the local businesses preparing for returning customers and employees. Curious launched the Safe@Work initiative that offers on-site or phone consultation for customizing workplace safety protocols outlined in the campaign. In addition, Alomere Health offers larger businesses on-site screening for employees coming into work.</p>
-            </div>
           </div>
-          <div class="col2">
-            <div class="col">
-               <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv_ad.png`" >
-            </div>
-            <div class="col">
-              <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv_fb.png`" >
-            </div>
-          </div>
-      </div>
+
     </section>
     <section class="studySection bg-gold ">
       <div class="pageWidth">
