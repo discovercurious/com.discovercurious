@@ -888,9 +888,12 @@
             border-radius: 0.3rem;
         }
         .fullWidthImage {
-            max-width: 90%;
+            max-width: 100%;
             display: block;
             margin: 0 auto 2rem auto;
+        }
+        p+.fullWidthImage {
+            margin-top: 2rem;
         }
         .quote {
             @include font-playfair;

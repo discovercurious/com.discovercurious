@@ -35,11 +35,11 @@
           <h4>Stronger Together</h4>
           <div class="col1 s-textRow">
             <p>As Alomere Health’s communication partners, Curious was concerned about the tone of the public communications. We knew the community needed clear information on how to be safe, yet in a tone of voice that was calming and reassuring. Curious initiated an inspirational  “Community Strong” campaign on Alomere’s social media platforms to highlight all of the amazing efforts of their staff and community. This campaign changed the conversation from “Emergency!” to “We are stronger together.” And because of a tight-knit community, there were countless stories to share.</p>
+            <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/CS.png`" >
+            <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/CS2.png`" >
           </div>
       </div>
-      <div class="pageWidth">
-        <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/cs_full.png`" >
-      </div>
+
     </section>
     <section class="studySection s-ImageGroup bg-ltGray s-noBorder">
       <div class="pageWidth">
@@ -50,12 +50,15 @@
             <p>&nbsp;</p>
           </div>
       </div>
-      <div class="col2 pageWidth">
+      <div class="col3 pageWidth">
         <div class="col">
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/safety.png`" >
         </div>
         <div class="col">
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv_ad.png`" >
+        </div>
+        <div class="col">
+          <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv-fb2.png`" >
         </div>
       </div>
     </section>
