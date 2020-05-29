@@ -50,13 +50,15 @@
             <p>&nbsp;</p>
           </div>
       </div>
-      <div class="col3 pageWidth">
+      <div class="col2 pageWidth">
         <div class="col">
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/safety.png`" >
         </div>
         <div class="col">
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv_ad.png`" >
         </div>
+      </div>
+      <div class="col pageWidth">
         <div class="col">
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv-fb2.png`" >
         </div>
