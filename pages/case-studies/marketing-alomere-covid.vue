@@ -41,7 +41,7 @@
       </div>
 
     </section>
-    <section class="studySection s-ImageGroup bg-ltGray s-noBorder">
+    <section class="studySection bg-ltGray s-noBorder">
       <div class="pageWidth">
           <h4>Getting Back to Work</h4>
           <div class="col1">
@@ -58,11 +58,10 @@
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv_ad.png`" >
         </div>
       </div>
-      <div class="col pageWidth">
-        <div class="col" style="margin-top: -6rem;">
-          <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv-fb2.png`" >
+        <div class="col pageWidth" >
+          <img class="fullWidthImage" style="margin: -6rem auto 0 auto;" v-lazy="`/images/casestudies/alomereMarketing/vv-fb2.png`" >
         </div>
-      </div>
+
     </section>
 
     <section class="studySection s-ImageGroup bg-gold s-noBorder">
