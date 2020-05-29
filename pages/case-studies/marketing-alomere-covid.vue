@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="col pageWidth">
-        <div class="col">
+        <div class="col" style="margin-top: -6rem;">
           <img class="fullWidthImage" v-lazy="`/images/casestudies/alomereMarketing/vv-fb2.png`" >
         </div>
       </div>
