@@ -2,7 +2,7 @@
   <div id="app">
     <section class="studySection bg-ltGray s-noBorder">
       <div class="pageWidth">
-          <h3><span>Workshop:</span>Digital Thinking for Analog Organizations - v2</h3>
+          <h3><span>Workshop:</span>Digital Thinking for Analog Organizations</h3>
           <div class="col2 s-textRow">
             <div class="col">
               <div class="responsiveImage" v-lazy:background-image="`/workshops/digital-first.svg`"></div>
