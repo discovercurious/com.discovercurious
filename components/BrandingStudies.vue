@@ -50,7 +50,7 @@
           <nuxt-link v-if="$nuxt.$route.path != '/case-studies/branding-welia'" to="/case-studies/branding-welia" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
-                <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/foundry/1.jpg`"></div>
+                <div class="responsiveImage" v-lazy:background-image="`/images/casestudies/welia/feature.png`"></div>
               </div>
             </div>
             <div class="studyInfo">
