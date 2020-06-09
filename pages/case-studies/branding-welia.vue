@@ -5,7 +5,7 @@
           <h3>Welia Health Rebrand</h3>
           <div class="columns s-textRow">
             <div class="col">
-              <p>With time running out, a rural health system needed help building consensus around a new name and to launch quickly.</p>
+              <p>With time running out, a rural health system needed a name that fit their vision.</p>
             </div>
           </div>
       </div>
