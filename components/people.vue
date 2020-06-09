@@ -92,7 +92,7 @@
                     <ul class="questionList">
                         <li>What are your revenue goals for the quarter?</li>
                         <li>How did you acquire your best existing customers?</li>
-                        <li>Are your marketing plans aligned with your chash-flow?</li>
+                        <li>Are your marketing plans aligned with your cash flow?</li>
                         <li>Are you using revenue focused metrics to align your sales and marketing efforts?</li>
                         <li>Do marketing or sales issues keep coming up in your team meetings?</li>
                         <li>Do you need more new leads or can we reach your revenue goals by creating more value for your existing customer?</li>
