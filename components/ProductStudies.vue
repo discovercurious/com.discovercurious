@@ -1,5 +1,5 @@
 <template>
-  <div class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
+  <div id="productStudies" class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
     <nuxt-link to="/case-studies/product-itsawego" tag="div" class="caseStudy col">
       <div class="picWrap">
         <div class="pic">

@@ -1,5 +1,5 @@
 <template>
-  <div class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
+  <div id="marketingStudies" class="caseStudyList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
 
     <nuxt-link v-if="$nuxt.$route.path != '/case-studies/marketing-white-crane'" to="/case-studies/marketing-white-crane" tag="div" class="caseStudy col">
       <div class="picWrap">

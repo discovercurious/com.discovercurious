@@ -50,6 +50,18 @@
         background-color: $color-gray5;
     }
     
+    // content visibility
+    #contact,
+    #people,
+    #productStudies,
+    #marketingStudies,
+    #brandingStudies,
+    #aboutUs,
+    #main .col3 {
+        content-visibility: auto;
+        contain-intrinsic-size: 700px;
+    }
+    
     a {
         color: $color-gold1;
         text-decoration: none;
