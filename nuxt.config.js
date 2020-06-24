@@ -60,8 +60,8 @@ export default {
                 rel: 'icon',
                 type: 'image/x-icon',
                 href: '/favicon.ico'
-            } // { rel: 'stylesheet', href: '//brick.freetls.fastly.net/Source+Sans+Pro:300,400,600,700/Playfair+Display:400' }
-            // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display' }
+            },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=optional' }
         ],
         script: [{
             src: "https://code.jquery.com/jquery-3.4.0.min.js",
