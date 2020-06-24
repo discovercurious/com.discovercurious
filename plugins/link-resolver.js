@@ -12,5 +12,9 @@ export default function(doc) {
         return '/results/' + doc.uid
     }
 
+    if (doc.type === 'results') {
+        return '/prismic/' + doc.uid
+    }
+
     return '/not-found'
 }

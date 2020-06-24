@@ -97,8 +97,13 @@ export default {
         mode: 'client'
     }],
     buildModules: [],
-    modules: ['@nuxtjs/axios', '@/modules/static', '@/modules/crawler', '@nuxtjs/prismic', '@nuxtjs/google-analytics', ["@nuxtjs/prismic", {
-            "endpoint": "https://curioustest.cdn.prismic.io/api/v2",
+    modules: [
+        '@nuxtjs/axios',
+        '@/modules/static',
+        '@/modules/crawler',
+        '@nuxtjs/prismic',
+        '@nuxtjs/google-analytics', ["@nuxtjs/prismic", {
+            "endpoint": "https://discovercurious.cdn.prismic.io/api/v2",
             "apiOptions": {
                 "routes": [{
                     "type": "page",
