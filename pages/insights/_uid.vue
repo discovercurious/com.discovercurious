@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'result',
+  name: 'insight',
   components: {
 
   },
@@ -53,7 +53,7 @@ export default {
   async asyncData({ $prismic, params, error }) {
     try{
       // Query to get post content
-      const pageContent = (await $prismic.api.getByUID('results', params.uid)).data
+      const pageContent = (await $prismic.api.getByUID('insights', params.uid)).data
       return {
         pageContent
       }

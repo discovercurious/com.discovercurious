@@ -24,7 +24,7 @@ export default {
       // const pageContent = (await $prismic.api.getSingle('resources_landing')).data
 
       const insights_list = await $prismic.api.query(
-        $prismic.predicates.at("document.type", "results"),
+        $prismic.predicates.at("document.type", "insights"),
         { orderings : '[my.post.date desc]' }
       )
 

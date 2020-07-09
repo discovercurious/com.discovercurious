@@ -9,11 +9,11 @@ export default function(doc) {
     }
 
     if (doc.type === 'insights') {
-        return '/results/' + doc.uid
+        return '/insights/' + doc.uid
     }
 
     if (doc.type === 'results') {
-        return '/prismic/' + doc.uid
+        return '/results/' + doc.uid
     }
 
     return '/not-found'
