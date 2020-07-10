@@ -4,7 +4,6 @@
       <div class="intro pageWidth">
         <h2>Curious. Designed to grow your business.</h2>
       </div>
-      <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
     </section>
     <section id="main">
       <div class="pageWidth">
@@ -30,25 +29,32 @@
           </div>
       </div>
     </section>
-    
-    <!-- <team></team> -->
+
   </div>
 </template>
 
 <script>
-import Team from '@/components/people.vue';
 import TypeMate from 'typemate';
 
 
 export default {
   components: {
-    Team,
+  },
+  async asyncData({ $prismic, error }) {
+    try{
+      // Query to get blog home content
+      const pageContent = (await $prismic.api.getSingle('page-home')).data
+      return {
+        pageContent
+      }
+    } catch (e) {
+      error({ statusCode: 404, message: 'Page not found' })
+    }
   },
   mounted: function(){
     this.$nextTick(function () {
-    const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
-    tm.apply();
-     
+      const tm = new TypeMate(undefined, { selector: 'h2, h3, p, li', ignoreClass: 'noTypeFix' });
+      tm.apply();
     })
   },
   

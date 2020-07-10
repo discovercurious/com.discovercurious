@@ -2,19 +2,7 @@
   <div id="app">
     <section id="top">
       <div class="intro pageWidth">
-        <h2>Proven Process</h2>
-      </div>
-      <div class="sidebar">Highlight Center - <strong>Minneapolis, Minnesota USA</strong></div>
-    </section>
-    <section id="main">
-      <div class="pageWidth serviceIntro">
-        Stuff
-      </div>
-    </section>
-    <section id="caseStudies">
-      <div class="pageWidth">
-        <h3>Results</h3>
-        <BrandingStudies />
+        <h2>Contact Us</h2>
       </div>
     </section>
   </div>

@@ -29,6 +29,7 @@
     $color-gray6: #27262A;
     $color-gold1:#D09A3F;
     $color-gold2: #B4822E;
+    $color-highlight: #FD5455;
     // ---- End Brand colors  ----------
     // ---- Sizes
     $normal-size: 1rem;
@@ -217,7 +218,6 @@
         top: 0;
         z-index: 100;
         padding: 2rem 0;
-        &:before,
         &:after {
             content: '';
             position: absolute;
@@ -230,14 +230,6 @@
         }
         &:after {
             z-index: -1;
-        }
-        &:before {
-            height: 2.3rem;
-            z-index: -2;
-            background-color: #333;
-            opacity: 0;
-            transition: opacity 0.25s ease;
-            filter: blur(1rem);
         }
         header {
             max-width: $max-content;
@@ -274,24 +266,6 @@
                 a {
                     display: inline-block;
                     margin-left: 2rem;
-                    // &:after {
-                    //     content: '';
-                    //     position: absolute;
-                    //     bottom: 0;
-                    //     left: 0;
-                    //     right: 0;
-                    //     height: 0.1rem;
-                    //     background-color: $color-white;
-                    //     opacity: 0;
-                    //     transition: all 0.25s ease-in-out;
-                    // }
-                    // // &:hover {
-                    // //     color: $color-white;
-                    // //     &:after {
-                    // //         opacity: 1;
-                    // //         transform: translateY(0.5rem);
-                    // //     }
-                    // // }
                     &.nuxt-link-active {
                         color: $color-white;
                         text-decoration: none;
@@ -348,9 +322,6 @@
                 h1 {
                     height: 90%;
                 }
-            }
-            &:before {
-                opacity: 0.6;
             }
         }
     }
