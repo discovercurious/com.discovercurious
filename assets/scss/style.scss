@@ -329,7 +329,7 @@
     $top-height: 60vh;
     #top {
         background-color: $color-gray5;
-        min-height: $top-height;
+        // min-height: $top-height;
         color: $color-white;
         display: flex;
         flex-direction: column;
