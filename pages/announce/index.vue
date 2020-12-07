@@ -70,13 +70,13 @@ export default {
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
          
-        { hid: 'og:title', name: 'og:title', content: 'Curious: Announcing a new partnership' },
-        { hid: 'og:description', name: 'og:description', content: 'Curious and Closers Media create sales and marketing partnership to enhance your business.' },
+        { hid: 'og:title', property: 'og:title', content: 'Curious: Announcing a new partnership' },
+        { hid: 'og:description', property: 'og:description', content: 'Curious and Closers Media create sales and marketing partnership to enhance your business.' },
 
-        { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/insights/closers.png' },
-        { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-        { hid: 'og:image:width', name: 'og:image:width', content: '945' },
-        { hid: 'og:image:height', name: 'og:image:height', content: '349' },
+        { hid: 'og:image', property: 'og:image', content: 'https://discovercurious.com/insights/closers.png' },
+        { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+        { hid: 'og:image:width', property: 'og:image:width', content: '945' },
+        { hid: 'og:image:height', property: 'og:image:height', content: '349' },
       ],
       script: [
         //{hid: 'Hubspot', src:'//js.hs-scripts.com/3891745.js', defer: true}

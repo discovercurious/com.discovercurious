@@ -21,7 +21,7 @@ export default {
             content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface'
         }, {
             hid: 'og:type',
-            name: 'og:type',
+            property: 'og:type',
             content: 'website'
         }, {
             hid: 'og:url',
@@ -29,27 +29,27 @@ export default {
             content: 'https://discovercurious.com'
         }, {
             hid: 'og:title',
-            name: 'og:title',
+            property: 'og:title',
             content: 'Curious - Solving Brand, Marketing & Product challenges for small businesses'
         }, {
             hid: 'og:description',
-            name: 'og:description',
+            property: 'og:description',
             content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.'
         }, {
             hid: 'og:image',
-            name: 'og:image',
+            property: 'og:image',
             content: 'https://discovercurious.com/images/shareLogo.png'
         }, {
             hid: 'og:image:type',
-            name: 'og:image:type',
+            property: 'og:image:type',
             content: 'image/png'
         }, {
             hid: 'og:image:width',
-            name: 'og:image:width',
+            property: 'og:image:width',
             content: '1080'
         }, {
             hid: 'og:image:height',
-            name: 'og:image:height',
+            property: 'og:image:height',
             content: '800'
         }, {
             hid: 'Cache-Control',
