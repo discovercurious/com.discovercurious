@@ -1,0 +1,1 @@
+window.__NUXT__={layout:"default",data:[{allInsights:[]}],fetch:[],error:null,serverRendered:!0,routePath:"/results/",config:{}}
