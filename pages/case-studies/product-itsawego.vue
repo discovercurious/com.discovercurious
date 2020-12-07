@@ -147,13 +147,13 @@ export default {
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
 
-        { hid: 'og:title', name: 'og:title', content: 'Curious: Case Study - making an idea real' },
+        { hid: 'og:title', property: 'og:title', content: 'Curious: Case Study - making an idea real' },
         // { hid: 'og:description', name: 'og:description', content: 'Curious is a group of experienced consultants helping business leaders overcome brand, marketing, and product challenges. We help companies discover their best opportunities for growth.' },
 
-         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/images/og/itsawego_share.png' },
-         { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-         { hid: 'og:image:width', name: 'og:image:width', content: '1080' },
-         { hid: 'og:image:height', name: 'og:image:height', content: '500' },
+         { hid: 'og:image', property: 'og:image', content: 'https://discovercurious.com/images/og/itsawego_share.png' },
+         { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+         { hid: 'og:image:width', property: 'og:image:width', content: '1080' },
+         { hid: 'og:image:height', property: 'og:image:height', content: '500' },
       ]
     }
   },

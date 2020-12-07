@@ -132,13 +132,13 @@ export default {
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
 
-        { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
-        { hid: 'og:description', name: 'og:description', content: 'A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.' },
+        { hid: 'og:title', property: 'og:title', content: 'Curious: Workshop - Digital Thinking for Analog Organizations' },
+        { hid: 'og:description', property: 'og:description', content: 'A foundational workshop providing teams with techniques to imagine and develop digital products that create unique innovative solutions in their organization or market.' },
 
-         { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
-         { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-         { hid: 'og:image:width', name: 'og:image:width', content: '1168' },
-         { hid: 'og:image:height', name: 'og:image:height', content: '1034' },
+         { hid: 'og:image', property: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
+         { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+         { hid: 'og:image:width', property: 'og:image:width', content: '1168' },
+         { hid: 'og:image:height', property: 'og:image:height', content: '1034' },
       ]
     }
   },

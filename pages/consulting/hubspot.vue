@@ -75,8 +75,8 @@ export default {
 
         // { hid: 'keywords', name: 'keywords', content: 'product design, branding, marketing, coaching, consulting, design sprint, review, strategy, digital, identity, story, minneapolis, minnesota, twin cities, hightlight center, ux, interface' },
 
-        { hid: 'og:title', name: 'og:title', content: 'Curious: Workshop - HubSpot Integration' },
-        { hid: 'og:description', name: 'og:description', content: 'Our Sales Acceleration CRM Implementation includes everything you need to close more deals and grow your business.' },
+        { hid: 'og:title', property: 'og:title', content: 'Curious: Workshop - HubSpot Integration' },
+        { hid: 'og:description', property: 'og:description', content: 'Our Sales Acceleration CRM Implementation includes everything you need to close more deals and grow your business.' },
 
         //  { hid: 'og:image', name: 'og:image', content: 'https://discovercurious.com/workshops/digital-first.png' },
         //  { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },

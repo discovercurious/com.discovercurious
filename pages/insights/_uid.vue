@@ -27,13 +27,13 @@ export default {
     let headerBlock = {
       title: pageTitle,
       meta: [
-        { hid: 'og:title', name: 'og:title', content: pageTitle }
+        { hid: 'og:title', property: 'og:title', content: pageTitle }
       ]
     }
     if(this.pageContent.seo_description) {
       headerBlock.meta.push(
         { hid: 'description', name: 'description', content: this.pageContent.seo_description },
-        { hid: 'og:description', name: 'og:description', content: this.pageContent.seo_description }
+        { hid: 'og:description', property: 'og:description', content: this.pageContent.seo_description }
       )
     }
     if(this.pageContent.seo_keywords) {
@@ -43,9 +43,9 @@ export default {
     }
     if(this.pageContent.preview_image && Object.entries(this.pageContent.preview_image).length > 0) {
       headerBlock.meta.push(
-        { hid: 'og:image', name: 'og:image', content: this.pageContent.preview_image.url },
-        { hid: 'og:image:width', name: 'og:image:width', content: this.pageContent.preview_image.dimensions.width +'' },
-        { hid: 'og:image:height', name: 'og:image:height', content: this.pageContent.preview_image.dimensions.height+'' },
+        { hid: 'og:image', property: 'og:image', content: this.pageContent.preview_image.url },
+        { hid: 'og:image:width', property: 'og:image:width', content: this.pageContent.preview_image.dimensions.width +'' },
+        { hid: 'og:image:height', property: 'og:image:height', content: this.pageContent.preview_image.dimensions.height+'' },
       )
     }
     return headerBlock
