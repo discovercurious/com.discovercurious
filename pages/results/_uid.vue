@@ -6,7 +6,7 @@
         <prismic-rich-text class="content-prime" :field="pageContent.content" />
       </div>
     </section>
-    <section id="insightCTA" class="studySection bg-ltGray">
+    <section id="insightCTA" class="studySection bg-ltGray" v-if="pageContent.cta_link_location.length>0">
       <div class="pageWidth">
         <h3 v-if="pageContent.cta_headeline">$prismic.asText(pageContent.cta_headline)</h3>
         <prismic-rich-text v-if="pageContent.cta_body" class="content-prime" :field="pageContent.cta_body" />
