@@ -1266,6 +1266,22 @@
         display: none;
     }
     
+    #insightCTA {
+        &:before {
+            content: '';
+            width: 20%;
+            height: 0.5rem;
+            background: $color-gold1;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+        .ctaAction {
+            text-align: center;
+        }
+    }
+    
     .bg-ltGray {
         background-color: $color-gray1;
         color: $color-gray5;

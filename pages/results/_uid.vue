@@ -6,11 +6,11 @@
         <prismic-rich-text class="content-prime" :field="pageContent.content" />
       </div>
     </section>
-    <section id="cta">
+    <section id="insightCTA" class="studySection bg-ltGray">
       <div class="pageWidth">
-        <div class="ctaText">
-          <span>Do you want marketing that runs like clockwork? Let’s talk about your immediate marketing opportunities and how they can build up to a larger marketing strategy. </span> <nuxt-link class="button" to="#contact">Get in touch</nuxt-link>
-        </div>
+        <h3 v-if="pageContent.cta_headeline">$prismic.asText(pageContent.cta_headline)</h3>
+        <prismic-rich-text v-if="pageContent.cta_body" class="content-prime" :field="pageContent.cta_body" />
+        <div class="ctaAction"><a :href="$prismic.asText(pageContent.cta_link_location)" class="button">{{ $prismic.asText(pageContent.cta_button_text) }}</a></div>
       </div>
     </section>
   </div>
