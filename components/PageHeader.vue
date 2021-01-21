@@ -13,7 +13,7 @@
               </div>
             </div>
 
-            <nuxt-link to="/consulting/" v-on:click.native="showMenu()">Quick Wins</nuxt-link>
+            <nuxt-link to="/consulting/" v-on:click.native="showMenu()">Learn &amp; Grow</nuxt-link>
             <nuxt-link to="/case-studies/" v-on:click.native="showMenu()">Case Studies</nuxt-link>
             <nuxt-link to="/results/" v-on:click.native="showMenu()">Insights</nuxt-link>
             <nuxt-link to="/team" v-on:click.native="showMenu()">Team</nuxt-link>

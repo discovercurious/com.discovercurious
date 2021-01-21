@@ -1,5 +1,21 @@
 <template>
         <div id="workshops" class="caseStudyList workshopList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
+          <nuxt-link to="/consulting/build-your-audience" tag="div" class="caseStudy col">
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/workshops/build-audience.svg`"></div>
+                <span class="learnMore">Learn More</span>
+              </div>
+            </div>
+            <div class="studyInfo">
+              <h4><span>Coaching Session:</span> Build your audience in less than an hour a day!</h4>
+              <h5>Type: 1-on-1 Coaching <br />
+                Length: 30 minutes <br />
+                Cost: Free
+              </h5>
+            </div>
+          </nuxt-link>
+
           <nuxt-link to="/consulting/digital-first" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
@@ -8,14 +24,13 @@
               </div>
             </div>
             <div class="studyInfo">
-              <h4><span>Product Development</span> Digital Thinking for Analog Organizations</h4>
-              <h5>Type: Workshop <br />
-                Length: 1/2 Day <br />
+              <h4><span>Workshop:</span>Transform your offerings. Learn to think digital first.</h4>
+              <h5> Type: Hands on<br />Length: 1/2 Day<br />Cost: from $1000
               </h5>
             </div>
           </nuxt-link>
 
-          <nuxt-link to="/consulting/transition-branding" tag="div" class="caseStudy col">
+          <!-- <nuxt-link to="/consulting/transition-branding" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/workshops/hurdles.png`"></div>
@@ -28,9 +43,9 @@
                 Length: 1/2 Day <br />
               </h5>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
 
-          <nuxt-link to="/consulting/opportunity-finder" tag="div" class="caseStudy col">
+          <!-- <nuxt-link to="/consulting/opportunity-finder" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
                 <div class="responsiveImage" v-lazy:background-image="`/workshops/cop.png`"></div>
@@ -43,7 +58,7 @@
                 Cost: $5,000
               </h5>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
 </template>
 
