@@ -19,7 +19,7 @@
           <nuxt-link to="/consulting/digital-first" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
-                <div class="responsiveImage" v-lazy:background-image="`/workshops/digital-first.png`"></div>
+                <div class="responsiveImage" v-lazy:background-image="`/workshops/build-audience.svg`"></div>
                 <span class="learnMore">Learn More</span>
               </div>
             </div>
