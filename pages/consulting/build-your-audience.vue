@@ -9,7 +9,7 @@
             </div>
             <div class="col">
               <h5>Technology is essential, but it does not replace the human connection, and it is the human connection that sells.</h5>
-              <p>Executives need to find the right balance between using technology and spending time connecting with their networks personally. Automation is not the answer. Learning how to use the right tools efficiently will enable executives to spend less time online and more time on their business and customers.</p>
+              <p>Business owners and leaders need to find the right balance between using technology and spending time connecting with their networks personally. Automation is not the answer. Learning how to use the right tools efficiently will enable spending less time online and more time on business and customers.</p>
               <p>We’ll share proven tactics to help you leverage your LinkedIn connections and Linkedin Sales Navigator to build engagement and grow your audience. Believe it or not, most people can fit these techniques into a single focused hour of their day. </p>
               <p>These techniques will change the way you view digital relationships and teach you to maintain a personal touch, even if you can’t easily meet for coffee. <strong>We believe these practices are so fundamental to doing business that we’re offering this session free of charge.</strong></p>
             </div>
@@ -95,7 +95,7 @@
               <h4>About the facilitator</h4>
               <p>I’ve witnessed technology changing the ways we nurture business relationships. However, we still need to create meaningful connections to move our on and offline  business relationships forward.</p>
               <p>I believe that technology doesn't have to replace how we interact in person; it should enhance how we connect.</p>
-              <p>I've spent over a decade collaborating with business owners and clients to make social platforms work for them. I focus on connecting the dots between social media, sales activities, advertising trends, revenue goals, and, most importantly, their time. The results are scalable marketing systems designed to help executives and business owners effectively nurture the business relationships that matter without sacrificing time or resources that could be spent on other high-impact activities. </p>
+              <p>I've spent over a decade collaborating with business owners, executives, and clients to make social platforms work for them. I focus on connecting the dots between social media, sales activities, advertising trends, revenue goals, and, most importantly, their time. The results are scalable marketing systems designed to help effectively nurture the business relationships that matter without sacrificing time or resources that could be spent on other high-impact activities. </p>
               <p>Rest assured that what you learn will work! It’s the process I use myself.</p>
               <p>Find me on <a href="https://www.linkedin.com/in/garrioharrison/">Linkedin</a>.</p>
             </div>
