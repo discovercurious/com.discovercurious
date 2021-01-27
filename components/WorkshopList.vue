@@ -1,5 +1,24 @@
 <template>
         <div id="workshops" class="caseStudyList workshopList" v-bind:class="this.type == 'full' ? 'studiesFull' : 'col3'">
+
+          <nuxt-link to="/consulting/design-your-presence" tag="div" class="caseStudy col">
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/workshops/persona_thumb.svg`"></div>
+                <span class="learnMore">Learn More</span>
+              </div>
+            </div>
+            <div class="studyInfo">
+              <h4><span>Coaching Session:</span> Design your digital leadership presence</h4>
+              <h5>Type: 1-on-1 Coaching <br />
+                Length: 30 minutes <br />
+                Cost: Free
+              </h5>
+            </div>
+          </nuxt-link>
+
+
+
           <nuxt-link to="/consulting/build-your-audience" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
@@ -16,6 +35,25 @@
             </div>
           </nuxt-link>
 
+          <nuxt-link to="/consulting/manage-relationships" tag="div" class="caseStudy col">
+            <div class="picWrap">
+              <div class="pic">
+                <div class="responsiveImage" v-lazy:background-image="`/workshops/network_thumb.svg`"></div>
+                <span class="learnMore">Learn More</span>
+              </div>
+            </div>
+            <div class="studyInfo">
+              <h4><span>Coaching Session:</span> Manage professional relationships with Sales Navigator</h4>
+              <h5>Type: 1-on-1 Coaching <br />
+                Length: 30 minutes <br />
+                Cost: Free
+              </h5>
+            </div>
+          </nuxt-link>
+
+
+
+
           <nuxt-link to="/consulting/digital-first" tag="div" class="caseStudy col">
             <div class="picWrap">
               <div class="pic">
@@ -29,6 +67,8 @@
               </h5>
             </div>
           </nuxt-link>
+
+          
 
           <!-- <nuxt-link to="/consulting/transition-branding" tag="div" class="caseStudy col">
             <div class="picWrap">
