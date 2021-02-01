@@ -55,12 +55,12 @@
             <div class="col">
               <h4>Helpful resources</h4>
               <ul>
-                <li>Video: <a href="https://www.youtube.com/watch?v=haVL-CAqP4Q&list=PL7MtT0VRyvmKjN9fUraXooFAdqTpI3xbh"></a>The Super Simple Way to Be Heard In Incredible Noisy Times</li>
+                <li>Video: <a href="https://www.youtube.com/watch?v=haVL-CAqP4Q&list=PL7MtT0VRyvmKjN9fUraXooFAdqTpI3xbh">The Super Simple Way to Be Heard In Incredible Noisy Times</a></li>
                 <li>Video: <a href="https://www.youtube.com/watch?v=NQzfPT-QqMc">Content Transformation with LinkedIn's Dan Roth</a></li>
                 <li>Video: <a href="https://youtu.be/HFergI0UOAs">Donald Miller Discussing and element of his Storybrand Framework</a></li>
                 <li>Book: <a href="https://www.amazon.com/Platform-Michael-Hyatt-audiobook/dp/B0085B2SPG/">Platform: Get Noticed in a Noisy World</a></li>
                 <li>Article: <a href="https://business.linkedin.com/marketing-solutions/content-marketing/an-executives-blueprint-for-linkedin-mastery">An Executive’s Blueprint for LinkedIn Mastery</a></li>
-                <li>Podcast, One Percent Edge:<a href="http://theonepercentedge.libsyn.com/52-using-social-media-to-authentically-engage-your-target-customer-with-ryan-holmes?tdest_id=523871"></a>Episode #52</li>
+                <li>Podcast, One Percent Edge: <a href="http://theonepercentedge.libsyn.com/52-using-social-media-to-authentically-engage-your-target-customer-with-ryan-holmes?tdest_id=523871">Episode #52</a></li>
               </ul>
             </div>
           </div>
